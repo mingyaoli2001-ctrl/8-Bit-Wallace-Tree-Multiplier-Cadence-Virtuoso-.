@@ -130,6 +130,9 @@ All verification is performed using DRC and LVS tool on Cadence Virtuoso
   />
 </p>
 
+**Functional Verification using ADE Explorer**
+<img width="1081" height="655" alt="image" src="https://github.com/user-attachments/assets/eef41d6f-62fd-4db2-9767-6eebb9c0633b" />
+
 ### 📊 Post-Layout Performance Summary
 
 | Design Block | Delay (ns) | Energy (fJ) | Area (µm²) |
