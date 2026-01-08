@@ -39,6 +39,15 @@ The Wallace Tree Multiplier consists of three main blocks:
 3. **Final Adder**  
    A **carry-lookahead adder (CLA)** is used to minimize worst-case accumulation latency and meet timing constraints under parasitic effects.
 
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/73cf0881-c122-452b-95ee-81821a2546bb"
+    width="800"
+    alt="image"
+  />
+</p>
+
+
 The architecture was selected under the assumption that Wallace and Dadda trees provide comparable reduction depth and delay characteristics, while Wallace tree allows aggressive early reduction that simplifies floorplanning and routing.
 
 ---
