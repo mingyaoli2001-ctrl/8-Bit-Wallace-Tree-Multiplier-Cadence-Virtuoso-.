@@ -76,7 +76,6 @@ c(i+1) = a × b + c(i)
 
 ---
 
-## Repository Structure
 
 
 
