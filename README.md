@@ -131,6 +131,13 @@ All verification is performed using DRC and LVS tool on Cadence Virtuoso
 </p>
 
 **Functional Verification using ADE Explorer**
+
+| Case | A (bin) | B (bin) | Output (Expected) | Output (Observed) |
+|------|--------|--------|------------------|------------------|
+| **1** | `0001 1100` | `0011 1000` | `0000 0110`<br>`0010 0000` | `0000 0110`<br>`0010 0000` |
+| **2** | `1111 1111` | `1111 1111` | `1111 1110`<br>`0000 0001` | `1111 1110`<br>`0000 0001` |
+| **3** | `0000 0000` | `0000 0000` | `0000 0000`<br>`0000 0000` | `0000 0000`<br>`0000 0000` |
+
 <p align="center">
   <img
     src="https://github.com/user-attachments/assets/eef41d6f-62fd-4db2-9767-6eebb9c0633b"
@@ -138,6 +145,8 @@ All verification is performed using DRC and LVS tool on Cadence Virtuoso
     alt="image"
   />
 </p>
+
+
 
 ### 📊 Post-Layout Performance Summary
 
