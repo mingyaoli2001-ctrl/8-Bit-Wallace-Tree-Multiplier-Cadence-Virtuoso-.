@@ -76,6 +76,41 @@ The design uses alternating standard-cell row orientation to maximize area effic
 
 ---
 
+## 🧠 Design Strategy & Practical Insights
+
+This project follows a **layout-driven design methodology**, where architectural and transistor-level decisions are made with physical constraints in mind rather than treating layout as a post-processing step.
+
+### Early Physical Awareness
+From the initial schematic stage, signal directionality and fan-out were considered to minimize long interconnects during routing. The Wallace tree structure was selected not only for its reduction depth but also for its **regularity**, which simplifies placement and routing across reduction layers.
+
+### Transmission-Gate Logic Trade-offs
+Transmission-gate (TG) based adders were chosen over conventional static CMOS designs to:
+- Reduce transistor count
+- Enable rail-to-rail signal swing
+- Allow parallel XOR/XNOR generation
+
+However, TG logic is more sensitive to parasitics and load variation. To mitigate this, **explicit buffer insertion** and **careful transistor sizing** were applied along long reduction paths and near the final adder interface.
+
+### Layout Regularity and Abutment
+Cells were designed with **consistent height and aligned power rails**, enabling abutment without routing congestion. Shared diffusion regions and mirrored placement were used where possible to:
+- Reduce area
+- Improve matching
+- Simplify routing
+
+Alternating row orientation was adopted to maximize layout density while maintaining clean VDD/GND distribution.
+
+### Timing Closure Lessons
+Post-layout timing analysis revealed that the **critical path closely matched schematic-level expectations**, validating the architectural assumptions. However, the exact worst-case delay was dominated by **interconnect parasitics**, not gate delay, highlighting the importance of:
+- Early placement planning
+- Buffering strategy
+- Avoiding unnecessary wire detours in dense reduction regions
+
+### Practical Takeaways
+- Wallace and Dadda trees offer similar theoretical delay, but **layout regularity matters more in practice**
+- Post-layout verification should be treated as a design feedback loop, not a final checkbox
+- Clean hierarchy and naming significantly reduce debugging time during PVS and NanoTime analysis
+
+
 ## 🔬 Verification & Results
 All verification is performed using **post-layout extracted parasitics**.
 
