@@ -131,7 +131,13 @@ All verification is performed using DRC and LVS tool on Cadence Virtuoso
 </p>
 
 **Functional Verification using ADE Explorer**
-<img width="1081" height="655" alt="image" src="https://github.com/user-attachments/assets/eef41d6f-62fd-4db2-9767-6eebb9c0633b" />
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/eef41d6f-62fd-4db2-9767-6eebb9c0633b"
+    width="700"
+    alt="image"
+  />
+</p>
 
 ### 📊 Post-Layout Performance Summary
 
