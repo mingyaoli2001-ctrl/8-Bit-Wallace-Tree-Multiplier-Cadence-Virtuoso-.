@@ -24,8 +24,8 @@ The Wallace Tree Multiplier consists of three main blocks:
 <p align="center">
   <img
     src="https://github.com/user-attachments/assets/12f77e4c-f47f-4985-b7c8-438a669c39c7"
-    width="567"
-    height="648"
+    width="400"
+    height="500"
     alt="Block Diagram"
   />
 </p>
