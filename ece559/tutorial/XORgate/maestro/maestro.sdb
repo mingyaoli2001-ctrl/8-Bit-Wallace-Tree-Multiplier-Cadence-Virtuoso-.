@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<setupdb version="7">maestro
+	<active>Active Setup
+		<jobcontrolmode>LSCS</jobcontrolmode>
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<sharedvarinfo></sharedvarinfo>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>tutorial_XORgate_1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>XORgate</value>
+					</option>
+					<option>lib
+						<value>tutorial</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>physConfig</value>
+					</option>
+					<option>state
+						<value>active</value>
+					</option>
+				</tooloptions>
+			</test>
+		</tests>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<checksasserts netlist="0">
+			<test netlist="0" netlistscope="all">tutorial_XORgate_1</test>
+		</checksasserts>
+		<plottingoptions>
+			<plottingoption>waveformtemplate
+				<value>(None)</value>
+			</plottingoption>
+		</plottingoptions>
+		<exploreroptions>
+			<exploreroption>waveformtemplate
+				<value>(None)</value>
+			</exploreroption>
+		</exploreroptions>
+		<overwritehistoryname>Next History Run</overwritehistoryname>
+	</active>
+	<history>History</history>
+</setupdb>

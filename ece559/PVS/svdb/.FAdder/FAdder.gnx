@@ -1,0 +1,24 @@
+#4                               
+MN: MN
+= D D
+= G G
+= S S
+= B B
+#4                               
+MP: MP
+= D D
+= G G
+= S S
+= B B
+#10                              
+FAdder: FAdder
+= pbar 1
+= p 5
+= abar 4
+= a a
+= b b
+= cin cin
+= cout cout
+= gnd gnd
+= s s
+= vdd vdd

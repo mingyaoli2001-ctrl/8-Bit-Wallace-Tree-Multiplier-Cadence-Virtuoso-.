@@ -1,0 +1,6 @@
+pmos1v_CDNS_758574448840 ndiff_conn,ntap,nwell_conn,poly_conn,_pmos1v,metal1_conn,cont_pdiff,psubstrate,cont_ndiff,pdiff_conn NULL
+pmos1v_CDNS_758574448842 nwell_conn,poly_conn,_pmos1v,metal1_conn,cont_pdiff,psubstrate,pdiff_conn NULL
+nmos1v_CDNS_758574448841 ndiff_conn,poly_conn,ptap,_nmos1v,metal1_conn,cont_pdiff,psubstrate,cont_ndiff,pdiff_conn NULL
+nmos1v_CDNS_758574448843 ndiff_conn,poly_conn,_nmos1v,metal1_conn,psubstrate,cont_ndiff NULL
+NAND nwell_conn,poly_conn,metal1_conn,psubstrate ndiff_conn,ntap,cont_poly,_pmos1v,ptap,_nmos1v,cont_pdiff,cont_ndiff,pdiff_conn
+M1_PO_CDNS_758574448840 cont_poly,poly_conn,metal1_conn NULL

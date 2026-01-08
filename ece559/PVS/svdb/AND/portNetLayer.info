@@ -1,0 +1,5 @@
+Vdd	metal1_0conn	1210	-770
+a	metal1_0conn	1130	-1670
+gnd	metal1_0conn	1210	-3030
+Vout	metal1_0conn	5180	-2000
+b	metal1_0conn	1130	-2050

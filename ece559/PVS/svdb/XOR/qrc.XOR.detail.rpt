@@ -1,0 +1,2614 @@
+INFO (LBRCXU-108): Starting
+
+ runUserCmd /package/eda/cadence/IC231.11/bin/qrcToDfII -extract both -run_name XOR -cdlout_run_dir /home/ecegridfs/a/559mg81/pvs -check_cell_view TRUE -device_finger_delimiter @ -extracted_view av_extracted -lvs_source agds -cap_models no -capacitor pcapacitor -res_models no -resistor presistor -cap_prop_name c -res_prop_name r -transfer_net_expression TRUE -t -extview_tmp /home/ecegridfs/a/559mg81/pvs/svdb/XOR/extview.tmp -run_dir /home/ecegridfs/a/559mg81/pvs/svdb/XOR -cdslib /home/ecegridfs/a/559mg81/cds.lib -lib_name tutorial -cell_name XOR -view_name layout -extview_rul /package/eda/cadence/gpdk045/gpdk045_v_6_0/pvs/extview.rul -server /package/eda2/cadence/QUANTUS2311/tools/extraction/bin/64bit/../shapeServer
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+device        g45n1svt  M          _nmos1v          nmos1v  ivpcell     gpdk045  D G S B
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 6.0 (09-September-2019)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+device        g45n1hvt  M      _nmos1v_hvt      nmos1v_hvt  ivpcell     gpdk045  D G S B
+device        g45n1lvt  M      _nmos1v_lvt      nmos1v_lvt  ivpcell     gpdk045  D G S B
+device        g45n1nvt  M  _nmos_12_native      nmos1v_nat  ivpcell     gpdk045  D G S B
+device        g45n2svt  M         _nmos_25          nmos2v  ivpcell     gpdk045  D G S B
+device        g45n2nvt  M  _nmos_25_native      nmos2v_nat  ivpcell     gpdk045  D G S B
+device        g45ncap1  M       _nmoscap1v       nmoscap1v  ivpcell     gpdk045  D G S B
+device        g45ncap2  M       _nmoscap2v       nmoscap2v  ivpcell     gpdk045  D G S B
+device        g45p1svt  M          _pmos1v          pmos1v  ivpcell     gpdk045  D G S B
+device        g45p1hvt  M      _pmos1v_hvt      pmos1v_hvt  ivpcell     gpdk045  D G S B
+device        g45p1lvt  M      _pmos1v_lvt      pmos1v_lvt  ivpcell     gpdk045  D G S B
+device        g45p2svt  M          _pmos2v          pmos2v  ivpcell     gpdk045  D G S B
+device        g45pcap1  M       _pmoscap1v       pmoscap1v  ivpcell     gpdk045  D G S B
+device        g45pcap2  M       _pmoscap2v       pmoscap2v  ivpcell     gpdk045  D G S B
+device          g45rm1  R           _resm1           resm1  ivpcell     gpdk045  PLUS MINUS
+device          g45rm2  R           _resm2           resm2  ivpcell     gpdk045  PLUS MINUS
+device          g45rm3  R           _resm3           resm3  ivpcell     gpdk045  PLUS MINUS
+device          g45rm4  R           _resm4           resm4  ivpcell     gpdk045  PLUS MINUS
+device          g45rm5  R           _resm5           resm5  ivpcell     gpdk045  PLUS MINUS
+device          g45rm6  R           _resm6           resm6  ivpcell     gpdk045  PLUS MINUS
+device          g45rm7  R           _resm7           resm7  ivpcell     gpdk045  PLUS MINUS
+device          g45rm8  R           _resm8           resm8  ivpcell     gpdk045  PLUS MINUS
+device          g45rm9  R           _resm9           resm9  ivpcell     gpdk045  PLUS MINUS
+device         g45rm10  R          _resm10          resm10  ivpcell     gpdk045  PLUS MINUS
+device         g45rm11  R          _resm11          resm11  ivpcell     gpdk045  PLUS MINUS
+device         g45rsnd  R       _ressndiff       ressndiff  ivpcell     gpdk045  PLUS MINUS B
+device        g45rnsnd  R      _resnsndiff      resnsndiff  ivpcell     gpdk045  PLUS MINUS B
+device         g45rsnp  R       _ressnpoly       ressnpoly  ivpcell     gpdk045  PLUS MINUS B
+device         g45rsnp  R    _ressnpoly_nw       ressnpoly  ivpcell     gpdk045  PLUS MINUS B
+device        g45rnsnp  R      _resnsnpoly      resnsnpoly  ivpcell     gpdk045  PLUS MINUS B
+device        g45rnsnp  R   _resnsnpoly_nw      resnsnpoly  ivpcell     gpdk045  PLUS MINUS B
+device         g45rspd  R       _resspdiff       resspdiff  ivpcell     gpdk045  PLUS MINUS B
+device        g45rnspd  R      _resnspdiff      resnspdiff  ivpcell     gpdk045  PLUS MINUS B
+device         g45rspp  R       _ressppoly       ressppoly  ivpcell     gpdk045  PLUS MINUS B
+device         g45rspp  R    _ressppoly_nw       ressppoly  ivpcell     gpdk045  PLUS MINUS B
+device        g45rnspp  R      _resnsppoly      resnsppoly  ivpcell     gpdk045  PLUS MINUS B
+device        g45rnspp  R   _resnsppoly_nw      resnsppoly  ivpcell     gpdk045  PLUS MINUS B
+device         g45rnws  R        _resnwsti        resnwsti  ivpcell     gpdk045  PLUS MINUS B
+device         g45rnwo  R      _resnwoxide      resnwoxide  ivpcell     gpdk045  PLUS MINUS B
+device       g45nd1svt  D            _ndio            ndio  ivpcell     gpdk045  PLUS MINUS
+device       g45nd1lvt  D        _ndio_lvt        ndio_lvt  ivpcell     gpdk045  PLUS MINUS
+device       g45nd1hvt  D        _ndio_hvt        ndio_hvt  ivpcell     gpdk045  PLUS MINUS
+device       g45nd1nvt  D        _ndio_nvt        ndio_nvt  ivpcell     gpdk045  PLUS MINUS
+device       g45nd2svt  D         _ndio_2v         ndio_2v  ivpcell     gpdk045  PLUS MINUS
+device       g45nd2nvt  D     _ndio_2v_nvt     ndio_2v_nvt  ivpcell     gpdk045  PLUS MINUS
+device       g45pd1svt  D            _pdio            pdio  ivpcell     gpdk045  PLUS MINUS
+device       g45pd1lvt  D        _pdio_lvt        pdio_lvt  ivpcell     gpdk045  PLUS MINUS
+device       g45pd1hvt  D        _pdio_hvt        pdio_hvt  ivpcell     gpdk045  PLUS MINUS
+device       g45pd2svt  D         _pdio_2v         pdio_2v  ivpcell     gpdk045  PLUS MINUS
+device        g45vpnp2  Q           _vpnp2           vpnp2  ivpcell     gpdk045  C B E
+device        g45vpnp5  Q           _vpnp5           vpnp5  ivpcell     gpdk045  C B E
+device       g45vpnp10  Q          _vpnp10          vpnp10  ivpcell     gpdk045  C B E
+device        g45vnpn2  Q            _npn2            npn2  ivpcell     gpdk045  C B E
+device        g45vnpn5  Q            _npn5            npn5  ivpcell     gpdk045  C B E
+device       g45vnpn10  Q           _npn10           npn10  ivpcell     gpdk045  C B E
+device         g45cmim  C          _mimcap          mimcap  ivpcell     gpdk045  PLUS MINUS B
+device         g45inda  X           _ind_a           ind_a  ivpcell     gpdk045  PLUS MINUS B
+device         g45inds  X           _ind_s           ind_s  ivpcell     gpdk045  PLUS MINUS B
+
+All device symbols for the extracted view are present.
+
+INFO (LBRCXM-612): Done Executing :runUserCmd
+
+INFO (LBRCXM-642): Constructing the RCX run script
+
+Forking: agdsPrep -V -rundir /home/ecegridfs/a/559mg81/pvs/svdb -agf /home/ecegridfs/a/559mg81/pvs/svdb/XOR.agf -outdir /home/ecegridfs/a/559mg81/pvs/svdb/XOR// -sch -df2 -e /home/ecegridfs/a/559mg81/pvs/svdb/XOR.gds.map:XOR.alm,XOR.ilf -pl XOR.ports -mcell /home/ecegridfs/a/559mg81/pvs/svdb/XOR/XOR.hcl -d XOR.devtab -l /home/ecegridfs/a/559mg81/pvs/svdb/XOR.lvsfile -i XOR.ixf,XOR.lph,XOR.sph:XOR.gdx -n XOR.nxf,XOR.stl:XOR.gnx -s XOR_pin_xy.spi:XOR.xcn,hccidtmfile
+
+agdsPrep took  0.01 user, 0.03 sys, 0.00 elapsed, 15844.0 kbytes
+Forking:  capgen -techdir /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical -inc /home/ecegridfs/a/559mg81/pvs/svdb/XOR/XOR.ilf -lvs /home/ecegridfs/a/559mg81/pvs/svdb/XOR/XOR.xcn -lvsvia -p2lvs /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical/qrcTechFile -reseqn -sw3d -p poly_conn,allGate,Oxide -canonical_res_caps -length_units meters -exclude_gate_res -cap_ground_layer psubstrate /home/ecegridfs/a/559mg81/pvs/svdb/XOR
+
+INFO (LBMISC-215205): 
+*** Cadence Quantus Extraction Techgen -trans VERSION 23.1.1 Linux 64 bit - (Thu Nov 14 23:58:04 PST 2024)  ***
+
+
+INFO (CAPGEN-41199): 
+
+
+Techgen -trans results will be written to directory: /home/ecegridfs/a/559mg81/pvs/svdb/XOR
+
+/home/ecegridfs/a/559mg81/pvs/svdb/XOR/rcx_temp/tTWF020508ZXtsYl
+INFO (CAPGEN-41737): Lvs connect layers Bondpad CapMetal Nburied ind10 ind11 ind_ct npn_emit pnp_emit are not mapped in layer_setup file
+
+INFO (CAPGEN-41809):  Lvs connect via bp_tap ind_via_diva via10_nodev ptap ntap nb_tap are not mapped in layer_setup file.
+
+INFO (RCXSPIC-28057): RCXspice: unrecognized variable 'LVSNAMES' in file '/home/ecegridfs/a/559mg81/pvs/svdb/XOR/RCXspiceINIT'
+
+INFO (RCXSPIC-28057): RCXspice: unrecognized variable 'QRCNAMES' in file '/home/ecegridfs/a/559mg81/pvs/svdb/XOR/RCXspiceINIT'
+
+rcxspice took  0.57 user, 0.21 sys, 1.00 elapsed, 103876.0 kbytes
+The supplied design data will be treated as a HIERARCHICAL design
+
+Successfully created RCX script '/home/ecegridfs/a/559mg81/pvs/svdb/XOR/rcx.sh'
+INFO (LBRCXM-581): Checked out '1' license(s) of QTS300 23.10
+
+INFO (LBRCXM-608): Executing command
+   /package/eda2/cadence/QUANTUS2311/tools/extraction/bin/64bit/assura_rcx -V  /home/ecegridfs/a/559mg81/pvs/svdb/XOR/rcx.sh
+
+
+     ***    assura_rcx VERSION 23.1.1 Linux 64 bit - (Thu Nov 14 23:58:04 PST 2024)    ***
+
+
+	***************************************************
+	*			  			  *
+	* Copyright (c) 2025 Cadence Design Systems, Inc. *
+	*		All Rights Reserved		  *
+	*			  			  *
+	*	  THIS IS UNPUBLISHED PROPRIETARY	  *
+	*  INFORMATION OF Cadence Design Systems, Inc. 	  *
+	*	   THE COPYRIGHT NOTICE DOES NOT	  *
+	*	       EVIDENCE PUBLICATION		  *
+	*			  			  *
+	***************************************************
+INFO (ASSREXT-35013): 
+
+* caps2d version: 10
+ENDCAT
+meters
+ENDCAT
+agds2rcx -np 1 -V -H satfile -r /home/ecegridfs/a/559mg81/pvs/svdb/XOR/XOR.xcn -split_float_exclude_layers ndiff_0conn,pdiff_0conn,nwell_0conn,psubstrate -crundir /home/ecegridfs/a/559mg81/pvs/svdb -unit meters -df2 -xgl -pl XOR.ports -f XOR.alm -lnn XOR.lnn -pnet 5 -pinst 6 -pdev 7 XOR.agf XOR_pin_xy.spi 
+WARNING (AGDSEXT-30124): The <design>.props file is not available. The CCL option "input_db calibre/pvs/pegasus -device_properties_file <filename>" can be used to specify the .props file. 
+
+	***************************************************
+	*			  			  *
+	* Copyright (c) 2025 Cadence Design Systems, Inc. *
+	*		All Rights Reserved		  *
+	*			  			  *
+	*	  THIS IS UNPUBLISHED PROPRIETARY	  *
+	*  INFORMATION OF Cadence Design Systems, Inc. 	  *
+	*	   THE COPYRIGHT NOTICE DOES NOT	  *
+	*	       EVIDENCE PUBLICATION		  *
+	*			  			  *
+	***************************************************
+INFO (AGDSEXT-30016): 
+setting dbunit 5e-10 1 5e-10
+
+agds2rcx took 0.03 user, 0.27 sys, 0.00 elapsed, 18924.0 kbytes
+Input stage took  0.04 user, 0.29 sys, 0.00 elapsed, 5836.0 kbytes
+INFO (ASSREXT-35329): Resistance data preparation stage started at Sun Dec  7 11:13:35 2025
+
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc metal5_conn,metal6_conn -er \
+	metal7_conn.den -n 1.75 -i 0,1.751 -b \
+	metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal8_conn,metal9_conn,metal10_conn,metal11_conn -j 0.08 -Maxw \
+	1.8 -p metal7_conn,key 0,1.75 - metal7_conn.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc metal6_conn,metal7_conn -er \
+	metal8_conn.den -n 1.75 -i 0,1.751 -b \
+	metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal9_conn,metal10_conn,metal11_conn -j 0.08 -Maxw 1.8 -p \
+	metal8_conn,key 0,1.75 - metal8_conn.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc metal7_conn,metal8_conn -er \
+	metal9_conn.den -n 1.75 -i 0,1.751 -b \
+	metal8_conn,metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal10_conn,metal11_conn -j 0.08 -Maxw 1.8 -p metal9_conn,key \
+	0,1.75 - metal9_conn.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc metal8_conn,metal9_conn -er \
+	metal10_conn.den -n 5 -i 0,5.001 -b \
+	metal9_conn,metal8_conn,metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal11_conn -j 0.22 -Maxw 4.95 -p metal10_conn,key 0,5 - \
+	metal10_conn.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc metal9_conn,metal10_conn -n 5 -i \
+	0,5.001 -b \
+	metal10_conn,metal9_conn,metal8_conn,metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-j 0.22 -Maxw 4.95 -p metal11_conn,key 0,5 - metal11_conn.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -cp poly_conn,allGate,Oxide -n 0.6 -i \
+	0,0.601 -b Oxide,FOX -t \
+	metal1_conn,metal2_conn,metal3_conn,metal4_conn,metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-j 0.045 -Maxw 1.0125 -p poly_conn,key 0,0.6 - poly_conn.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc poly_conn -er metal1_conn.den -n \
+	1.2 -i 0,1.201 -b poly_conn,Oxide,FOX -t \
+	metal2_conn,metal3_conn,metal4_conn,metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-j 0.06 -Maxw 1.35 -p metal1_conn,key 0,1.2 - metal1_conn.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc poly_conn,metal1_conn -er \
+	metal2_conn.den -n 1.4 -i 0,1.401 -b metal1_conn,poly_conn,Oxide,FOX \
+	-t \
+	metal3_conn,metal4_conn,metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-j 0.08 -Maxw 1.8 -p metal2_conn,key 0,1.4 - metal2_conn.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc metal1_conn,metal2_conn -er \
+	metal3_conn.den -n 1.75 -i 0,1.751 -b \
+	metal2_conn,metal1_conn,poly_conn,Oxide,FOX -t \
+	metal4_conn,metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-j 0.08 -Maxw 1.8 -p metal3_conn,key 0,1.75 - metal3_conn.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc metal2_conn,metal3_conn -er \
+	metal4_conn.den -n 1.75 -i 0,1.751 -b \
+	metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX -t \
+	metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-j 0.08 -Maxw 1.8 -p metal4_conn,key 0,1.75 - metal4_conn.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc metal3_conn,metal4_conn -er \
+	metal5_conn.den -n 1.75 -i 0,1.751 -b \
+	metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t \
+	metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-j 0.08 -Maxw 1.8 -p metal5_conn,key 0,1.75 - metal5_conn.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc metal4_conn,metal5_conn -er \
+	metal6_conn.den -n 1.75 -i 0,1.751 -b \
+	metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn -j \
+	0.08 -Maxw 1.8 -p metal6_conn,key 0,1.75 - metal6_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -b \
+	metal9_conn,metal8_conn,metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-Maxw 4.95 -p metal10_conn,key,metal11_conn,key 0,5,0 - \
+	metal10_conn_metal11_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal11_conn -b \
+	metal8_conn,metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-Maxw 4.95 -p metal9_conn,key,metal11_conn,key 0,5,0 - \
+	metal9_conn_metal11_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	metal8_conn,metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal11_conn -Maxw 4.95 -p metal9_conn,key,metal10_conn,key 0,5,0 \
+	- metal9_conn_metal10_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal10_conn -b \
+	metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal11_conn -Maxw 4.95 -p metal8_conn,key,metal10_conn,key 0,5,0 \
+	- metal8_conn_metal10_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal10_conn,metal11_conn -Maxw 1.8 -p \
+	metal8_conn,key,metal9_conn,key 0,1.75,0 - \
+	metal8_conn_metal9_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal9_conn -b \
+	metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal10_conn,metal11_conn -Maxw 1.8 -p \
+	metal7_conn,key,metal9_conn,key 0,1.75,0 - \
+	metal7_conn_metal9_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal9_conn,metal10_conn,metal11_conn -Maxw 1.8 -p \
+	metal7_conn,key,metal8_conn,key 0,1.75,0 - \
+	metal7_conn_metal8_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal8_conn -b \
+	metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal9_conn,metal10_conn,metal11_conn -Maxw 1.8 -p \
+	metal6_conn:metal6_conn_cut,key,metal8_conn,key 0,1.75,0 - \
+	metal6_conn_metal8_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal8_conn,metal9_conn,metal10_conn,metal11_conn -Maxw 1.8 -p \
+	metal6_conn:metal6_conn_cut,key,metal7_conn,key 0,1.75,0 - \
+	metal6_conn_metal7_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal7_conn -b \
+	metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal8_conn,metal9_conn,metal10_conn,metal11_conn -k \
+	metal6_conn:0.15 -Maxw 1.8 -p \
+	metal5_conn:metal5_conn_cut,key,metal7_conn,key 0,1.75,0 - \
+	metal5_conn_metal7_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-Maxw 1.8 -p \
+	metal5_conn:metal5_conn_cut,key,metal6_conn:metal6_conn_cut,key \
+	0,1.75,0 - metal5_conn_metal6_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal6_conn -b \
+	metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX -t \
+	metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn -k \
+	metal5_conn:0.15 -Maxw 1.8 -p \
+	metal4_conn:metal4_conn_cut,key,metal6_conn:metal6_conn_cut,key \
+	0,1.75,0 - metal4_conn_metal6_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX -t \
+	metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-Maxw 1.8 -p \
+	metal4_conn:metal4_conn_cut,key,metal5_conn:metal5_conn_cut,key \
+	0,1.75,0 - metal4_conn_metal5_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal5_conn -b \
+	metal2_conn,metal1_conn,poly_conn,Oxide,FOX -t \
+	metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-k metal4_conn:0.15 -Maxw 1.8 -p \
+	metal3_conn:metal3_conn_cut,key,metal5_conn:metal5_conn_cut,key \
+	0,1.75,0 - metal3_conn_metal5_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	metal2_conn,metal1_conn,poly_conn,Oxide,FOX -t \
+	metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-Maxw 1.8 -p \
+	metal3_conn:metal3_conn_cut,key,metal4_conn:metal4_conn_cut,key \
+	0,1.75,0 - metal3_conn_metal4_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal4_conn -b \
+	metal1_conn,poly_conn,Oxide,FOX -t \
+	metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-k metal3_conn:0.15 -Maxw 1.8 -p \
+	metal2_conn:metal2_conn_cut,key,metal4_conn:metal4_conn_cut,key \
+	0,1.75,0 - metal2_conn_metal4_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b metal1_conn,poly_conn,Oxide,FOX -t \
+	metal4_conn,metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-Maxw 1.8 -p \
+	metal2_conn:metal2_conn_cut,key,metal3_conn:metal3_conn_cut,key \
+	0,1.75,0 - metal2_conn_metal3_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal3_conn -b \
+	poly_conn,Oxide,FOX -t \
+	metal4_conn,metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-k metal2_conn:0.15 -Maxw 1.8 -p \
+	metal1_conn:metal1_conn_cut,key,metal3_conn:metal3_conn_cut,key \
+	0,1.75,0 - metal1_conn_metal3_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b poly_conn,Oxide,FOX -t \
+	metal3_conn,metal4_conn,metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-Maxw 1.8 -p \
+	metal1_conn:metal1_conn_cut,key,metal2_conn:metal2_conn_cut,key \
+	0,1.4,0 - metal1_conn_metal2_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R metal2_conn -b Oxide,FOX -t \
+	metal3_conn,metal4_conn,metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-k metal1_conn:0.15 -Maxw 1.8 -p \
+	poly_conn:poly_conn_cut,key,metal2_conn:metal2_conn_cut,key 0,1.4,0 - \
+	poly_conn_metal2_conn.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -R metal1_conn,poly_conn -b Oxide,FOX \
+	-t \
+	metal2_conn,metal3_conn,metal4_conn,metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-Maxw 1.35 -p \
+	poly_conn:poly_conn_cut,key,metal1_conn:metal1_conn_cut,key 0,1.2,0 - \
+	poly_conn_metal1_conn.sip
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	metal9_conn,metal8_conn,metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-p metal10_conn,metal11_conn - metal10_conn_metal11_conn.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	metal8_conn,metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal11_conn -p metal9_conn,metal10_conn - \
+	metal9_conn_metal10_conn.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal10_conn,metal11_conn -p metal8_conn,metal9_conn - \
+	metal8_conn_metal9_conn.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal9_conn,metal10_conn,metal11_conn -p metal7_conn,metal8_conn - \
+	metal7_conn_metal8_conn.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal8_conn,metal9_conn,metal10_conn,metal11_conn -p \
+	metal6_conn:metal6_conn_cut,metal7_conn - \
+	metal6_conn_metal7_conn.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX \
+	-t metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn -p \
+	metal5_conn:metal5_conn_cut,metal6_conn:metal6_conn_cut - \
+	metal5_conn_metal6_conn.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX -t \
+	metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-p metal4_conn:metal4_conn_cut,metal5_conn:metal5_conn_cut - \
+	metal4_conn_metal5_conn.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	metal2_conn,metal1_conn,poly_conn,Oxide,FOX -t \
+	metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-p metal3_conn:metal3_conn_cut,metal4_conn:metal4_conn_cut - \
+	metal3_conn_metal4_conn.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b metal1_conn,poly_conn,Oxide,FOX -t \
+	metal4_conn,metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-p metal2_conn:metal2_conn_cut,metal3_conn:metal3_conn_cut - \
+	metal2_conn_metal3_conn.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b poly_conn,Oxide,FOX -t \
+	metal3_conn,metal4_conn,metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-p metal1_conn:metal1_conn_cut,metal2_conn:metal2_conn_cut - \
+	metal1_conn_metal2_conn.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b Oxide,FOX -t \
+	metal2_conn,metal3_conn,metal4_conn,metal5_conn,metal6_conn,metal7_conn,metal8_conn,metal9_conn,metal10_conn,metal11_conn \
+	-p poly_conn:poly_conn_cut,metal1_conn:metal1_conn_cut - \
+	poly_conn_metal1_conn.sw3d
+ENDCAT
+FOX psubstrate nwell_0conn
+metal7_conn metal7_conn
+metal8_conn metal8_conn
+metal9_conn metal9_conn
+metal10_conn metal10_conn
+metal11_conn metal11_conn
+Oxide np_rpdiff_0conn p_rpdiff_0conn np_rndiff_0conn p_rndiff_0conn
+cont_0pdiff cont_0pdiff_metal1_0conn_pdiff_0conn
+cont_0ndiff cont_0ndiff_metal1_0conn_ndiff_0conn
+metal6_0conn np_rmetal6_0conn p_rmetal6_0conn
+metal5_0conn np_rmetal5_0conn p_rmetal5_0conn
+metal4_0conn np_rmetal4_0conn p_rmetal4_0conn
+metal3_0conn np_rmetal3_0conn p_rmetal3_0conn
+metal2_0conn np_rmetal2_0conn p_rmetal2_0conn
+metal1_0conn np_rmetal1_0conn p_rmetal1_0conn
+poly_0conn np_rpoly_0conn p_rpoly_0conn
+ndiff_0conn np_rndiff_0conn p_rndiff_0conn
+pdiff_0conn np_rpdiff_0conn p_rpdiff_0conn
+nwell_0conn np_rnwell_0conn p_rnwell_0conn
+psubstrate psubstrate
+Via5 np_rVia5 p_rVia5
+Via4 np_rVia4 p_rVia4
+Via3 np_rVia3 p_rVia3
+Via2 np_rVia2 p_rVia2
+Via1 np_rVia1 p_rVia1
+cont_0poly np_rcont_0poly p_rcont_0poly
+ptap ptap
+ntap ntap
+ENDCAT
+INFO (ASSREXT-35304): 
+Number of tasks to begin with are 254 
+
+INFO (ASSREXT-35329): Resistance data preparation stage started at Sun Dec  7 11:13:36 2025
+
+geom -V Via5 metal6_0conn metal5_0conn - Via5,111,i,2 
+INFO (ASSREXT-35316): ****** For command L215 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6932.0 kbytes
+ INFO (ASSREXT-35321): *** Command L215 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 253 
+
+geom -V Via4 metal5_0conn metal4_0conn - Via4,111,i,2 
+INFO (ASSREXT-35316): ****** For command L216 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6920.0 kbytes
+ INFO (ASSREXT-35321): *** Command L216 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 252 
+
+geom -V Via3 metal4_0conn metal3_0conn - Via3,111,i,2 
+INFO (ASSREXT-35316): ****** For command L217 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6940.0 kbytes
+ INFO (ASSREXT-35321): *** Command L217 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 251 
+
+geom -V Via2 metal3_0conn metal2_0conn - Via2,111,i,2 
+INFO (ASSREXT-35316): ****** For command L218 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6948.0 kbytes
+ INFO (ASSREXT-35321): *** Command L218 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 250 
+
+geom -V Via1 metal2_0conn metal1_0conn - Via1,111,i,2 
+INFO (ASSREXT-35316): ****** For command L219 on processor #1:
+
+  geom took  0.00 user, 0.01 sys, 0.00 elapsed, 6984.0 kbytes
+ INFO (ASSREXT-35321): *** Command L219 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 249 
+
+geom -V cont_0poly metal1_0conn poly_0conn - cont_0poly,111,i,2 
+INFO (ASSREXT-35316): ****** For command L220 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6996.0 kbytes
+ INFO (ASSREXT-35321): *** Command L220 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 248 
+
+geom -V cont_0pdiff metal1_0conn pdiff_0conn - cont_0pdiff_metal1_0conn_pdiff_0conn,111,i,2 
+INFO (ASSREXT-35316): ****** For command L221 on processor #1:
+
+  geom took  0.00 user, 0.01 sys, 0.00 elapsed, 6836.0 kbytes
+ INFO (ASSREXT-35321): *** Command L221 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 247 
+
+geom -V cont_0ndiff metal1_0conn ndiff_0conn - cont_0ndiff_metal1_0conn_ndiff_0conn,111,i,2 
+INFO (ASSREXT-35316): ****** For command L222 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6988.0 kbytes
+ INFO (ASSREXT-35321): *** Command L222 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 246 
+
+INFO (ASSREXT-35299): *** L206 '/bin/mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 245
+
+INFO (ASSREXT-35299): *** L208 '/bin/mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 244
+
+INFO (ASSREXT-35299): *** L162 'mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 243
+
+INFO (ASSREXT-35299): *** L165 'mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 242
+
+INFO (ASSREXT-35299): *** L232 'beginFlattenInputs' executed directly
+
+INFO (ASSREXT-35307): tasks left are 241
+
+flattenLayers -m Via5 cont_0pdiff_metal1_0conn_pdiff_0conn 
+INFO (ASSREXT-35316): ****** For command L242 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 7040.0 kbytes
+ INFO (ASSREXT-35321): *** Command L242 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 240 
+
+flattenLayers -m Via4 cont_0ndiff_metal1_0conn_ndiff_0conn 
+INFO (ASSREXT-35316): ****** For command L243 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 7020.0 kbytes
+ INFO (ASSREXT-35321): *** Command L243 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 239 
+
+flattenLayers -m cont_0pdiff Via1 
+INFO (ASSREXT-35316): ****** For command L240 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6860.0 kbytes
+ INFO (ASSREXT-35321): *** Command L240 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 238 
+
+flattenLayers -m cont_0ndiff cont_0poly 
+INFO (ASSREXT-35316): ****** For command L241 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6896.0 kbytes
+ INFO (ASSREXT-35321): *** Command L241 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 237 
+
+flattenLayers -m poly_0conn 
+INFO (ASSREXT-35316): ****** For command L252 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6940.0 kbytes
+ INFO (ASSREXT-35321): *** Command L252 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 236 
+
+INFO (ASSREXT-35299): *** L233 '/bin/mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 235
+
+flatnet -V -li -h / h_NET NET 
+INFO (ASSREXT-35316): ****** For command L234 on processor #1:
+
+  flatnet took 0.00 user, 0.01 sys, 0.00 elapsed, 14296.0 kbytes
+   id: 6, mnet: 5
+   id: 6, mnet: 5
+   id: 6, mnet: 5
+   id: 6, mnet: 5
+   id: 6, mnet: 6
+   id: 6, mnet: 6
+   id: 6, mnet: 6
+   id: 6, mnet: 6
+   id: 6, mnet: 2
+   id: 6, mnet: 2
+   id: 6, mnet: 2
+   id: 6, mnet: 2
+   id: 6, mnet: 2
+   id: 6, mnet: 2
+   id: 6, mnet: 2
+   id: 6, mnet: 2
+   id: 6, mnet: 2
+   id: 6, mnet: 2
+ INFO (ASSREXT-35321): *** Command L234 'flatnet' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 234 
+
+epick nwell_0conn_orig nwell_0conn 
+INFO (ASSREXT-35316): ****** For command L207 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L207 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 233 
+
+geom -V ntap ndiff_0conn nwell_0conn - ntap,111,i,2 
+INFO (ASSREXT-35316): ****** For command L224 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6688.0 kbytes
+ INFO (ASSREXT-35321): *** Command L224 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 232 
+
+flattenLayers -m Via2 ntap 
+INFO (ASSREXT-35316): ****** For command L245 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6980.0 kbytes
+ INFO (ASSREXT-35321): *** Command L245 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 231 
+
+INFO (ASSREXT-35299): *** L225 '/bin/mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 230
+
+epick psubstrate_orig psubstrate 
+INFO (ASSREXT-35316): ****** For command L209 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L209 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 229 
+
+geom -V ptap pdiff_0conn psubstrate - ptap,111,i,2 
+INFO (ASSREXT-35316): ****** For command L223 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6624.0 kbytes
+ INFO (ASSREXT-35321): *** Command L223 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 228 
+
+flattenLayers -m Via3 ptap 
+INFO (ASSREXT-35316): ****** For command L244 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6908.0 kbytes
+ INFO (ASSREXT-35321): *** Command L244 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 227 
+
+INFO (ASSREXT-35299): *** L226 '/bin/mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 226
+
+flattenLayers -m nwell_0conn psubstrate 
+INFO (ASSREXT-35316): ****** For command L254 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6940.0 kbytes
+ INFO (ASSREXT-35321): *** Command L254 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 225 
+
+INFO (ASSREXT-35299): *** L261 'findCapGround' executed directly
+
+INFO (ASSREXT-35307): tasks left are 224
+
+INFO (ASSREXT-35299): *** L264 'echo' executed directly
+
+INFO (ASSREXT-35307): tasks left are 223
+
+netprint -n cgnetfile:gn_summary.log NET 
+INFO (ASSREXT-35316): ****** For command L265 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L265 'netprint' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 222 
+
+densitymap -V -TC -O metal6_conn.den metal6_conn_tile_spec metal6_0conn 
+INFO (ASSREXT-35316): ****** For command L186 on processor #1:
+
+  densitymap took 0.00 user, 0.00 sys, 0.00 elapsed, 5876.0 kbytes
+ INFO (ASSREXT-35321): *** Command L186 'densitymap' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 221 
+
+flattenLayers -m metal6_0conn 
+INFO (ASSREXT-35316): ****** For command L246 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6872.0 kbytes
+ INFO (ASSREXT-35321): *** Command L246 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 220 
+
+densitymap -V -TC -O metal5_conn.den metal5_conn_tile_spec metal5_0conn 
+INFO (ASSREXT-35316): ****** For command L187 on processor #1:
+
+  densitymap took 0.00 user, 0.00 sys, 0.00 elapsed, 5832.0 kbytes
+ INFO (ASSREXT-35321): *** Command L187 'densitymap' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 219 
+
+flattenLayers -m metal5_0conn 
+INFO (ASSREXT-35316): ****** For command L247 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6840.0 kbytes
+ INFO (ASSREXT-35321): *** Command L247 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 218 
+
+densitymap -V -TC -O metal4_conn.den metal4_conn_tile_spec metal4_0conn 
+INFO (ASSREXT-35316): ****** For command L188 on processor #1:
+
+  densitymap took 0.00 user, 0.00 sys, 0.00 elapsed, 5872.0 kbytes
+ INFO (ASSREXT-35321): *** Command L188 'densitymap' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 217 
+
+flattenLayers -m metal4_0conn 
+INFO (ASSREXT-35316): ****** For command L248 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 7008.0 kbytes
+ INFO (ASSREXT-35321): *** Command L248 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 216 
+
+densitymap -V -TC -O metal3_conn.den metal3_conn_tile_spec metal3_0conn 
+INFO (ASSREXT-35316): ****** For command L189 on processor #1:
+
+  densitymap took 0.00 user, 0.01 sys, 0.00 elapsed, 5832.0 kbytes
+ INFO (ASSREXT-35321): *** Command L189 'densitymap' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 215 
+
+flattenLayers -m metal3_0conn 
+INFO (ASSREXT-35316): ****** For command L249 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6996.0 kbytes
+ INFO (ASSREXT-35321): *** Command L249 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 214 
+
+densitymap -V -TC -O metal2_conn.den metal2_conn_tile_spec metal2_0conn 
+INFO (ASSREXT-35316): ****** For command L190 on processor #1:
+
+  densitymap took 0.00 user, 0.00 sys, 0.00 elapsed, 5764.0 kbytes
+ INFO (ASSREXT-35321): *** Command L190 'densitymap' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 213 
+
+flattenLayers -m metal2_0conn 
+INFO (ASSREXT-35316): ****** For command L250 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6812.0 kbytes
+ INFO (ASSREXT-35321): *** Command L250 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 212 
+
+densitymap -V -TC -O metal1_conn.den metal1_conn_tile_spec metal1_0conn 
+INFO (ASSREXT-35316): ****** For command L191 on processor #1:
+
+  densitymap took 0.00 user, 0.00 sys, 0.00 elapsed, 5920.0 kbytes
+ INFO (ASSREXT-35321): *** Command L191 'densitymap' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 211 
+
+flattenLayers -m metal1_0conn 
+INFO (ASSREXT-35316): ****** For command L251 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6852.0 kbytes
+ INFO (ASSREXT-35321): *** Command L251 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 210 
+
+INFO (ASSREXT-35299): *** L192 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 209
+
+geom _0nmos1v ndiff_0conn - _0nmos1v,10,i,1 
+INFO (ASSREXT-35316): ****** For command L193 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L193 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 208 
+
+INFO (ASSREXT-35299): *** L194 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 207
+
+INFO (ASSREXT-35299): *** L195 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 206
+
+flattenTransistorData _0nmos1v meters 
+INFO (ASSREXT-35316): ****** For command L236 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 7032.0 kbytes
+   flatnet took 0.00 user, 0.01 sys, 1.00 elapsed, 14096.0 kbytes
+   id: 6, mnet: 2
+   id: 6, mnet: 2
+   id: 6, mnet: 2
+   id: 6, mnet: 2
+   flattrans took 0.00 user, 0.02 sys, 0.00 elapsed, 6108.0 kbytes
+ INFO (ASSREXT-35321): *** Command L236 'flattenTransistorData' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 205 
+
+flattenTransistorData -layerOnly _0nmos1v_orig meters 
+INFO (ASSREXT-35316): ****** For command L238 on processor #1:
+
+  /bin/mv: cannot stat '_0nmos1v_orig': No such file or directory
+   /bin/mv: cannot stat '_0nmos1v_orig.net': No such file or directory
+   flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6920.0 kbytes
+ INFO (ASSREXT-35321): *** Command L238 'flattenTransistorData' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 204 
+
+INFO (ASSREXT-35299): *** L196 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 203
+
+geom _0pmos1v pdiff_0conn - _0pmos1v,10,i,1 
+INFO (ASSREXT-35316): ****** For command L197 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L197 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 202 
+
+flattenLayers -m ndiff_0conn pdiff_0conn 
+INFO (ASSREXT-35316): ****** For command L253 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6952.0 kbytes
+ INFO (ASSREXT-35321): *** Command L253 'flattenLayers' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 201 
+
+INFO (ASSREXT-35299): *** L198 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 200
+
+INFO (ASSREXT-35299): *** L199 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 199
+
+flattenTransistorData _0pmos1v meters 
+INFO (ASSREXT-35316): ****** For command L237 on processor #1:
+
+  flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6988.0 kbytes
+   flatnet took 0.00 user, 0.01 sys, 0.00 elapsed, 14252.0 kbytes
+   flattrans took 0.00 user, 0.02 sys, 0.00 elapsed, 6156.0 kbytes
+ INFO (ASSREXT-35321): *** Command L237 'flattenTransistorData' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 198 
+
+flattenTransistorData -layerOnly _0pmos1v_orig meters 
+INFO (ASSREXT-35316): ****** For command L239 on processor #1:
+
+  /bin/mv: cannot stat '_0pmos1v_orig': No such file or directory
+   /bin/mv: cannot stat '_0pmos1v_orig.net': No such file or directory
+   flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 6940.0 kbytes
+ INFO (ASSREXT-35321): *** Command L239 'flattenTransistorData' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 197 
+
+INFO (ASSREXT-35299): *** L255 'endFlattenInputs' executed directly
+
+INFO (ASSREXT-35307): tasks left are 196
+
+INFO (ASSREXT-35299): *** L205 'cat' executed directly
+
+INFO (ASSREXT-35307): tasks left are 195
+
+netprint -V -N1 power_list:power_list_nums NET 
+INFO (ASSREXT-35316): ****** For command L235 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L235 'netprint' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 194 
+
+reconnect -cgnd 4 -float floatlvsnetsfile -tf _0nmos1v,_0pmos1v -probe text_metal1_0conn:metal1_0conn:text_metal1_0conn_fvia 
+INFO (ASSREXT-35315): ****** For command L266:
+
+INFO (ASSREXT-35320): *** Command L266 'reconnect' finished
+
+INFO (ASSREXT-35323): tasks left are 193 
+
+geom -V _0nmos1v,_0pmos1v - qrcpoly__0,1,i,1 
+INFO (ASSREXT-35316): ****** For command L270 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6656.0 kbytes
+ INFO (ASSREXT-35321): *** Command L270 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 192 
+
+geom _0nmos1v,_0pmos1v - qrcgate,1,i,1 
+INFO (ASSREXT-35316): ****** For command L269 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L269 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 191 
+
+geom -V qrcpoly__0 - qrcpoly,1,i,1 
+INFO (ASSREXT-35316): ****** For command L271 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6468.0 kbytes
+ INFO (ASSREXT-35321): *** Command L271 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 190 
+
+iprint -count floatlvsnetsfile 
+INFO (ASSREXT-35316): ****** For command L268 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L268 'iprint' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 189 
+
+INFO (ASSREXT-35299): *** L272 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 188
+
+iprint -count floatlvsnetsfile 
+INFO (ASSREXT-35315): ****** For command L273:
+
+INFO (ASSREXT-35320): *** Command L273 'iprint' finished
+
+INFO (ASSREXT-35323): tasks left are 187 
+
+iprint -imerge power_list_nums floatlvsnetsfile power_list_nums2 
+INFO (ASSREXT-35316): ****** For command L274 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L274 'iprint' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 186 
+
+INFO (ASSREXT-35299): *** L275 'mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 185
+
+INFO (ASSREXT-35299): *** L276 'cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 184
+
+selectNetsByNumber power_list_nums metal1_0conn p_rmetal1_0conn np_rmetal1_0conn 
+INFO (ASSREXT-35316): ****** For command L282 on processor #1:
+
+  epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6088.0 kbytes
+ INFO (ASSREXT-35321): *** Command L282 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 183 
+
+selectNetsByNumber power_list_nums poly_0conn p_rpoly_0conn np_rpoly_0conn 
+INFO (ASSREXT-35316): ****** For command L291 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6112.0 kbytes
+ INFO (ASSREXT-35321): *** Command L291 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 182 
+
+selectNetsByNumber power_list_nums metal2_0conn p_rmetal2_0conn np_rmetal2_0conn 
+INFO (ASSREXT-35316): ****** For command L283 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5920.0 kbytes
+ INFO (ASSREXT-35321): *** Command L283 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 181 
+
+selectNetsByNumber power_list_nums metal3_0conn p_rmetal3_0conn np_rmetal3_0conn 
+INFO (ASSREXT-35316): ****** For command L284 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6068.0 kbytes
+ INFO (ASSREXT-35321): *** Command L284 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 180 
+
+selectNetsByNumber power_list_nums metal4_0conn p_rmetal4_0conn np_rmetal4_0conn 
+INFO (ASSREXT-35316): ****** For command L285 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6044.0 kbytes
+ INFO (ASSREXT-35321): *** Command L285 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 179 
+
+selectNetsByNumber power_list_nums metal5_0conn p_rmetal5_0conn np_rmetal5_0conn 
+INFO (ASSREXT-35316): ****** For command L286 on processor #1:
+
+  epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6148.0 kbytes
+ INFO (ASSREXT-35321): *** Command L286 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 178 
+
+selectNetsByNumber power_list_nums metal6_0conn p_rmetal6_0conn np_rmetal6_0conn 
+INFO (ASSREXT-35316): ****** For command L287 on processor #1:
+
+  epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6048.0 kbytes
+ INFO (ASSREXT-35321): *** Command L287 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 177 
+
+selectNetsByNumber power_list_nums Via1 p_rVia1 np_rVia1 
+INFO (ASSREXT-35316): ****** For command L293 on processor #1:
+
+  epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6120.0 kbytes
+ INFO (ASSREXT-35321): *** Command L293 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 176 
+
+selectNetsByNumber power_list_nums Via2 p_rVia2 np_rVia2 
+INFO (ASSREXT-35316): ****** For command L294 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6164.0 kbytes
+ INFO (ASSREXT-35321): *** Command L294 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 175 
+
+selectNetsByNumber power_list_nums Via3 p_rVia3 np_rVia3 
+INFO (ASSREXT-35316): ****** For command L295 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6096.0 kbytes
+ INFO (ASSREXT-35321): *** Command L295 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 174 
+
+selectNetsByNumber power_list_nums Via4 p_rVia4 np_rVia4 
+INFO (ASSREXT-35316): ****** For command L296 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6088.0 kbytes
+ INFO (ASSREXT-35321): *** Command L296 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 173 
+
+selectNetsByNumber power_list_nums Via5 p_rVia5 np_rVia5 
+INFO (ASSREXT-35316): ****** For command L297 on processor #1:
+
+  epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6112.0 kbytes
+ INFO (ASSREXT-35321): *** Command L297 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 172 
+
+selectNetsByNumber power_list_nums cont_0poly p_rcont_0poly np_rcont_0poly 
+INFO (ASSREXT-35316): ****** For command L298 on processor #1:
+
+  epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6108.0 kbytes
+ INFO (ASSREXT-35321): *** Command L298 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 171 
+
+selectNetsByNumber power_list_nums ndiff_0conn p_rndiff_0conn np_rndiff_0conn 
+INFO (ASSREXT-35316): ****** For command L288 on processor #1:
+
+  epick took  0.00 user, 0.01 sys, 1.00 elapsed, 6112.0 kbytes
+ INFO (ASSREXT-35321): *** Command L288 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 170 
+
+selectNetsByNumber power_list_nums pdiff_0conn p_rpdiff_0conn np_rpdiff_0conn 
+INFO (ASSREXT-35316): ****** For command L290 on processor #1:
+
+  epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6076.0 kbytes
+ INFO (ASSREXT-35321): *** Command L290 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 169 
+
+mergevia -V -tech /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical -cnt np_rVia1 rVia1 - np_rmetal2_0conn np_rmetal1_0conn 
+INFO (ASSREXT-35316): ****** For command L306 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 44800.0 kbytes
+   mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 44800.0 kbytes
+ INFO (ASSREXT-35321): *** Command L306 'mergevia' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 168 
+
+mergevia -V -tech /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical -cnt np_rVia2 rVia2 - np_rmetal3_0conn np_rmetal2_0conn 
+INFO (ASSREXT-35316): ****** For command L309 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 45256.0 kbytes
+   mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 45256.0 kbytes
+ INFO (ASSREXT-35321): *** Command L309 'mergevia' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 167 
+
+mergevia -V -tech /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical -cnt np_rVia3 rVia3 - np_rmetal4_0conn np_rmetal3_0conn 
+INFO (ASSREXT-35316): ****** For command L312 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 45928.0 kbytes
+   mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 45928.0 kbytes
+ INFO (ASSREXT-35321): *** Command L312 'mergevia' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 166 
+
+mergevia -V -tech /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical -cnt np_rVia4 rVia4 - np_rmetal5_0conn np_rmetal4_0conn 
+INFO (ASSREXT-35316): ****** For command L315 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 45332.0 kbytes
+   mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 45332.0 kbytes
+ INFO (ASSREXT-35321): *** Command L315 'mergevia' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 165 
+
+mergevia -V -tech /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical -cnt np_rVia5 rVia5 - np_rmetal6_0conn np_rmetal5_0conn 
+INFO (ASSREXT-35316): ****** For command L318 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 44932.0 kbytes
+   mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 44932.0 kbytes
+ INFO (ASSREXT-35321): *** Command L318 'mergevia' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 164 
+
+mergevia -V -tech /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical -cnt np_rcont_0poly rcont_0poly - np_rmetal1_0conn np_rpoly_0conn 
+INFO (ASSREXT-35316): ****** For command L321 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 43172.0 kbytes
+   mergevia took 0.00 user, 0.00 sys, 0.00 elapsed, 43172.0 kbytes
+ INFO (ASSREXT-35321): *** Command L321 'mergevia' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 163 
+
+createNRMosfetGateTerminal _0nmos1v np_rpoly_0conn _0nmos1v_mgvia 
+INFO (ASSREXT-35316): ****** For command L329 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L329 'createNRMosfetGateTerminal' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 162 
+
+createNRMosfetGateTerminal _0pmos1v np_rpoly_0conn _0pmos1v_mgvia 
+INFO (ASSREXT-35316): ****** For command L330 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L330 'createNRMosfetGateTerminal' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 161 
+
+selectNetsByNumber power_list_nums nwell_0conn p_rnwell_0conn np_rnwell_0conn 
+INFO (ASSREXT-35316): ****** For command L289 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5984.0 kbytes
+ INFO (ASSREXT-35321): *** Command L289 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 160 
+
+selectNetsByNumber power_list_nums psubstrate p_rpsubstrate np_rpsubstrate 
+INFO (ASSREXT-35316): ****** For command L292 on processor #1:
+
+  epick took  0.00 user, 0.01 sys, 0.00 elapsed, 6116.0 kbytes
+ INFO (ASSREXT-35321): *** Command L292 'selectNetsByNumber' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 159 
+
+INFO (ASSREXT-35299): *** L336 '/bin/mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 158
+
+createEmptyLayer np_rnwell_0conn 
+INFO (ASSREXT-35316): ****** For command L337 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L337 'createEmptyLayer' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 157 
+
+INFO (ASSREXT-35299): *** L338 '/bin/mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 156
+
+createEmptyLayer np_rpsubstrate 
+INFO (ASSREXT-35316): ****** For command L339 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L339 'createEmptyLayer' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 155 
+
+flatlabel -V -tc -F -l flatlabel.info text_metal1_0conn L1T0 
+INFO (ASSREXT-35316): ****** For command L402 on processor #1:
+
+  INFO (FLTLBL-89003): exec labsort -V L1T0
+   
+ INFO (ASSREXT-35321): *** Command L402 'flatlabel' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 154 
+
+INFO (ASSREXT-35299): *** L299 'mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 153
+
+INFO (ASSREXT-35299): *** L308 'cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 152
+
+INFO (ASSREXT-35299): *** L311 'cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 151
+
+INFO (ASSREXT-35299): *** L314 'cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 150
+
+INFO (ASSREXT-35299): *** L317 'cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 149
+
+INFO (ASSREXT-35299): *** L320 'cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 148
+
+INFO (ASSREXT-35299): *** L323 'cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 147
+
+connect -V -relocate NET np_rndiff_0conn:np_rndiff_0conn.conn np_rpdiff_0conn:np_rpdiff_0conn.conn np_rnwell_0conn:np_rnwell_0conn.conn np_rpsubstrate:np_rpsubstrate.conn rVia1 rVia2 rVia3 rVia4 rVia5 rcont_0poly _0nmos1v_mgvia _0pmos1v_mgvia - ntap,1,3 ptap,2,4 - 
+INFO (ASSREXT-35316): ****** For command L340 on processor #1:
+
+  connect took  0.00 user, 0.02 sys, 0.00 elapsed, 274488.0 kbytes
+ INFO (ASSREXT-35321): *** Command L340 'connect' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 146 
+
+geom -V cont_0ndiff_metal1_0conn_ndiff_0conn np_rndiff_0conn.conn - tmp_rcont_0ndiff_metal1_0conn_ndiff_0conn,11,i,2 
+INFO (ASSREXT-35316): ****** For command L350 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6700.0 kbytes
+ INFO (ASSREXT-35321): *** Command L350 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 145 
+
+geom -V cont_0pdiff_metal1_0conn_pdiff_0conn np_rpdiff_0conn.conn - tmp_rcont_0pdiff_metal1_0conn_pdiff_0conn,11,i,2 
+INFO (ASSREXT-35316): ****** For command L357 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6548.0 kbytes
+ INFO (ASSREXT-35321): *** Command L357 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 144 
+
+mergevia -V -i -tech /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical -cnt tmp_rcont_0ndiff_metal1_0conn_ndiff_0conn rcont_0ndiff_metal1_0conn_ndiff_0conn - np_rmetal1_0conn np_rndiff_0conn 
+INFO (ASSREXT-35316): ****** For command L351 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 43244.0 kbytes
+   stamp took  0.03 user, 0.02 sys, 0.00 elapsed, 277120.0 kbytes
+   mergevia took 0.03 user, 0.02 sys, 0.00 elapsed, 43244.0 kbytes
+   [dofork] stamp -V tmp_rcont_0ndiff_metal1_0conn_ndiff_0conn rcont_0ndiff_metal1_0conn_ndiff_0conn
+ INFO (ASSREXT-35321): *** Command L351 'mergevia' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 143 
+
+mergevia -V -i -tech /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical -cnt tmp_rcont_0pdiff_metal1_0conn_pdiff_0conn rcont_0pdiff_metal1_0conn_pdiff_0conn - np_rmetal1_0conn np_rpdiff_0conn 
+INFO (ASSREXT-35316): ****** For command L358 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 46564.0 kbytes
+   stamp took  0.03 user, 0.02 sys, 0.00 elapsed, 277144.0 kbytes
+   mergevia took 0.03 user, 0.03 sys, 0.00 elapsed, 46564.0 kbytes
+   [dofork] stamp -V tmp_rcont_0pdiff_metal1_0conn_pdiff_0conn rcont_0pdiff_metal1_0conn_pdiff_0conn
+ INFO (ASSREXT-35321): *** Command L358 'mergevia' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 142 
+
+epick -V -reo -e rcont_0ndiff_metal1_0conn_ndiff_0conn -e rcont_0pdiff_metal1_0conn_pdiff_0conn np_rnwell_0conn.conn tmp_nwell_0conn 
+INFO (ASSREXT-35316): ****** For command L383 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6000.0 kbytes
+ INFO (ASSREXT-35321): *** Command L383 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 141 
+
+epick -V -reo -e rcont_0ndiff_metal1_0conn_ndiff_0conn -e rcont_0pdiff_metal1_0conn_pdiff_0conn np_rpsubstrate.conn tmp_psubstrate 
+INFO (ASSREXT-35316): ****** For command L390 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 6020.0 kbytes
+ INFO (ASSREXT-35321): *** Command L390 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 140 
+
+epick -V -reo -e rcont_0ndiff_metal1_0conn_ndiff_0conn -e rcont_0pdiff_metal1_0conn_pdiff_0conn np_rndiff_0conn.conn tmp_ndiff_0conn 
+INFO (ASSREXT-35316): ****** For command L369 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5956.0 kbytes
+ INFO (ASSREXT-35321): *** Command L369 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 139 
+
+epick -V -reo -e rcont_0ndiff_metal1_0conn_ndiff_0conn -e rcont_0pdiff_metal1_0conn_pdiff_0conn np_rpdiff_0conn.conn tmp_pdiff_0conn 
+INFO (ASSREXT-35316): ****** For command L376 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5952.0 kbytes
+ INFO (ASSREXT-35321): *** Command L376 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 138 
+
+epick -V -reo -e tmp_nwell_0conn -c np_rnwell_0conn.conn tmp1_nwell_0conn 
+INFO (ASSREXT-35316): ****** For command L386 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5960.0 kbytes
+ INFO (ASSREXT-35321): *** Command L386 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 137 
+
+epick -V -reo -e tmp_psubstrate -c np_rpsubstrate.conn tmp1_psubstrate 
+INFO (ASSREXT-35316): ****** For command L393 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5964.0 kbytes
+ INFO (ASSREXT-35321): *** Command L393 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 136 
+
+geom -V tmp1_nwell_0conn np_rnwell_0conn - tmp1_nwell_0conn,11,i,2 
+INFO (ASSREXT-35316): ****** For command L387 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6508.0 kbytes
+ INFO (ASSREXT-35321): *** Command L387 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 135 
+
+geom -V tmp1_psubstrate np_rpsubstrate - tmp1_psubstrate,11,i,2 
+INFO (ASSREXT-35316): ****** For command L394 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6776.0 kbytes
+ INFO (ASSREXT-35321): *** Command L394 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 134 
+
+epick -V -reo -e tmp_ndiff_0conn -c np_rndiff_0conn.conn tmp1_ndiff_0conn 
+INFO (ASSREXT-35316): ****** For command L372 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5952.0 kbytes
+ INFO (ASSREXT-35321): *** Command L372 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 133 
+
+epick -V -reo -e tmp_pdiff_0conn -c np_rpdiff_0conn.conn tmp1_pdiff_0conn 
+INFO (ASSREXT-35316): ****** For command L379 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5888.0 kbytes
+ INFO (ASSREXT-35321): *** Command L379 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 132 
+
+geom -V tmp1_ndiff_0conn np_rndiff_0conn - tmp1_ndiff_0conn,11,i,2 
+INFO (ASSREXT-35316): ****** For command L373 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6728.0 kbytes
+ INFO (ASSREXT-35321): *** Command L373 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 131 
+
+geom -V tmp1_pdiff_0conn np_rpdiff_0conn - tmp1_pdiff_0conn,11,i,2 
+INFO (ASSREXT-35316): ****** For command L380 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6580.0 kbytes
+ INFO (ASSREXT-35321): *** Command L380 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 130 
+
+geom -V tmp_nwell_0conn,tmp1_nwell_0conn - np_rnwell_0conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L388 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6636.0 kbytes
+ INFO (ASSREXT-35321): *** Command L388 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 129 
+
+geom -V tmp_psubstrate,tmp1_psubstrate - np_rpsubstrate,1,i,1 
+INFO (ASSREXT-35316): ****** For command L395 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6508.0 kbytes
+ INFO (ASSREXT-35321): *** Command L395 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 128 
+
+geom -V tmp_ndiff_0conn,tmp1_ndiff_0conn - np_rndiff_0conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L374 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 1.00 elapsed, 6672.0 kbytes
+ INFO (ASSREXT-35321): *** Command L374 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 127 
+
+geom -V tmp_pdiff_0conn,tmp1_pdiff_0conn - np_rpdiff_0conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L381 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6668.0 kbytes
+ INFO (ASSREXT-35321): *** Command L381 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 126 
+
+INFO (ASSREXT-35299): *** L410 '/bin/mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 125
+
+INFO (ASSREXT-35299): *** L411 '/bin/mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 124
+
+INFO (ASSREXT-35299): *** L375 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 123
+
+INFO (ASSREXT-35299): *** L382 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 122
+
+INFO (ASSREXT-35299): *** L389 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 121
+
+INFO (ASSREXT-35299): *** L396 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 120
+
+INFO (ASSREXT-35299): *** L355 'cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 119
+
+INFO (ASSREXT-35299): *** L362 'cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 118
+
+INFO (ASSREXT-35299): *** L356 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 117
+
+INFO (ASSREXT-35299): *** L363 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 116
+
+Resistance data preparation stage took  1.55 user, 2.68 sys, 7.00 elapsed, 8928.0 kbytes
+INFO (ASSREXT-35330): Resistance data preparation stage completed successfully at Sun Dec  7 11:13:43 2025
+
+INFO (ASSREXT-35331): rex started at Sun Dec  7 11:13:43 2025
+
+rex -V -m -pd -I# -tech /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical -map p2elayermapfile -wee p2elayermapfile -N NET -e2 -Ply np_rpoly_0conn -er np_rmetal6_0conn,metal6_conn.den:np_rmetal5_0conn,metal5_conn.den:np_rmetal4_0conn,metal4_conn.den:np_rmetal3_0conn,metal3_conn.den:np_rmetal2_0conn,metal2_conn.den:np_rmetal1_0conn,metal1_conn.den -rP res.mod np_rpoly_0conn::poly_conn_cut np_rmetal1_0conn::metal1_conn_cut np_rmetal2_0conn::metal2_conn_cut np_rmetal3_0conn::metal3_conn_cut np_rmetal4_0conn::metal4_conn_cut np_rmetal5_0conn::metal5_conn_cut np_rmetal6_0conn::metal6_conn_cut - rVia1,2,3,t rVia2,3,4,t rVia3,4,5,t rVia4,5,6,t rVia5,6,7,t rcont_0ndiff_metal1_0conn_ndiff_0conn,2,t rcont_0pdiff_metal1_0conn_pdiff_0conn,2,t rcont_0poly,1,2,t _0nmos1v_mgvia,1,z _0pmos1v_mgvia,1,z - L1T0,2,I 
+INFO (ASSREXT-35315): ****** For command L417:
+
+  INFO (REX-163462):  exec rex -g -V -m -pd -I# -tech /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical -map p2elayermapfile -wee p2elayermapfile -N NET -e2 -Ply np_rpoly_0conn -er np_rmetal6_0conn,metal6_conn.den:np_rmetal5_0conn,metal5_conn.den:np_rmetal4_0conn,metal4_conn.den:np_rmetal3_0conn,metal3_conn.den:np_rmetal2_0conn,metal2_conn.den:np_rmetal1_0conn,metal1_conn.den -rP res.mod np_rpoly_0conn::poly_conn_cut np_rmetal1_0conn::metal1_conn_cut np_rmetal2_0conn::metal2_conn_cut np_rmetal3_0conn::metal3_conn_cut np_rmetal4_0conn::metal4_conn_cut np_rmetal5_0conn::metal5_conn_cut np_rmetal6_0conn::metal6_conn_cut - rVia1,2,3,t rVia2,3,4,t rVia3,4,5,t rVia4,5,6,t rVia5,6,7,t rcont_0ndiff_metal1_0conn_ndiff_0conn,2,t rcont_0pdiff_metal1_0conn_pdiff_0conn,2,t rcont_0poly,1,2,t _0nmos1v_mgvia,1,z _0pmos1v_mgvia,1,z - L1T0,2,I
+   
+   rex took  0.01 user, 0.05 sys, 0.00 elapsed, 65692.0 kbytes
+   INFO (LBMISC-215513): Socket: connection with sd 22 closed
+   
+   INFO (REX-163511): Forked command: REX 1
+   
+     rex (np_rmetal1_0conn) took  0.01 user, 0.06 sys, 0.00 elapsed, 66520.0 kbytes
+   INFO (LBMISC-215513): Socket: connection with sd 22 closed
+   
+   INFO (REX-163511): Forked command: REX 2
+   
+     rex (np_rpoly_0conn) took  0.01 user, 0.05 sys, 1.00 elapsed, 65828.0 kbytes
+   INFO (LBMISC-215513): Socket: connection with sd 22 closed
+   
+   INFO (REX-163511): Forked command: REX 3
+   
+     rex (np_rmetal2_0conn) took  0.00 user, 0.05 sys, 0.00 elapsed, 66796.0 kbytes
+   INFO (LBMISC-215513): Socket: connection with sd 22 closed
+   
+   INFO (REX-163511): Forked command: REX 4
+   
+     rex (np_rmetal3_0conn) took  0.01 user, 0.05 sys, 0.00 elapsed, 64044.0 kbytes
+   INFO (LBMISC-215513): Socket: connection with sd 22 closed
+   
+   INFO (REX-163511): Forked command: REX 5
+   
+     rex (np_rmetal4_0conn) took  0.01 user, 0.05 sys, 0.00 elapsed, 64928.0 kbytes
+   INFO (LBMISC-215513): Socket: connection with sd 22 closed
+   
+   INFO (REX-163511): Forked command: REX 6
+   
+     rex (np_rmetal5_0conn) took  0.00 user, 0.06 sys, 0.00 elapsed, 65264.0 kbytes
+   INFO (LBMISC-215513): Socket: connection with sd 22 closed
+   
+   INFO (REX-163511): Forked command: REX 7
+   
+     rex (np_rmetal6_0conn) took  0.01 user, 0.04 sys, 0.00 elapsed, 67688.0 kbytes
+   INFO (REX-163511): Forked command: REX 8
+   
+     rexmerge took  0.00 user, 0.00 sys, 0.00 elapsed, 5464.0 kbytes
+   rex took  3.82 user, 0.94 sys, 6.00 elapsed, 63352.0 kbytes
+ INFO (ASSREXT-35320): *** Command L417 'rex' finished
+
+R stage took  4.28 user, 1.00 sys, 6.00 elapsed, 8928.0 kbytes
+INFO (ASSREXT-35332): rex completed successfully at Sun Dec  7 11:13:49 2025
+
+INFO (ASSREXT-35333): Capacitance data preparation stage started at Sun Dec  7 11:13:49 2025
+
+INFO (ASSREXT-35323): tasks left are 115 
+
+stamp -V -i2 np_rmetal2_0conn rVia1 np_rVia1 
+INFO (ASSREXT-35316): ****** For command L437 on processor #1:
+
+  stamp took  0.03 user, 0.03 sys, 0.00 elapsed, 277128.0 kbytes
+ INFO (ASSREXT-35321): *** Command L437 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 114 
+
+stamp -V -i2 np_rmetal3_0conn rVia2 np_rVia2 
+INFO (ASSREXT-35316): ****** For command L439 on processor #1:
+
+  stamp took  0.03 user, 0.02 sys, 0.00 elapsed, 277184.0 kbytes
+ INFO (ASSREXT-35321): *** Command L439 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 113 
+
+stamp -V -i2 np_rmetal4_0conn rVia3 np_rVia3 
+INFO (ASSREXT-35316): ****** For command L441 on processor #1:
+
+  stamp took  0.02 user, 0.03 sys, 1.00 elapsed, 277128.0 kbytes
+ INFO (ASSREXT-35321): *** Command L441 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 112 
+
+stamp -V -i2 np_rmetal5_0conn rVia4 np_rVia4 
+INFO (ASSREXT-35316): ****** For command L443 on processor #1:
+
+  stamp took  0.04 user, 0.02 sys, 0.00 elapsed, 277152.0 kbytes
+ INFO (ASSREXT-35321): *** Command L443 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 111 
+
+stamp -V -i2 np_rmetal6_0conn rVia5 np_rVia5 
+INFO (ASSREXT-35316): ****** For command L445 on processor #1:
+
+  stamp took  0.04 user, 0.02 sys, 0.00 elapsed, 277104.0 kbytes
+ INFO (ASSREXT-35321): *** Command L445 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 110 
+
+stamp -V -i2 np_rmetal1_0conn rcont_0poly np_rcont_0poly 
+INFO (ASSREXT-35316): ****** For command L447 on processor #1:
+
+  stamp took  0.04 user, 0.02 sys, 0.00 elapsed, 277276.0 kbytes
+ INFO (ASSREXT-35321): *** Command L447 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 109 
+
+stamp -V -B -i np_rmetal1_0conn cont_0ndiff_metal1_0conn_ndiff_0conn 
+INFO (ASSREXT-35316): ****** For command L449 on processor #1:
+
+  stamp took  0.03 user, 0.02 sys, 0.00 elapsed, 277176.0 kbytes
+ INFO (ASSREXT-35321): *** Command L449 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 108 
+
+stamp -V -B -i np_rmetal1_0conn cont_0pdiff_metal1_0conn_pdiff_0conn 
+INFO (ASSREXT-35316): ****** For command L451 on processor #1:
+
+  stamp took  0.04 user, 0.02 sys, 0.00 elapsed, 277068.0 kbytes
+ INFO (ASSREXT-35321): *** Command L451 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 107 
+
+geom -V np_rVia1,p_rVia1 - rVia1,1,i,1 
+INFO (ASSREXT-35316): ****** For command L438 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6672.0 kbytes
+ INFO (ASSREXT-35321): *** Command L438 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 106 
+
+geom -V np_rVia2,p_rVia2 - rVia2,1,i,1 
+INFO (ASSREXT-35316): ****** For command L440 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6640.0 kbytes
+ INFO (ASSREXT-35321): *** Command L440 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 105 
+
+geom -V np_rVia3,p_rVia3 - rVia3,1,i,1 
+INFO (ASSREXT-35316): ****** For command L442 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6672.0 kbytes
+ INFO (ASSREXT-35321): *** Command L442 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 104 
+
+geom -V np_rVia4,p_rVia4 - rVia4,1,i,1 
+INFO (ASSREXT-35316): ****** For command L444 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6676.0 kbytes
+ INFO (ASSREXT-35321): *** Command L444 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 103 
+
+geom -V np_rVia5,p_rVia5 - rVia5,1,i,1 
+INFO (ASSREXT-35316): ****** For command L446 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6624.0 kbytes
+ INFO (ASSREXT-35321): *** Command L446 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 102 
+
+geom -V np_rcont_0poly,p_rcont_0poly - rcont_0poly,1,i,1 
+INFO (ASSREXT-35316): ****** For command L448 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6672.0 kbytes
+ INFO (ASSREXT-35321): *** Command L448 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 101 
+
+INFO (ASSREXT-35299): *** L430 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 100
+
+INFO (ASSREXT-35299): *** L431 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 99
+
+INFO (ASSREXT-35299): *** L450 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 98
+
+INFO (ASSREXT-35299): *** L452 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 97
+
+INFO (ASSREXT-35299): *** L453 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 96
+
+INFO (ASSREXT-35299): *** L454 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 95
+
+INFO (ASSREXT-35299): *** L455 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 94
+
+INFO (ASSREXT-35299): *** L456 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 93
+
+INFO (ASSREXT-35299): *** L462 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 92
+
+geom np_rndiff_0conn,p_rndiff_0conn - ndiff_0conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L463 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L463 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 91 
+
+epick -c -f floatlvsnetsfile ndiff_0conn ndiff_0conn 
+INFO (ASSREXT-35316): ****** For command L464 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L464 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 90 
+
+INFO (ASSREXT-35299): *** L465 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 89
+
+geom np_rnwell_0conn,p_rnwell_0conn - nwell_0conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L466 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L466 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 88 
+
+epick -c -f floatlvsnetsfile nwell_0conn nwell_0conn 
+INFO (ASSREXT-35316): ****** For command L467 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L467 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 87 
+
+INFO (ASSREXT-35299): *** L468 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 86
+
+geom np_rpdiff_0conn,p_rpdiff_0conn - pdiff_0conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L469 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L469 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 85 
+
+epick -c -f floatlvsnetsfile pdiff_0conn pdiff_0conn 
+INFO (ASSREXT-35316): ****** For command L470 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L470 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 84 
+
+INFO (ASSREXT-35299): *** L471 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 83
+
+geom np_rpoly_0conn,p_rpoly_0conn - poly_0conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L472 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L472 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 82 
+
+epick -c -f floatlvsnetsfile poly_0conn poly_0conn 
+INFO (ASSREXT-35316): ****** For command L473 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L473 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 81 
+
+INFO (ASSREXT-35299): *** L474 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 80
+
+geom np_rpsubstrate,p_rpsubstrate - psubstrate,1,i,1 
+INFO (ASSREXT-35316): ****** For command L475 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L475 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 79 
+
+epick -c -f floatlvsnetsfile psubstrate psubstrate 
+INFO (ASSREXT-35316): ****** For command L476 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L476 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 78 
+
+reconnect -V -n NET -se2 mwires.res -t _0nmos1v.trans:_0nmos1v.transr _0nmos1v ndiff_0conn,_0nmos1v_mgvia,psubstrate -t _0pmos1v.trans:_0pmos1v.transr _0pmos1v pdiff_0conn,_0pmos1v_mgvia,nwell_0conn 
+INFO (ASSREXT-35315): ****** For command L482:
+
+  reconnect took 0.27 user, 0.03 sys, 0.00 elapsed, 290240.0 kbytes
+ INFO (ASSREXT-35320): *** Command L482 'reconnect' finished
+
+INFO (ASSREXT-35323): tasks left are 77 
+
+grow -V .001 ndiff_0conn mask 
+INFO (ASSREXT-35316): ****** For command L520 on processor #1:
+
+  grow took  0.00 user, 0.00 sys, 0.00 elapsed, 5956.0 kbytes
+ INFO (ASSREXT-35321): *** Command L520 'grow' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 76 
+
+geom -V pdiff_0conn mask - pdiff_0conn,10,i,1 
+INFO (ASSREXT-35316): ****** For command L521 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6616.0 kbytes
+ INFO (ASSREXT-35321): *** Command L521 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 75 
+
+geom -V ndiff_0conn,pdiff_0conn - Oxide,1,i,1 
+INFO (ASSREXT-35316): ****** For command L522 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6724.0 kbytes
+ INFO (ASSREXT-35321): *** Command L522 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 74 
+
+geom -V p_rpoly_0conn,np_rpoly_0conn - poly_conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L496 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6632.0 kbytes
+ INFO (ASSREXT-35321): *** Command L496 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 73 
+
+geom -V p_rmetal1_0conn,np_rmetal1_0conn - metal1_conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L499 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6548.0 kbytes
+ INFO (ASSREXT-35321): *** Command L499 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 72 
+
+geom -V p_rmetal2_0conn,np_rmetal2_0conn - metal2_conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L502 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6748.0 kbytes
+ INFO (ASSREXT-35321): *** Command L502 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 71 
+
+geom -V p_rmetal3_0conn,np_rmetal3_0conn - metal3_conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L505 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6632.0 kbytes
+ INFO (ASSREXT-35321): *** Command L505 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 70 
+
+geom -V p_rmetal4_0conn,np_rmetal4_0conn - metal4_conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L508 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6588.0 kbytes
+ INFO (ASSREXT-35321): *** Command L508 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 69 
+
+geom -V p_rmetal5_0conn,np_rmetal5_0conn - metal5_conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L511 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6704.0 kbytes
+ INFO (ASSREXT-35321): *** Command L511 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 68 
+
+geom -V p_rmetal6_0conn,np_rmetal6_0conn - metal6_conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L514 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 1.00 elapsed, 6776.0 kbytes
+ INFO (ASSREXT-35321): *** Command L514 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 67 
+
+createEmptyLayer metal11_conn 
+INFO (ASSREXT-35316): ****** For command L523 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L523 'createEmptyLayer' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 66 
+
+createEmptyLayer metal10_conn 
+INFO (ASSREXT-35316): ****** For command L524 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L524 'createEmptyLayer' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 65 
+
+createEmptyLayer metal9_conn 
+INFO (ASSREXT-35316): ****** For command L525 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L525 'createEmptyLayer' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 64 
+
+createEmptyLayer metal8_conn 
+INFO (ASSREXT-35316): ****** For command L526 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L526 'createEmptyLayer' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 63 
+
+createEmptyLayer metal7_conn 
+INFO (ASSREXT-35316): ****** For command L527 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L527 'createEmptyLayer' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 62 
+
+geom _0nmos1v,_0pmos1v - qrcgate,1,i,1 
+INFO (ASSREXT-35316): ****** For command L554 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L554 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 61 
+
+geom -V -i p_rpoly_0conn,np_rpoly_0conn - so_poly_conn,1,n 
+INFO (ASSREXT-35316): ****** For command L495 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6652.0 kbytes
+ INFO (ASSREXT-35321): *** Command L495 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 60 
+
+geom -V -i p_rmetal1_0conn,np_rmetal1_0conn - so_metal1_conn,1,n 
+INFO (ASSREXT-35316): ****** For command L498 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6668.0 kbytes
+ INFO (ASSREXT-35321): *** Command L498 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 59 
+
+geom -V -i p_rmetal2_0conn,np_rmetal2_0conn - so_metal2_conn,1,n 
+INFO (ASSREXT-35316): ****** For command L501 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6600.0 kbytes
+ INFO (ASSREXT-35321): *** Command L501 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 58 
+
+geom -V -i p_rmetal3_0conn,np_rmetal3_0conn - so_metal3_conn,1,n 
+INFO (ASSREXT-35316): ****** For command L504 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6504.0 kbytes
+ INFO (ASSREXT-35321): *** Command L504 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 57 
+
+geom -V -i p_rmetal4_0conn,np_rmetal4_0conn - so_metal4_conn,1,n 
+INFO (ASSREXT-35316): ****** For command L507 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6656.0 kbytes
+ INFO (ASSREXT-35321): *** Command L507 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 56 
+
+geom -V -i p_rmetal5_0conn,np_rmetal5_0conn - so_metal5_conn,1,n 
+INFO (ASSREXT-35316): ****** For command L510 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6508.0 kbytes
+ INFO (ASSREXT-35321): *** Command L510 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 55 
+
+geom -V -i p_rmetal6_0conn,np_rmetal6_0conn - so_metal6_conn,1,n 
+INFO (ASSREXT-35316): ****** For command L513 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6588.0 kbytes
+ INFO (ASSREXT-35321): *** Command L513 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 54 
+
+changeTransFileNameAP _0nmos1v.trans _0nmos1v.transr 
+INFO (ASSREXT-35316): ****** For command L486 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L486 'changeTransFileNameAP' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 53 
+
+changeTransFileNameAP _0pmos1v.trans _0pmos1v.transr 
+INFO (ASSREXT-35316): ****** For command L487 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L487 'changeTransFileNameAP' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 52 
+
+netprint -max NET 
+INFO (ASSREXT-35316): ****** For command L488 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L488 'netprint' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 51 
+
+emerge -V _0nmos1v _0pmos1v allGate 
+INFO (ASSREXT-35316): ****** For command L782 on processor #1:
+
+  emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 5840.0 kbytes
+ INFO (ASSREXT-35321): *** Command L782 'emerge' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 50 
+
+INFO (ASSREXT-35299): *** L533 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 49
+
+geom -V p_rnwell_0conn,np_rnwell_0conn - nwell_0conn,1,i,1 
+INFO (ASSREXT-35316): ****** For command L534 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6636.0 kbytes
+ INFO (ASSREXT-35321): *** Command L534 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 48 
+
+grow -V 0.001 nwell_0conn g_nwell_0conn 
+INFO (ASSREXT-35316): ****** For command L538 on processor #1:
+
+  grow took  0.00 user, 0.00 sys, 0.00 elapsed, 5960.0 kbytes
+ INFO (ASSREXT-35321): *** Command L538 'grow' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 47 
+
+INFO (ASSREXT-35299): *** L535 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 46
+
+geom -V p_rpsubstrate,np_rpsubstrate - psubstrate,1,i,1 
+INFO (ASSREXT-35316): ****** For command L536 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6696.0 kbytes
+ INFO (ASSREXT-35321): *** Command L536 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 45 
+
+INFO (ASSREXT-35299): *** L537 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 44
+
+geom -V psubstrate g_nwell_0conn - psubstrate,10,i,1 
+INFO (ASSREXT-35316): ****** For command L539 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6772.0 kbytes
+ INFO (ASSREXT-35321): *** Command L539 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 43 
+
+xytoebbox -V -g 10.002 -e metal11_conn,metal10_conn,metal9_conn,metal8_conn,metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,nwell_0conn,psubstrate xg_FOX 
+INFO (ASSREXT-35316): ****** For command L542 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L542 'xytoebbox' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 42 
+
+geom -V nwell_0conn,psubstrate - FOX,1,i,1 
+INFO (ASSREXT-35316): ****** For command L541 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6700.0 kbytes
+ INFO (ASSREXT-35321): *** Command L541 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 41 
+
+grow -V 0.001 FOX g_FOX 
+INFO (ASSREXT-35316): ****** For command L543 on processor #1:
+
+  grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6012.0 kbytes
+ INFO (ASSREXT-35321): *** Command L543 'grow' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 40 
+
+geom -V xg_FOX g_FOX - tmp_FOX,10 
+INFO (ASSREXT-35316): ****** For command L544 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6656.0 kbytes
+ INFO (ASSREXT-35321): *** Command L544 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 39 
+
+epick -V -reo -D 4 tmp_FOX pick_FOX 
+INFO (ASSREXT-35316): ****** For command L545 on processor #1:
+
+  epick took  0.00 user, 0.00 sys, 0.00 elapsed, 5988.0 kbytes
+ INFO (ASSREXT-35321): *** Command L545 'epick' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 38 
+
+grow -V -m 0.002 pick_FOX g_pick_FOX 
+INFO (ASSREXT-35316): ****** For command L546 on processor #1:
+
+  grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6000.0 kbytes
+   geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6644.0 kbytes
+ INFO (ASSREXT-35321): *** Command L546 'grow' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 37 
+
+stamp -i FOX g_pick_FOX 
+INFO (ASSREXT-35316): ****** For command L547 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L547 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 36 
+
+grow -V -m -0.002 g_pick_FOX pick_FOX 
+INFO (ASSREXT-35316): ****** For command L548 on processor #1:
+
+  grow took  0.00 user, 0.00 sys, 0.00 elapsed, 6060.0 kbytes
+   sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 6404.0 kbytes
+   geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6552.0 kbytes
+ INFO (ASSREXT-35321): *** Command L548 'grow' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 35 
+
+emerge -V pick_FOX FOX tmp1_FOX 
+INFO (ASSREXT-35316): ****** For command L549 on processor #1:
+
+  emerge took 0.00 user, 0.00 sys, 0.00 elapsed, 5664.0 kbytes
+ INFO (ASSREXT-35321): *** Command L549 'emerge' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 34 
+
+geom -V tmp1_FOX - FOX,1,i,1 
+INFO (ASSREXT-35316): ****** For command L550 on processor #1:
+
+  geom took  0.00 user, 0.00 sys, 0.00 elapsed, 6536.0 kbytes
+ INFO (ASSREXT-35321): *** Command L550 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 33 
+
+geom -V FOX Oxide - FOX,10,i,1 
+INFO (ASSREXT-35316): ****** For command L552 on processor #1:
+
+  geom took  0.00 user, 0.01 sys, 0.00 elapsed, 6712.0 kbytes
+ INFO (ASSREXT-35321): *** Command L552 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 32 
+
+INFO (ASSREXT-35299): *** L560 'mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 31
+
+INFO (ASSREXT-35299): *** L551 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 30
+
+INFO (ASSREXT-35299): *** L540 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 29
+
+INFO (ASSREXT-35299): *** L553 '/bin/cp' executed directly
+
+INFO (ASSREXT-35307): tasks left are 28
+
+Capacitance data preparation stage took  0.74 user, 1.05 sys, 3.00 elapsed, 8976.0 kbytes
+INFO (ASSREXT-35334): Capacitance data preparation stage completed successfully at Sun Dec  7 11:13:52 2025
+
+INFO (ASSREXT-35335): pax16 started at Sun Dec  7 11:13:52 2025
+
+pax16 -V -lee_off -delete_unused_files rm_files_in_pax16 -gnd 4 -ignore_cf_table -scf sip.cmd -cgnd 4,1.0 -rcxlvs rcxtolvsmapfile -M_perim_off -c /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical/qrcTechFile -f FOX Oxide poly_conn:poly_conn_cut metal1_conn:metal1_conn_cut metal2_conn:metal2_conn_cut metal3_conn:metal3_conn_cut metal4_conn:metal4_conn_cut metal5_conn:metal5_conn_cut metal6_conn:metal6_conn_cut metal7_conn metal8_conn metal9_conn metal10_conn metal11_conn allGate - /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical/qrcTechFile - - NET - capfile 
+INFO (ASSREXT-35315): ****** For command L788:
+
+  pax16 took  0.39 user, 0.60 sys, 4.00 elapsed, 161484.0 kbytes
+ INFO (ASSREXT-35320): *** Command L788 'pax16' finished
+
+C stage took 0.40 user, 0.64 sys, 5.00 elapsed, 8976.0 kbytes
+INFO (ASSREXT-35336): pax16 completed successfully at Sun Dec  7 11:13:57 2025
+
+INFO (ASSREXT-35337): Output stage started at Sun Dec  7 11:13:57 2025
+
+INFO (ASSREXT-35323): tasks left are 27 
+
+xreduce -V -mergecap -n NET -tech /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical -d1 -e metal11_conn,metal10_conn,metal9_conn,metal8_conn,metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX,np_rndiff_0conn,np_rpdiff_0conn,np_rnwell_0conn,np_rpsubstrate,rVia1,rVia2,rVia3,rVia4,rVia5,rcont_0poly -decoupled -sr -danglingR -minR 0.001 -rPvia rVia5.res,rVia4.res,rVia3.res,rVia2.res,rVia1.res,rcont_0poly.res,rcont_0pdiff_metal1_0conn_pdiff_0conn.res,rcont_0ndiff_metal1_0conn_ndiff_0conn.res -rP np_rpoly_0conn.res,np_rmetal1_0conn.res,np_rmetal2_0conn.res,np_rmetal3_0conn.res,np_rmetal4_0conn.res,np_rmetal5_0conn.res,np_rmetal6_0conn.res,mwires.res -cap capfile L1T0 _0nmos1v.transr _0pmos1v.transr 
+INFO (ASSREXT-35315): ****** For command L809:
+
+  INFO (XREDUCE-199107): Total number of resistors is 80
+   
+   INFO (XREDUCE-199108): d1 option renamed 0 nets
+   
+   INFO (XREDUCE-199109): minR option removed 2 resistors (3%)
+   
+   INFO (XREDUCE-199054): Total number of capacitors in capfile is 58
+   
+   INFO (XREDUCE-199052): mergecap required for 22 (3%) of 656 nets
+   
+   INFO (XREDUCE-199113): danglingR option removed 12 resistors
+   
+   INFO (XREDUCE-199107): Total number of resistors is 50
+   
+   INFO (XREDUCE-199108): d1 option renamed 2 nets
+   
+   INFO (XREDUCE-199054): Total number of capacitors in capfile is 51
+   
+   xreduce took 0.29 user, 1.65 sys, 3.00 elapsed, 35776.0 kbytes
+ INFO (ASSREXT-35320): *** Command L809 'xreduce' finished
+
+INFO (ASSREXT-35323): tasks left are 26 
+
+advgen -V -g0 -li -f -n -o HSPICE -TL L1T0 -cgnd 4,1.0 -dxref /home/ecegridfs/a/559mg81/pvs/svdb/XOR/XOR.gdx -nxref /home/ecegridfs/a/559mg81/pvs/svdb/XOR/XOR.gnx -addprefix -sc caps2dversion -mx capfile metal11_conn,metal10_conn,metal9_conn,metal8_conn,metal7_conn,metal6_conn,metal5_conn,metal4_conn,metal3_conn,metal2_conn,metal1_conn,poly_conn,Oxide,FOX -rPmw res.mod np_rmetal6_0conn.res,Rnp_rmetal6_0conn.dev2 np_rmetal5_0conn.res,Rnp_rmetal5_0conn.dev2 np_rmetal4_0conn.res,Rnp_rmetal4_0conn.dev2 np_rmetal3_0conn.res,Rnp_rmetal3_0conn.dev2 np_rmetal2_0conn.res,Rnp_rmetal2_0conn.dev2 np_rmetal1_0conn.res,Rnp_rmetal1_0conn.dev2 np_rpoly_0conn.res,Rnp_rpoly_0conn.dev2 rVia5.res,RrVia5.dev2 rVia4.res,RrVia4.dev2 rVia3.res,RrVia3.dev2 rVia2.res,RrVia2.dev2 rVia1.res,RrVia1.dev2 rcont_0poly.res,Rrcont_0poly.dev2 rcont_0pdiff_metal1_0conn_pdiff_0conn.res,Rrcont_0pdiff_metal1_0conn_pdiff_0conn.dev2 rcont_0ndiff_metal1_0conn_ndiff_0conn.res,Rrcont_0ndiff_metal1_0conn_ndiff_0conn.dev2 -rPmw mwires.mod mwires.res,mwires.dev2 -ta lvsmos.mod,_0nmos1v.net _0nmos1v.transr -ta lvsmos.mod,_0pmos1v.net _0pmos1v.transr - NET - /home/ecegridfs/a/559mg81/pvs/svdb/XOR/extview.tmp 
+INFO (ASSREXT-35315): ****** For command L822:
+
+  advgen took:  0.35 user, 0.60 sys, 1.00 elapsed, 38964.0 kbytes
+ INFO (ASSREXT-35320): *** Command L822 'advgen' finished
+
+INFO (ASSREXT-35323): tasks left are 25 
+
+geom metal1_conn np_rmetal1_0conn - np_rmetal1_0conn,11,i,1 
+INFO (ASSREXT-35316): ****** For command L851 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L851 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 24 
+
+ereduce rcont_0ndiff_metal1_0conn_ndiff_0conn rcont_0ndiff_metal1_0conn_ndiff_0conn.reduce 
+INFO (ASSREXT-35316): ****** For command L859 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L859 'ereduce' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 23 
+
+ereduce rcont_0pdiff_metal1_0conn_pdiff_0conn rcont_0pdiff_metal1_0conn_pdiff_0conn.reduce 
+INFO (ASSREXT-35316): ****** For command L864 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L864 'ereduce' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 22 
+
+stamp -i np_rmetal1_0conn rcont_0ndiff_metal1_0conn_ndiff_0conn.reduce 
+INFO (ASSREXT-35316): ****** For command L860 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L860 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 21 
+
+stamp -i np_rmetal1_0conn rcont_0pdiff_metal1_0conn_pdiff_0conn.reduce 
+INFO (ASSREXT-35316): ****** For command L865 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L865 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 20 
+
+geom metal6_conn np_rmetal6_0conn - np_rmetal6_0conn,11,i,1 
+INFO (ASSREXT-35316): ****** For command L846 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L846 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 19 
+
+geom metal5_conn np_rmetal5_0conn - np_rmetal5_0conn,11,i,1 
+INFO (ASSREXT-35316): ****** For command L847 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L847 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 18 
+
+geom metal4_conn np_rmetal4_0conn - np_rmetal4_0conn,11,i,1 
+INFO (ASSREXT-35316): ****** For command L848 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L848 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 17 
+
+geom metal3_conn np_rmetal3_0conn - np_rmetal3_0conn,11,i,1 
+INFO (ASSREXT-35316): ****** For command L849 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L849 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 16 
+
+geom metal2_conn np_rmetal2_0conn - np_rmetal2_0conn,11,i,1 
+INFO (ASSREXT-35316): ****** For command L850 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L850 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 15 
+
+stamp -i rcont_0ndiff_metal1_0conn_ndiff_0conn.reduce rcont_0ndiff_metal1_0conn_ndiff_0conn 
+INFO (ASSREXT-35316): ****** For command L861 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L861 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 14 
+
+stamp -i rcont_0pdiff_metal1_0conn_pdiff_0conn.reduce rcont_0pdiff_metal1_0conn_pdiff_0conn 
+INFO (ASSREXT-35316): ****** For command L866 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L866 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 13 
+
+stamp -i2 np_rmetal1_0conn rcont_0poly np_rcont_0poly 
+INFO (ASSREXT-35316): ****** For command L858 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L858 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 12 
+
+stamp -i2 np_rmetal6_0conn rVia5 np_rVia5 
+INFO (ASSREXT-35316): ****** For command L857 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L857 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 11 
+
+stamp -i2 np_rmetal5_0conn rVia4 np_rVia4 
+INFO (ASSREXT-35316): ****** For command L856 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L856 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 10 
+
+stamp -i2 np_rmetal4_0conn rVia3 np_rVia3 
+INFO (ASSREXT-35316): ****** For command L855 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L855 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 9 
+
+stamp -i2 np_rmetal3_0conn rVia2 np_rVia2 
+INFO (ASSREXT-35316): ****** For command L854 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L854 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 8 
+
+stamp -i2 np_rmetal2_0conn rVia1 np_rVia1 
+INFO (ASSREXT-35316): ****** For command L853 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L853 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 7 
+
+geom poly_conn np_rpoly_0conn - np_rpoly_0conn,11,i,1 
+INFO (ASSREXT-35316): ****** For command L852 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L852 'geom' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 6 
+
+stamp -i rcont_0ndiff_metal1_0conn_ndiff_0conn cont_0ndiff_metal1_0conn_ndiff_0conn 
+INFO (ASSREXT-35316): ****** For command L862 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L862 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 5 
+
+stamp -i rcont_0pdiff_metal1_0conn_pdiff_0conn cont_0pdiff_metal1_0conn_pdiff_0conn 
+INFO (ASSREXT-35316): ****** For command L867 on processor #1:
+
+INFO (ASSREXT-35321): *** Command L867 'stamp' finished on processor #1
+
+INFO (ASSREXT-35323): tasks left are 4 
+
+INFO (ASSREXT-35299): *** L869 'mv' executed directly
+
+INFO (ASSREXT-35307): tasks left are 3
+
+INFO (ASSREXT-35299): *** L899 'cat' executed directly
+
+INFO (ASSREXT-35307): tasks left are 2
+
+INFO (ASSREXT-35299): *** L863 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 1
+
+INFO (ASSREXT-35299): *** L868 '/bin/rm' executed directly
+
+INFO (ASSREXT-35307): tasks left are 0
+
+Output stage took  1.19 user, 2.84 sys, 6.00 elapsed, 8984.0 kbytes
+INFO (ASSREXT-35338): Output stage completed successfully at Sun Dec  7 11:14:03 2025
+
+assura_rcx took:  0.00 user, 0.00 sys, 0.00 elapsed, 8984.0 kbytes
+INFO (LBRCXM-610): Extraction finished.
+
+INFO (LBRCXU-108): Starting
+
+ runUserCmd /package/eda/cadence/IC231.11/bin/qrcToDfII -extract both -run_name XOR -cdlout_run_dir /home/ecegridfs/a/559mg81/pvs -check_cell_view TRUE -device_finger_delimiter @ -extracted_view av_extracted -lvs_source agds -cap_models no -capacitor pcapacitor -res_models no -resistor presistor -cap_prop_name c -res_prop_name r -transfer_net_expression TRUE -extview_tmp /home/ecegridfs/a/559mg81/pvs/svdb/XOR/extview.tmp -run_dir /home/ecegridfs/a/559mg81/pvs/svdb/XOR -cdslib /home/ecegridfs/a/559mg81/cds.lib -lib_name tutorial -cell_name XOR -view_name layout -extview_rul /package/eda/cadence/gpdk045/gpdk045_v_6_0/pvs/extview.rul -server /package/eda2/cadence/QUANTUS2311/tools/extraction/bin/64bit/../shapeServer
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+device        g45n1svt  M          _nmos1v          nmos1v  ivpcell     gpdk045  D G S B
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 6.0 (09-September-2019)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+device        g45n1hvt  M      _nmos1v_hvt      nmos1v_hvt  ivpcell     gpdk045  D G S B
+device        g45n1lvt  M      _nmos1v_lvt      nmos1v_lvt  ivpcell     gpdk045  D G S B
+device        g45n1nvt  M  _nmos_12_native      nmos1v_nat  ivpcell     gpdk045  D G S B
+device        g45n2svt  M         _nmos_25          nmos2v  ivpcell     gpdk045  D G S B
+device        g45n2nvt  M  _nmos_25_native      nmos2v_nat  ivpcell     gpdk045  D G S B
+device        g45ncap1  M       _nmoscap1v       nmoscap1v  ivpcell     gpdk045  D G S B
+device        g45ncap2  M       _nmoscap2v       nmoscap2v  ivpcell     gpdk045  D G S B
+device        g45p1svt  M          _pmos1v          pmos1v  ivpcell     gpdk045  D G S B
+device        g45p1hvt  M      _pmos1v_hvt      pmos1v_hvt  ivpcell     gpdk045  D G S B
+device        g45p1lvt  M      _pmos1v_lvt      pmos1v_lvt  ivpcell     gpdk045  D G S B
+device        g45p2svt  M          _pmos2v          pmos2v  ivpcell     gpdk045  D G S B
+device        g45pcap1  M       _pmoscap1v       pmoscap1v  ivpcell     gpdk045  D G S B
+device        g45pcap2  M       _pmoscap2v       pmoscap2v  ivpcell     gpdk045  D G S B
+device          g45rm1  R           _resm1           resm1  ivpcell     gpdk045  PLUS MINUS
+device          g45rm2  R           _resm2           resm2  ivpcell     gpdk045  PLUS MINUS
+device          g45rm3  R           _resm3           resm3  ivpcell     gpdk045  PLUS MINUS
+device          g45rm4  R           _resm4           resm4  ivpcell     gpdk045  PLUS MINUS
+device          g45rm5  R           _resm5           resm5  ivpcell     gpdk045  PLUS MINUS
+device          g45rm6  R           _resm6           resm6  ivpcell     gpdk045  PLUS MINUS
+device          g45rm7  R           _resm7           resm7  ivpcell     gpdk045  PLUS MINUS
+device          g45rm8  R           _resm8           resm8  ivpcell     gpdk045  PLUS MINUS
+device          g45rm9  R           _resm9           resm9  ivpcell     gpdk045  PLUS MINUS
+device         g45rm10  R          _resm10          resm10  ivpcell     gpdk045  PLUS MINUS
+device         g45rm11  R          _resm11          resm11  ivpcell     gpdk045  PLUS MINUS
+device         g45rsnd  R       _ressndiff       ressndiff  ivpcell     gpdk045  PLUS MINUS B
+device        g45rnsnd  R      _resnsndiff      resnsndiff  ivpcell     gpdk045  PLUS MINUS B
+device         g45rsnp  R       _ressnpoly       ressnpoly  ivpcell     gpdk045  PLUS MINUS B
+device         g45rsnp  R    _ressnpoly_nw       ressnpoly  ivpcell     gpdk045  PLUS MINUS B
+device        g45rnsnp  R      _resnsnpoly      resnsnpoly  ivpcell     gpdk045  PLUS MINUS B
+device        g45rnsnp  R   _resnsnpoly_nw      resnsnpoly  ivpcell     gpdk045  PLUS MINUS B
+device         g45rspd  R       _resspdiff       resspdiff  ivpcell     gpdk045  PLUS MINUS B
+device        g45rnspd  R      _resnspdiff      resnspdiff  ivpcell     gpdk045  PLUS MINUS B
+device         g45rspp  R       _ressppoly       ressppoly  ivpcell     gpdk045  PLUS MINUS B
+device         g45rspp  R    _ressppoly_nw       ressppoly  ivpcell     gpdk045  PLUS MINUS B
+device        g45rnspp  R      _resnsppoly      resnsppoly  ivpcell     gpdk045  PLUS MINUS B
+device        g45rnspp  R   _resnsppoly_nw      resnsppoly  ivpcell     gpdk045  PLUS MINUS B
+device         g45rnws  R        _resnwsti        resnwsti  ivpcell     gpdk045  PLUS MINUS B
+device         g45rnwo  R      _resnwoxide      resnwoxide  ivpcell     gpdk045  PLUS MINUS B
+device       g45nd1svt  D            _ndio            ndio  ivpcell     gpdk045  PLUS MINUS
+device       g45nd1lvt  D        _ndio_lvt        ndio_lvt  ivpcell     gpdk045  PLUS MINUS
+device       g45nd1hvt  D        _ndio_hvt        ndio_hvt  ivpcell     gpdk045  PLUS MINUS
+device       g45nd1nvt  D        _ndio_nvt        ndio_nvt  ivpcell     gpdk045  PLUS MINUS
+device       g45nd2svt  D         _ndio_2v         ndio_2v  ivpcell     gpdk045  PLUS MINUS
+device       g45nd2nvt  D     _ndio_2v_nvt     ndio_2v_nvt  ivpcell     gpdk045  PLUS MINUS
+device       g45pd1svt  D            _pdio            pdio  ivpcell     gpdk045  PLUS MINUS
+device       g45pd1lvt  D        _pdio_lvt        pdio_lvt  ivpcell     gpdk045  PLUS MINUS
+device       g45pd1hvt  D        _pdio_hvt        pdio_hvt  ivpcell     gpdk045  PLUS MINUS
+device       g45pd2svt  D         _pdio_2v         pdio_2v  ivpcell     gpdk045  PLUS MINUS
+device        g45vpnp2  Q           _vpnp2           vpnp2  ivpcell     gpdk045  C B E
+device        g45vpnp5  Q           _vpnp5           vpnp5  ivpcell     gpdk045  C B E
+device       g45vpnp10  Q          _vpnp10          vpnp10  ivpcell     gpdk045  C B E
+device        g45vnpn2  Q            _npn2            npn2  ivpcell     gpdk045  C B E
+device        g45vnpn5  Q            _npn5            npn5  ivpcell     gpdk045  C B E
+device       g45vnpn10  Q           _npn10           npn10  ivpcell     gpdk045  C B E
+device         g45cmim  C          _mimcap          mimcap  ivpcell     gpdk045  PLUS MINUS B
+device         g45inda  X           _ind_a           ind_a  ivpcell     gpdk045  PLUS MINUS B
+device         g45inds  X           _ind_s           ind_s  ivpcell     gpdk045  PLUS MINUS B
+Loading CDLOUT map files for /home/ecegridfs/a/559mg81/pvs
+
+Creating extracted view for XOR
+
+Save recognition layer _nmos1v
+Layer _nmos1v has 4 shapes.
+Save recognition layer _nmos1v_hvt
+Layer _nmos1v_hvt has 0 shapes.
+Save recognition layer _nmos1v_lvt
+Layer _nmos1v_lvt has 0 shapes.
+Save recognition layer _nmos_12_native
+Layer _nmos_12_native has 0 shapes.
+Save recognition layer _nmos_25
+Layer _nmos_25 has 0 shapes.
+Save recognition layer _nmos_25_native
+Layer _nmos_25_native has 0 shapes.
+Save recognition layer _nmoscap1v
+Layer _nmoscap1v has 0 shapes.
+Save recognition layer _nmoscap2v
+Layer _nmoscap2v has 0 shapes.
+Save recognition layer _pmos1v
+Layer _pmos1v has 4 shapes.
+Save recognition layer _pmos1v_hvt
+Layer _pmos1v_hvt has 0 shapes.
+Save recognition layer _pmos1v_lvt
+Layer _pmos1v_lvt has 0 shapes.
+Save recognition layer _pmos2v
+Layer _pmos2v has 0 shapes.
+Save recognition layer _pmoscap1v
+Layer _pmoscap1v has 0 shapes.
+Save recognition layer _pmoscap2v
+Layer _pmoscap2v has 0 shapes.
+Save recognition layer _resm1
+Layer _resm1 has 0 shapes.
+Save recognition layer _resm2
+Layer _resm2 has 0 shapes.
+Save recognition layer _resm3
+Layer _resm3 has 0 shapes.
+Save recognition layer _resm4
+Layer _resm4 has 0 shapes.
+Save recognition layer _resm5
+Layer _resm5 has 0 shapes.
+Save recognition layer _resm6
+Layer _resm6 has 0 shapes.
+Save recognition layer _resm7
+Layer _resm7 has 0 shapes.
+Save recognition layer _resm8
+Layer _resm8 has 0 shapes.
+Save recognition layer _resm9
+Layer _resm9 has 0 shapes.
+Save recognition layer _resm10
+Layer _resm10 has 0 shapes.
+Save recognition layer _resm11
+Layer _resm11 has 0 shapes.
+Save recognition layer _ressndiff
+Layer _ressndiff has 0 shapes.
+Save recognition layer _resnsndiff
+Layer _resnsndiff has 0 shapes.
+Save recognition layer _ressnpoly
+Layer _ressnpoly has 0 shapes.
+Save recognition layer _ressnpoly_nw
+Layer _ressnpoly_nw has 0 shapes.
+Save recognition layer _resnsnpoly
+Layer _resnsnpoly has 0 shapes.
+Save recognition layer _resnsnpoly_nw
+Layer _resnsnpoly_nw has 0 shapes.
+Save recognition layer _resspdiff
+Layer _resspdiff has 0 shapes.
+Save recognition layer _resnspdiff
+Layer _resnspdiff has 0 shapes.
+Save recognition layer _ressppoly
+Layer _ressppoly has 0 shapes.
+Save recognition layer _ressppoly_nw
+Layer _ressppoly_nw has 0 shapes.
+Save recognition layer _resnsppoly
+Layer _resnsppoly has 0 shapes.
+Save recognition layer _resnsppoly_nw
+Layer _resnsppoly_nw has 0 shapes.
+Save recognition layer _resnwsti
+Layer _resnwsti has 0 shapes.
+Save recognition layer _resnwoxide
+Layer _resnwoxide has 0 shapes.
+Save recognition layer _ndio
+Layer _ndio has 0 shapes.
+Save recognition layer _ndio_lvt
+Layer _ndio_lvt has 0 shapes.
+Save recognition layer _ndio_hvt
+Layer _ndio_hvt has 0 shapes.
+Save recognition layer _ndio_nvt
+Layer _ndio_nvt has 0 shapes.
+Save recognition layer _ndio_2v
+Layer _ndio_2v has 0 shapes.
+Save recognition layer _ndio_2v_nvt
+Layer _ndio_2v_nvt has 0 shapes.
+Save recognition layer _pdio
+Layer _pdio has 0 shapes.
+Save recognition layer _pdio_lvt
+Layer _pdio_lvt has 0 shapes.
+Save recognition layer _pdio_hvt
+Layer _pdio_hvt has 0 shapes.
+Save recognition layer _pdio_2v
+Layer _pdio_2v has 0 shapes.
+Save recognition layer _vpnp2
+Layer _vpnp2 has 0 shapes.
+Save recognition layer _vpnp5
+Layer _vpnp5 has 0 shapes.
+Save recognition layer _vpnp10
+Layer _vpnp10 has 0 shapes.
+Save recognition layer _npn2
+Layer _npn2 has 0 shapes.
+Save recognition layer _npn5
+Layer _npn5 has 0 shapes.
+Save recognition layer _npn10
+Layer _npn10 has 0 shapes.
+Save recognition layer _mimcap
+Layer _mimcap has 0 shapes.
+Save recognition layer _ind_a
+Layer _ind_a has 0 shapes.
+Save recognition layer _ind_s
+Layer _ind_s has 0 shapes.
+Copying layer Bondpad
+Layer Bondpad has 0 shapes.
+Copying layer ind11
+Layer ind11 has 0 shapes.
+Copying layer CapMetal
+Layer CapMetal has 0 shapes.
+Copying layer via10_cap
+Layer via10_cap has 0 shapes.
+Copying layer metal10_conn
+Layer metal10_conn has 0 shapes.
+Copying layer via10_nocap
+Layer via10_nocap has 0 shapes.
+Copying layer ind10
+Layer ind10 has 0 shapes.
+Copying layer ind_via_diva
+Layer ind_via_diva has 0 shapes.
+Copying layer via10_nodev
+Layer via10_nodev has 0 shapes.
+Copying layer ind_ct
+Layer ind_ct has 0 shapes.
+Copying layer metal9_conn
+Layer metal9_conn has 0 shapes.
+Copying layer Via9
+Layer Via9 has 0 shapes.
+Copying layer metal8_conn
+Layer metal8_conn has 0 shapes.
+Copying layer Via8
+Layer Via8 has 0 shapes.
+Copying layer metal7_conn
+Layer metal7_conn has 0 shapes.
+Copying layer Via7
+Layer Via7 has 0 shapes.
+Copying layer metal6_conn
+Layer metal6_conn has 1 shapes.
+Copying layer Via6
+Layer Via6 has 0 shapes.
+Copying layer metal5_conn
+Layer metal5_conn has 1 shapes.
+Copying layer Via5
+Layer Via5 has 2 shapes.
+Copying layer metal4_conn
+Layer metal4_conn has 1 shapes.
+Copying layer Via4
+Layer Via4 has 2 shapes.
+Copying layer metal3_conn
+Layer metal3_conn has 1 shapes.
+Copying layer Via3
+Layer Via3 has 2 shapes.
+Copying layer metal2_conn
+Layer metal2_conn has 8 shapes.
+Copying layer Via2
+Layer Via2 has 2 shapes.
+Copying layer metal1_conn
+Layer metal1_conn has 41 shapes.
+Copying layer Via1
+Layer Via1 has 9 shapes.
+Copying layer poly_conn
+Layer poly_conn has 12 shapes.
+Copying layer cont_poly
+Layer cont_poly has 4 shapes.
+Copying layer pdiff_conn
+Layer pdiff_conn has 12 shapes.
+Copying layer pdiff_conn
+Layer pdiff_conn has 12 shapes.
+Copying layer cont_pdiff
+Layer cont_pdiff has 16 shapes.
+Copying layer npn_emit
+Layer npn_emit has 0 shapes.
+Copying layer cont_ndiff
+Layer cont_ndiff has 16 shapes.
+Copying layer ndiff_conn
+Layer ndiff_conn has 12 shapes.
+Copying layer ndiff_conn
+Layer ndiff_conn has 12 shapes.
+Copying layer pnp_emit
+Layer pnp_emit has 0 shapes.
+Copying layer psubstrate
+Layer psubstrate has 1 shapes.
+Copying layer nwell_conn
+Layer nwell_conn has 1 shapes.
+Copying layer Nburied
+Layer Nburied has 0 shapes.
+Copying layer nb_tap
+Layer nb_tap has 0 shapes.
+
+
+Summary for tutorial/XOR/av_extracted
+
+instance count totals:
+
+    lib              cell             view                    total
+    analogLib        pcapacitor       symbol                     45
+    analogLib        presistor        symbol                     50
+    gpdk045          nmos1v           ivpcell                     4
+    gpdk045          pmos1v           ivpcell                     4
+
+Extracted view creation has completed.
+INFO (LBRCXM-612): Done Executing :runUserCmd
+
+INFO (LBRCXM-582): Checking in license of QTS300 23.10
+
+INFO (LBRCXM-985): Summary:
+ Number of CPUs requested:		1
+ Techfile(s):
+    /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical/qrcTechFile; process name: GPDK45_typical
+ License(s) used:	QTS300 (x1)
+ Design data:
+    global nets:                  0
+    LVS nets:                     7
+    signal nets:                  7
+    floating nets:                0
+    ground net name:              gnd
+ Reduction statistics:
+    Dangling Rs removed:          12
+    Merged Parallel Rs:           0
+    Mfactor Merged Devices:       0
+    Rs shorted by min_res option: 2
+    Merged Parallel Self Caps:    0
+    CCs filtered by minC option:  0
+    Shorted Incomplete Nets:      0
+ Output statistics:
+    R: 50
+    C: 45
+    L: 0
+
+
+INFO (LBRCXM-920): Host name and peak memory report
+ Host Name:                    ececomp2.ecn.purdue.edu
+ Peak memory used:             195 MB (sampled at 15s intervals)
+
+INFO (LBRCXM-982): Floating net statistics in the design:
+
+   Total floating nets =  0
+     Total signal nets =  7
+         Total LVS net = 7
+
+INFO (LBRCXM-702): Run ended: Sun Dec  7 11:14:04 2025
+
+
+INFO (LBRCXM-805): Quantus run took:  9s user, 10s sys, 31s elapsed
+
+
+INFO (LBRCXM-708): *****  Quantus terminated normally  *****
+
+

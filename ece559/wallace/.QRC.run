@@ -1,0 +1,6 @@
+#!/bin/sh -f
+#--------------------------------------------------------------------------------------
+# THE RUN FILE created by Cadence Extraction Quantus UI Version 23.1.1-s276
+#--------------------------------------------------------------------------------------
+
+qrc  -log_file /home/ecegridfs/a/559mg81/wallace/pvs/svdb/qrc.WallaceProject2.log -cmd /home/ecegridfs/a/559mg81/wallace/pvs/svdb/qrc.WallaceProject2.ccl 

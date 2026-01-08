@@ -1,0 +1,27 @@
+#4                               
+MN: MN
+= D D
+= G G
+= S S
+= B B
+#4                               
+MP: MP
+= D D
+= G G
+= S S
+= B B
+#13                              
+HAdder: HAdder
+= bbar 11
+= abar 1
+= abar 14
+= a a
+= b b
+= carry carry
+= gnd gnd
+= sum sum
+= vdd vdd
+= net9 13
+= net4 6
+= net7 12
+= net11 8

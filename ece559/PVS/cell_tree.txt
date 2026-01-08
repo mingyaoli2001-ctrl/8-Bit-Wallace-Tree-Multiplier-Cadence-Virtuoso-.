@@ -1,0 +1,18 @@
+WallaceProject
+
+WallaceMultiplier
+	AND
+
+WallaceFinalAdder
+	HAdder
+	AND
+	XOR
+	4bit_CLA_logic
+
+WallaceProject
+	Diver
+	HAdder
+	WallaceMultiplier
+	FAdder
+	WallaceFinalAdder
+

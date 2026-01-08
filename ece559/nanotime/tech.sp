@@ -1,0 +1,5 @@
+*nanosim tech="direct"
+*nanosim tech="voltage 1.10"
+*nanosim tech="vds 0 1.10 0.02" *nanosim tech="vgs 0 1.10 0.02"
+.include "/package/eda/cells/FreePDK45/models/hspice/tran_models/models_nom/NMOS_VTL.inc"
+.include "/package/eda/cells/FreePDK45/models/hspice/tran_models/models_nom/PMOS_VTL.inc"

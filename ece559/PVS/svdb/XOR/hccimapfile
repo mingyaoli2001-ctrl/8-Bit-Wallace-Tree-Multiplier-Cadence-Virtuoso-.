@@ -1,0 +1,13 @@
+cont_poly cont_0poly
+metal1_conn metal1_0conn
+metal2_conn metal2_0conn
+metal3_conn metal3_0conn
+metal4_conn metal4_0conn
+metal5_conn metal5_0conn
+metal6_conn metal6_0conn
+nwell_conn nwell_0conn
+pdiff_conn pdiff_0conn
+cont_pdiff cont_0pdiff
+poly_conn poly_0conn
+ndiff_conn ndiff_0conn
+cont_ndiff cont_0ndiff

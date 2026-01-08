@@ -1,0 +1,14 @@
+#0                               
+MN: MN
+#0                               
+MP: MP
+#8                               
+XOR: XOR
+S XI1/MPM0 M3
+D XI1/MNM0 X17/M0
+D XI0/MPM0 M0
+D XI0/MNM0 X14/M0
+D MPM1 M1
+S MPM0 M2
+D MNM1 X16/M0
+D MNM0 X15/M0

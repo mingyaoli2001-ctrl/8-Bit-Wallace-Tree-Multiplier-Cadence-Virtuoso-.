@@ -1,0 +1,13 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary NAND
+% M1_PO_CDNS_758587431050 1
+% pmos1v_CDNS_758587431050 4
+% nmos1v_CDNS_758587431051 3
+% pmos1v_CDNS_758587431052 4
+% nmos1v_CDNS_758587431053 4
+% NAND 5
+1 Va
+2 Vb
+3 Vout
+4 Vdd
+5 GND

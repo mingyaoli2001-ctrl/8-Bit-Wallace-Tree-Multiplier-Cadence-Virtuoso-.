@@ -1,0 +1,6 @@
+vdd	metal1_0conn	6000	-2230
+b	metal1_0conn	2820	-1930
+carry	metal1_0conn	3750	-7390
+gnd	metal1_0conn	860	-2250
+a	metal1_0conn	3320	-1930
+sum	metal1_0conn	2860	-7350

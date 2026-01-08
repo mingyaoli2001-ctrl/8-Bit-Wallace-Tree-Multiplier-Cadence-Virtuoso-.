@@ -1,0 +1,499 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  tutorial
+* Top Cell Name: WallaceProjectMAC
+* View Name:     schematic
+* Netlisted on:  Dec 13 20:20:52 2025
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: tutorial
+* Cell Name:    AND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND Vdd Vout a b gnd
+*.PININFO Vdd:I a:I b:I gnd:I Vout:O
+MNM2 Vout net4 gnd gnd g45n1svt m=1 l=45n w=120n
+MNM1 net6 b gnd gnd g45n1svt m=1 l=45n w=120n
+MNM0 net4 a net6 gnd g45n1svt m=1 l=45n w=120n
+MPM2 Vout net4 Vdd Vdd g45p1svt m=1 l=45n w=240n
+MPM1 net4 b Vdd Vdd g45p1svt m=1 l=45n w=120n
+MPM0 net4 a Vdd Vdd g45p1svt m=1 l=45n w=120n
+.ENDS
+
+************************************************************************
+* Library Name: tutorial
+* Cell Name:    WallaceMultiplier
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT WallaceMultiplier a<0> a<1> a<2> a<3> a<4> a<5> a<6> a<7> b<0> b<1> 
++ b<2> b<3> b<4> b<5> b<6> b<7> gnd p00 p01 p02 p03 p04 p05 p06 p07 p10 p11 
++ p12 p13 p14 p15 p16 p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 
++ p35 p36 p37 p40 p41 p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 
++ p60 p61 p62 p63 p64 p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77 vdd
+*.PININFO a<0>:I a<1>:I a<2>:I a<3>:I a<4>:I a<5>:I a<6>:I a<7>:I b<0>:I 
+*.PININFO b<1>:I b<2>:I b<3>:I b<4>:I b<5>:I b<6>:I b<7>:I gnd:I vdd:I p00:O 
+*.PININFO p01:O p02:O p03:O p04:O p05:O p06:O p07:O p10:O p11:O p12:O p13:O 
+*.PININFO p14:O p15:O p16:O p17:O p20:O p21:O p22:O p23:O p24:O p25:O p26:O 
+*.PININFO p27:O p30:O p31:O p32:O p33:O p34:O p35:O p36:O p37:O p40:O p41:O 
+*.PININFO p42:O p43:O p44:O p45:O p46:O p47:O p50:O p51:O p52:O p53:O p54:O 
+*.PININFO p55:O p56:O p57:O p60:O p61:O p62:O p63:O p64:O p65:O p66:O p67:O 
+*.PININFO p70:O p71:O p72:O p73:O p74:O p75:O p76:O p77:O
+XI194 vdd p77 a<7> b<7> gnd / AND
+XI193 vdd p76 a<6> b<7> gnd / AND
+XI188 vdd p71 a<1> b<7> gnd / AND
+XI187 vdd p70 a<0> b<7> gnd / AND
+XI186 vdd p67 a<7> b<6> gnd / AND
+XI185 vdd p66 a<6> b<6> gnd / AND
+XI151 vdd p24 a<4> b<2> gnd / AND
+XI150 vdd p23 a<3> b<2> gnd / AND
+XI149 vdd p22 a<2> b<2> gnd / AND
+XI148 vdd p21 a<1> b<2> gnd / AND
+XI142 vdd p13 a<3> b<1> gnd / AND
+XI141 vdd p12 a<2> b<1> gnd / AND
+XI140 vdd p11 a<1> b<1> gnd / AND
+XI139 vdd p10 a<0> b<1> gnd / AND
+XI167 vdd p44 a<4> b<4> gnd / AND
+XI159 vdd p34 a<4> b<3> gnd / AND
+XI158 vdd p33 a<3> b<3> gnd / AND
+XI157 vdd p32 a<2> b<3> gnd / AND
+XI156 vdd p31 a<1> b<3> gnd / AND
+XI166 vdd p43 a<3> b<4> gnd / AND
+XI165 vdd p42 a<2> b<4> gnd / AND
+XI164 vdd p41 a<1> b<4> gnd / AND
+XI175 vdd p54 a<4> b<5> gnd / AND
+XI174 vdd p53 a<3> b<5> gnd / AND
+XI173 vdd p52 a<2> b<5> gnd / AND
+XI172 vdd p51 a<1> b<5> gnd / AND
+XI192 vdd p75 a<5> b<7> gnd / AND
+XI191 vdd p74 a<4> b<7> gnd / AND
+XI190 vdd p73 a<3> b<7> gnd / AND
+XI189 vdd p72 a<2> b<7> gnd / AND
+XI180 vdd p61 a<1> b<6> gnd / AND
+XI179 vdd p60 a<0> b<6> gnd / AND
+XI178 vdd p57 a<7> b<5> gnd / AND
+XI177 vdd p56 a<6> b<5> gnd / AND
+XI184 vdd p65 a<5> b<6> gnd / AND
+XI183 vdd p64 a<4> b<6> gnd / AND
+XI182 vdd p63 a<3> b<6> gnd / AND
+XI181 vdd p62 a<2> b<6> gnd / AND
+XI171 vdd p50 a<0> b<5> gnd / AND
+XI170 vdd p47 a<7> b<4> gnd / AND
+XI169 vdd p46 a<6> b<4> gnd / AND
+XI168 vdd p45 a<5> b<4> gnd / AND
+XI163 vdd p40 a<0> b<4> gnd / AND
+XI162 vdd p37 a<7> b<3> gnd / AND
+XI161 vdd p36 a<6> b<3> gnd / AND
+XI155 vdd p30 a<0> b<3> gnd / AND
+XI154 vdd p27 a<7> b<2> gnd / AND
+XI153 vdd p26 a<6> b<2> gnd / AND
+XI152 vdd p25 a<5> b<2> gnd / AND
+XI160 vdd p35 a<5> b<3> gnd / AND
+XI176 vdd p55 a<5> b<5> gnd / AND
+XI143 vdd p14 a<4> b<1> gnd / AND
+XI138 vdd p07 a<7> b<0> gnd / AND
+XI133 vdd p02 a<2> b<0> gnd / AND
+XI132 vdd p01 a<1> b<0> gnd / AND
+XI131 vdd p00 a<0> b<0> gnd / AND
+XI137 vdd p06 a<6> b<0> gnd / AND
+XI136 vdd p05 a<5> b<0> gnd / AND
+XI135 vdd p04 a<4> b<0> gnd / AND
+XI134 vdd p03 a<3> b<0> gnd / AND
+XI147 vdd p20 a<0> b<2> gnd / AND
+XI146 vdd p17 a<7> b<1> gnd / AND
+XI145 vdd p16 a<6> b<1> gnd / AND
+XI144 vdd p15 a<5> b<1> gnd / AND
+.ENDS
+
+************************************************************************
+* Library Name: tutorial
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter Gnd In Out Vdd
+*.PININFO In:I Out:O Gnd:B Vdd:B
+MPM0 Out In Vdd Vdd g45p1svt m=1 l=45n w=120n
+MNM0 Out In Gnd Gnd g45n1svt m=1 l=45n w=120n
+.ENDS
+
+************************************************************************
+* Library Name: tutorial
+* Cell Name:    HAdder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT HAdder a b carry gnd sum vdd
+*.PININFO a:I b:I gnd:I vdd:I carry:O sum:O
+MNM5 carry bbar gnd gnd g45n1svt m=1 l=45n w=120n
+MNM4 carry abar gnd gnd g45n1svt m=1 l=45n w=120n
+MNM3 net9 b gnd gnd g45n1svt m=1 l=45n w=120n
+MNM2 sum a net9 gnd g45n1svt m=1 l=45n w=120n
+MNM1 net4 bbar gnd gnd g45n1svt m=1 l=45n w=120n
+MNM0 sum abar net4 gnd g45n1svt m=1 l=45n w=120n
+XI2 gnd a abar vdd / inverter
+XI3 gnd b bbar vdd / inverter
+MPM5 carry bbar net7 vdd g45p1svt m=1 l=45n w=120n
+MPM4 net7 abar vdd vdd g45p1svt m=1 l=45n w=120n
+MPM3 net11 bbar vdd vdd g45p1svt m=1 l=45n w=120n
+MPM2 net11 abar vdd vdd g45p1svt m=1 l=45n w=120n
+MPM1 sum b net11 vdd g45p1svt m=1 l=45n w=120n
+MPM0 sum a net11 vdd g45p1svt m=1 l=45n w=120n
+.ENDS
+
+************************************************************************
+* Library Name: tutorial
+* Cell Name:    FAdder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT FAdder a b cin cout gnd s vdd
+*.PININFO a:I b:I cin:I gnd:I vdd:I cout:O s:O
+MNM10 a b pbar gnd g45n1svt m=1 l=45n w=120n
+MNM4 pbar cin s gnd g45n1svt m=1 l=45n w=120n
+MNM6 cin p cout gnd g45n1svt m=1 l=45n w=120n
+MNM12 abar b p gnd g45n1svt m=1 l=45n w=120n
+MNM8 b a pbar gnd g45n1svt m=1 l=45n w=120n
+MNM9 b abar p gnd g45n1svt m=1 l=45n w=120n
+MNM51 abar a gnd gnd g45n1svt m=1 l=45n w=120n
+MNM7 b pbar cout gnd g45n1svt m=1 l=45n w=120n
+MNM2 cin pbar s gnd g45n1svt m=1 l=45n w=120n
+MPM44 cout pbar cin vdd g45p1svt m=1 l=45n w=120n
+MPM6 pbar b abar vdd g45p1svt m=1 l=45n w=120n
+MPM49 s p cin vdd g45p1svt m=1 l=45n w=120n
+MPM5 p b a vdd g45p1svt m=1 l=45n w=120n
+MPM50 abar a vdd vdd g45p1svt m=1 l=45n w=120n
+MPM43 cout p a vdd g45p1svt m=1 l=45n w=120n
+MPM0 s cin p vdd g45p1svt m=1 l=45n w=120n
+MPM47 p a b vdd g45p1svt m=1 l=45n w=120n
+MPM48 pbar abar b vdd g45p1svt m=1 l=45n w=120n
+.ENDS
+
+************************************************************************
+* Library Name: tutorial
+* Cell Name:    XOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR a b f gnd vdd
+*.PININFO a:I b:I gnd:I vdd:I f:O
+MNM1 a bbar f gnd g45n1svt m=1 l=45n w=120n
+MNM0 abar b f gnd g45n1svt m=1 l=45n w=120n
+MPM1 f b a vdd g45p1svt m=1 l=45n w=120n
+MPM0 f bbar abar vdd g45p1svt m=1 l=45n w=120n
+XI1 gnd b bbar vdd / inverter
+XI0 gnd a abar vdd / inverter
+.ENDS
+
+************************************************************************
+* Library Name: tutorial
+* Cell Name:    4bit_CLA_logic
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 4bit_CLA_logic c0 cout1 cout2 cout3 cout4 g1 g2 g3 g4 gnd p1 p2 p3 p4 
++ vdd
+*.PININFO c0:I g1:I g2:I g3:I g4:I gnd:I p1:I p2:I p3:I p4:I vdd:I cout1:O 
+*.PININFO cout2:O cout3:O cout4:O
+MNM23 net11 g4 gnd gnd g45n1svt m=1 l=45n w=120n
+MNM22 net19 p4 gnd gnd g45n1svt m=1 l=45n w=120n
+MNM21 net11 g3 net19 gnd g45n1svt m=1 l=45n w=120n
+MNM20 net11 g2 net72 gnd g45n1svt m=1 l=45n w=120n
+MNM19 net11 g1 net17 gnd g45n1svt m=1 l=45n w=120n
+MNM18 net72 p3 net19 gnd g45n1svt m=1 l=45n w=120n
+MNM17 net17 p2 net72 gnd g45n1svt m=1 l=45n w=120n
+MNM16 net16 p1 net17 gnd g45n1svt m=1 l=45n w=120n
+MNM15 net11 c0 net16 gnd g45n1svt m=1 l=45n w=120n
+MNM14 net5 g3 gnd gnd g45n1svt m=1 l=45n w=120n
+MNM13 net12 p3 gnd gnd g45n1svt m=1 l=45n w=120n
+MNM12 net5 g2 net12 gnd g45n1svt m=1 l=45n w=120n
+MNM11 net8 p2 net12 gnd g45n1svt m=1 l=45n w=120n
+MNM10 net5 g1 net8 gnd g45n1svt m=1 l=45n w=120n
+MNM9 net3 p1 net8 gnd g45n1svt m=1 l=45n w=120n
+MNM8 net5 c0 net3 gnd g45n1svt m=1 l=45n w=120n
+MNM7 net6 g2 gnd gnd g45n1svt m=1 l=45n w=120n
+MNM6 net7 p2 gnd gnd g45n1svt m=1 l=45n w=120n
+MNM5 net6 g1 net7 gnd g45n1svt m=1 l=45n w=120n
+MNM4 net2 p1 net7 gnd g45n1svt m=1 l=45n w=120n
+MNM3 net6 c0 net2 gnd g45n1svt m=1 l=45n w=120n
+MNM2 net4 g1 gnd gnd g45n1svt m=1 l=45n w=120n
+MNM1 net1 p1 gnd gnd g45n1svt m=1 l=45n w=120n
+MNM0 net4 c0 net1 gnd g45n1svt m=1 l=45n w=120n
+MPM23 net20 g4 vdd vdd g45p1svt m=1 l=45n w=120n
+MPM22 net11 p4 vdd vdd g45p1svt m=1 l=45n w=120n
+MPM21 net62 g3 net20 vdd g45p1svt m=1 l=45n w=120n
+MPM20 net15 g2 net62 vdd g45p1svt m=1 l=45n w=120n
+MPM19 net18 g1 net15 vdd g45p1svt m=1 l=45n w=120n
+MPM18 net11 c0 net18 vdd g45p1svt m=1 l=45n w=120n
+MPM17 net11 p1 net15 vdd g45p1svt m=1 l=45n w=120n
+MPM16 net11 p2 net62 vdd g45p1svt m=1 l=45n w=120n
+MPM15 net11 p3 net20 vdd g45p1svt m=1 l=45n w=120n
+MPM14 net14 g3 vdd vdd g45p1svt m=1 l=45n w=120n
+MPM13 net5 p3 vdd vdd g45p1svt m=1 l=45n w=120n
+MPM12 net10 g2 net14 vdd g45p1svt m=1 l=45n w=120n
+MPM11 net5 p2 net14 vdd g45p1svt m=1 l=45n w=120n
+MPM10 net9 g1 net10 vdd g45p1svt m=1 l=45n w=120n
+MPM9 net5 p1 net10 vdd g45p1svt m=1 l=45n w=120n
+MPM8 net5 c0 net9 vdd g45p1svt m=1 l=45n w=120n
+MPM7 net28 g2 vdd vdd g45p1svt m=1 l=45n w=120n
+MPM6 net6 p2 vdd vdd g45p1svt m=1 l=45n w=120n
+MPM5 net24 g1 net28 vdd g45p1svt m=1 l=45n w=120n
+MPM4 net6 p1 net28 vdd g45p1svt m=1 l=45n w=120n
+MPM3 net6 c0 net24 vdd g45p1svt m=1 l=45n w=120n
+MPM2 net13 g1 vdd vdd g45p1svt m=1 l=45n w=120n
+MPM1 net4 p1 vdd vdd g45p1svt m=1 l=45n w=120n
+MPM0 net4 c0 net13 vdd g45p1svt m=1 l=45n w=120n
+XI3 gnd net11 cout4 vdd / inverter
+XI2 gnd net5 cout3 vdd / inverter
+XI1 gnd net6 cout2 vdd / inverter
+XI0 gnd net4 cout1 vdd / inverter
+.ENDS
+
+************************************************************************
+* Library Name: tutorial
+* Cell Name:    MAC
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT MAC c<15> c<14> c<13> c<12> c<11> c<10> c<9> c<8> c<7> c<6> c<5> c<4> 
++ c<3> c<2> c<1> c<0> gnd mac<16> mac<15> mac<14> mac<13> mac<12> mac<11> 
++ mac<10> mac<9> mac<8> mac<7> mac<6> mac<5> mac<4> mac<3> mac<2> mac<1> 
++ mac<0> s<15> s<14> s<13> s<12> s<11> s<10> s<9> s<8> s<7> s<6> s<5> s<4> 
++ s<3> s<2> s<1> s<0> vdd
+*.PININFO c<15>:I c<14>:I c<13>:I c<12>:I c<11>:I c<10>:I c<9>:I c<8>:I c<7>:I 
+*.PININFO c<6>:I c<5>:I c<4>:I c<3>:I c<2>:I c<1>:I c<0>:I gnd:I s<15>:I 
+*.PININFO s<14>:I s<13>:I s<12>:I s<11>:I s<10>:I s<9>:I s<8>:I s<7>:I s<6>:I 
+*.PININFO s<5>:I s<4>:I s<3>:I s<2>:I s<1>:I s<0>:I vdd:I mac<16>:O mac<15>:O 
+*.PININFO mac<14>:O mac<13>:O mac<12>:O mac<11>:O mac<10>:O mac<9>:O mac<8>:O 
+*.PININFO mac<7>:O mac<6>:O mac<5>:O mac<4>:O mac<3>:O mac<2>:O mac<1>:O 
+*.PININFO mac<0>:O
+XI65 net8 p1 mac<1> gnd vdd / XOR
+XI55 s<13> c<13> p13 gnd vdd / XOR
+XI54 s<14> c<14> p14 gnd vdd / XOR
+XI53 s<15> c<15> p15 gnd vdd / XOR
+XI41 s<12> c<12> p12 gnd vdd / XOR
+XI40 s<11> c<11> p11 gnd vdd / XOR
+XI39 s<10> c<10> p10 gnd vdd / XOR
+XI38 s<9> c<9> p9 gnd vdd / XOR
+XI33 net6 p15 mac<15> gnd vdd / XOR
+XI32 net7 p14 mac<14> gnd vdd / XOR
+XI5 net4 p10 mac<10> gnd vdd / XOR
+XI2 net3 p11 mac<11> gnd vdd / XOR
+XI1 net2 p12 mac<12> gnd vdd / XOR
+XI0 net1 p13 mac<13> gnd vdd / XOR
+XI6 net106 p2 mac<2> gnd vdd / XOR
+XI7 net105 p3 mac<3> gnd vdd / XOR
+XI15 s<4> c<4> p4 gnd vdd / XOR
+XI10 s<3> c<3> p3 gnd vdd / XOR
+XI9 s<2> c<2> p2 gnd vdd / XOR
+XI4 s<1> c<1> p1 gnd vdd / XOR
+XI16 net109 p4 mac<4> gnd vdd / XOR
+XI17 net108 p5 mac<5> gnd vdd / XOR
+XI18 net107 p6 mac<6> gnd vdd / XOR
+XI26 net112 p7 mac<7> gnd vdd / XOR
+XI30 s<8> c<8> p8 gnd vdd / XOR
+XI25 s<7> c<7> p7 gnd vdd / XOR
+XI21 s<6> c<6> p6 gnd vdd / XOR
+XI20 s<5> c<5> p5 gnd vdd / XOR
+XI27 net111 p8 mac<8> gnd vdd / XOR
+XI28 net110 p9 mac<9> gnd vdd / XOR
+XI50 vdd g13 s<13> c<13> gnd / AND
+XI49 vdd g14 s<14> c<14> gnd / AND
+XI48 vdd g15 s<15> c<15> gnd / AND
+XI46 vdd g12 s<12> c<12> gnd / AND
+XI45 vdd g11 s<11> c<11> gnd / AND
+XI44 vdd g10 s<10> c<10> gnd / AND
+XI43 vdd g9 s<9> c<9> gnd / AND
+XI14 vdd g4 s<4> c<4> gnd / AND
+XI11 vdd g3 s<3> c<3> gnd / AND
+XI8 vdd g2 s<2> c<2> gnd / AND
+XI3 vdd g1 s<1> c<1> gnd / AND
+XI29 vdd g8 s<8> c<8> gnd / AND
+XI24 vdd g7 s<7> c<7> gnd / AND
+XI22 vdd g6 s<6> c<6> gnd / AND
+XI19 vdd g5 s<5> c<5> gnd / AND
+XI23 net1 net7 net6 mac<16> net5 g13 g14 g15 net32 gnd p13 p14 p15 net33 vdd / 
++ 4bit_CLA_logic
+XI13 net110 net4 net3 net2 net1 g9 g10 g11 g12 gnd p9 p10 p11 p12 vdd / 
++ 4bit_CLA_logic
+XI34 net8 net106 net105 net109 net108 g1 g2 g3 g4 gnd p1 p2 p3 p4 vdd / 
++ 4bit_CLA_logic
+XI35 net108 net107 net112 net111 net110 g5 g6 g7 g8 gnd p5 p6 p7 p8 vdd / 
++ 4bit_CLA_logic
+XI67 s<0> c<0> net8 gnd mac<0> vdd / HAdder
+.ENDS
+
+************************************************************************
+* Library Name: tutorial
+* Cell Name:    Diver
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Diver a b gnd vdd
+*.PININFO a:I gnd:I vdd:I b:O
+MPM1 b net3 vdd vdd g45p1svt m=1 l=45n w=120n
+MPM0 net3 a vdd vdd g45p1svt m=1 l=45n w=120n
+MNM1 b net3 gnd gnd g45n1svt m=1 l=45n w=120n
+MNM0 net3 a gnd gnd g45n1svt m=1 l=45n w=120n
+.ENDS
+
+************************************************************************
+* Library Name: tutorial
+* Cell Name:    WallaceFinalAdder
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT WallaceFinalAdder aout<5> aout<6> aout<7> aout<8> aout<9> aout<10> 
++ aout<11> aout<12> aout<13> aout<14> bout<5> bout<6> bout<7> bout<8> bout<9> 
++ bout<10> bout<11> bout<12> bout<13> bout<14> gnd s<5> s<6> s<7> s<8> s<9> 
++ s<10> s<11> s<12> s<13> s<14> vdd
+*.PININFO aout<5>:I aout<6>:I aout<7>:I aout<8>:I aout<9>:I aout<10>:I 
+*.PININFO aout<11>:I aout<12>:I aout<13>:I aout<14>:I bout<5>:I bout<6>:I 
+*.PININFO bout<7>:I bout<8>:I bout<9>:I bout<10>:I bout<11>:I bout<12>:I 
+*.PININFO bout<13>:I bout<14>:I gnd:I vdd:I s<5>:O s<6>:O s<7>:O s<8>:O s<9>:O 
+*.PININFO s<10>:O s<11>:O s<12>:O s<13>:O s<14>:O
+XI29 vdd g13 aout<13> bout<13> gnd / AND
+XI24 vdd g12 aout<12> bout<12> gnd / AND
+XI22 vdd g11 aout<11> bout<11> gnd / AND
+XI19 vdd g10 aout<10> bout<10> gnd / AND
+XI14 vdd g9 aout<9> bout<9> gnd / AND
+XI11 vdd g8 aout<8> bout<8> gnd / AND
+XI8 vdd g7 aout<7> bout<7> gnd / AND
+XI3 vdd g6 aout<6> bout<6> gnd / AND
+XI31 aout<14> bout<14> p14 gnd vdd / XOR
+XI30 aout<13> bout<13> p13 gnd vdd / XOR
+XI28 net12 p14 s<14> gnd vdd / XOR
+XI27 net4 p13 s<13> gnd vdd / XOR
+XI26 net22 p12 s<12> gnd vdd / XOR
+XI25 aout<12> bout<12> p12 gnd vdd / XOR
+XI21 aout<11> bout<11> p11 gnd vdd / XOR
+XI20 aout<10> bout<10> p10 gnd vdd / XOR
+XI18 net21 p11 s<11> gnd vdd / XOR
+XI17 net18 p10 s<10> gnd vdd / XOR
+XI16 net3 p9 s<9> gnd vdd / XOR
+XI15 aout<9> bout<9> p9 gnd vdd / XOR
+XI10 aout<8> bout<8> p8 gnd vdd / XOR
+XI9 aout<7> bout<7> p7 gnd vdd / XOR
+XI7 net9 p8 s<8> gnd vdd / XOR
+XI6 net7 p7 s<7> gnd vdd / XOR
+XI5 net1 p6 s<6> gnd vdd / XOR
+XI4 aout<6> bout<6> p6 gnd vdd / XOR
+XI12 aout<5> bout<5> net1 gnd s<5> vdd / HAdder
+XI35 net18 net21 net22 net4 net12 g10 g11 g12 g13 gnd p10 p11 p12 p13 vdd / 
++ 4bit_CLA_logic
+XI34 net1 net7 net9 net3 net18 g6 g7 g8 g9 gnd p6 p7 p8 p9 vdd / 4bit_CLA_logic
+.ENDS
+
+************************************************************************
+* Library Name: tutorial
+* Cell Name:    WallaceProjectMAC
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT WallaceProjectMAC a<0> a<1> a<2> a<3> a<4> a<5> a<6> a<7> b<0> b<1> 
++ b<2> b<3> b<4> b<5> b<6> b<7> c<15> c<14> c<13> c<12> c<11> c<10> c<9> c<8> 
++ c<7> c<6> c<5> c<4> c<3> c<2> c<1> c<0> gnd mac<16> mac<15> mac<14> mac<13> 
++ mac<12> mac<11> mac<10> mac<9> mac<8> mac<7> mac<6> mac<5> mac<4> mac<3> 
++ mac<2> mac<1> mac<0> s<0> s<1> s<2> s<3> s<4> s<5> s<6> s<7> s<8> s<9> s<10> 
++ s<11> s<12> s<13> s<14> s<15> vdd
+*.PININFO a<0>:I a<1>:I a<2>:I a<3>:I a<4>:I a<5>:I a<6>:I a<7>:I b<0>:I 
+*.PININFO b<1>:I b<2>:I b<3>:I b<4>:I b<5>:I b<6>:I b<7>:I c<15>:I c<14>:I 
+*.PININFO c<13>:I c<12>:I c<11>:I c<10>:I c<9>:I c<8>:I c<7>:I c<6>:I c<5>:I 
+*.PININFO c<4>:I c<3>:I c<2>:I c<1>:I c<0>:I gnd:I vdd:I mac<16>:O mac<15>:O 
+*.PININFO mac<14>:O mac<13>:O mac<12>:O mac<11>:O mac<10>:O mac<9>:O mac<8>:O 
+*.PININFO mac<7>:O mac<6>:O mac<5>:O mac<4>:O mac<3>:O mac<2>:O mac<1>:O 
+*.PININFO mac<0>:O s<0>:O s<1>:O s<2>:O s<3>:O s<4>:O s<5>:O s<6>:O s<7>:O 
+*.PININFO s<8>:O s<9>:O s<10>:O s<11>:O s<12>:O s<13>:O s<14>:O s<15>:O
+XI23 a<0> a<1> a<2> a<3> a<4> a<5> a<6> a<7> b<0> b<1> b<2> b<3> b<4> b<5> 
++ b<6> b<7> gnd s<0> p01 p02 p03 p04 p05 p06 p07 p10 p11 p12 p13 p14 p15 p16 
++ p17 p20 p21 p22 p23 p24 p25 p26 p27 p30 p31 p32 p33 p34 p35 p36 p37 p40 p41 
++ p42 p43 p44 p45 p46 p47 p50 p51 p52 p53 p54 p55 p56 p57 p60 p61 p62 p63 p64 
++ p65 p66 p67 p70 p71 p72 p73 p74 p75 p76 p77 vdd / WallaceMultiplier
+XI102 c41 s42 bout<6> gnd aout<5> vdd / HAdder
+XI103 c42 s43 bout<7> gnd aout<6> vdd / HAdder
+XI104 c40 s41 bout<5> gnd s<4> vdd / HAdder
+XI105 c38 p77 s<15> gnd aout<14> vdd / HAdder
+XI98 s37 p57 c49 gnd s49 vdd / HAdder
+XI99 s36 s18 c48 gnd s48 vdd / HAdder
+XI100 c22 s23 c41 gnd s41 vdd / HAdder
+XI101 c21 s22 c40 gnd s<3> vdd / HAdder
+XI97 p76 p67 c38 gnd s38 vdd / HAdder
+XI96 p60 c12 c31 gnd s31 vdd / HAdder
+XI144 c01 s02 c21 gnd s<2> vdd / HAdder
+XI25 p01 p10 c01 gnd s<1> vdd / HAdder
+XI94 p56 p47 c18 gnd s18 vdd / HAdder
+XI111 p40 p31 c11 gnd s11 vdd / HAdder
+XI91 p26 p17 c08 gnd s08 vdd / HAdder
+XI137 c33 c45 s46 bout<10> gnd aout<9> vdd / FAdder
+XI138 c34 c46 s47 bout<11> gnd aout<10> vdd / FAdder
+XI139 c35 c47 s48 bout<12> gnd aout<11> vdd / FAdder
+XI143 p20 p11 p02 c02 gnd s02 vdd / FAdder
+XI142 c32 c44 s45 bout<9> gnd aout<8> vdd / FAdder
+XI141 c37 c49 s38 bout<14> gnd aout<13> vdd / FAdder
+XI140 c36 c48 s49 bout<13> gnd aout<12> vdd / FAdder
+XI131 c11 c23 s24 c42 gnd s42 vdd / FAdder
+XI132 s35 c28 s17 c47 gnd s47 vdd / FAdder
+XI133 s34 c27 s28 c46 gnd s46 vdd / FAdder
+XI134 s33 c26 s27 c45 gnd s45 vdd / FAdder
+XI135 s32 c25 s26 c44 gnd s44 vdd / FAdder
+XI136 s31 c24 s25 c43 gnd s43 vdd / FAdder
+XI125 p71 p62 c14 c33 gnd s33 vdd / FAdder
+XI126 p72 p63 c15 net12 gnd net14 vdd / FAdder
+XI127 p73 p64 c16 net9 gnd net10 vdd / FAdder
+XI128 p74 p65 c17 net5 gnd net7 vdd / FAdder
+XI129 p75 p66 c18 net2 gnd net3 vdd / FAdder
+XI130 p70 p61 c13 c32 gnd s32 vdd / FAdder
+XI118 s11 c03 s04 c23 gnd s23 vdd / FAdder
+XI119 s16 c08 p27 c28 gnd s28 vdd / FAdder
+XI120 s15 c07 s08 c27 gnd s27 vdd / FAdder
+XI121 s14 c06 s07 c26 gnd s26 vdd / FAdder
+XI122 s13 c05 s06 c25 gnd s25 vdd / FAdder
+XI24 p21 p12 p03 c03 gnd s03 vdd / FAdder
+XI110 p24 p15 p06 c06 gnd s06 vdd / FAdder
+XI108 p23 p14 p05 c05 gnd s05 vdd / FAdder
+XI113 p54 p45 p36 c16 gnd s16 vdd / FAdder
+XI115 p52 p43 p34 c14 gnd s14 vdd / FAdder
+XI123 s12 c04 s05 c24 gnd s24 vdd / FAdder
+XI124 p30 c02 s03 c22 gnd s22 vdd / FAdder
+XI107 p22 p13 p04 c04 gnd s04 vdd / FAdder
+XI117 p50 p41 p32 c12 gnd s12 vdd / FAdder
+XI109 p25 p16 p07 c07 gnd s07 vdd / FAdder
+XI116 p51 p42 p33 c13 gnd s13 vdd / FAdder
+XI112 p55 p46 p37 c17 gnd s17 vdd / FAdder
+XI114 p53 p44 p35 c15 gnd s15 vdd / FAdder
+XI145 c31 c43 s44 bout<8> gnd aout<7> vdd / FAdder
+XI187 c<15> c<14> c<13> c<12> c<11> c<10> c<9> c<8> c<7> c<6> c<5> c<4> c<3> 
++ c<2> c<1> c<0> gnd mac<16> mac<15> mac<14> mac<13> mac<12> mac<11> mac<10> 
++ mac<9> mac<8> mac<7> mac<6> mac<5> mac<4> mac<3> mac<2> mac<1> mac<0> s<15> 
++ s<14> s<13> s<12> s<11> s<10> s<9> s<8> s<7> s<6> s<5> s<4> s<3> s<2> s<1> 
++ s<0> vdd / MAC
+XI181 net14 s34 gnd vdd / Diver
+XI180 net12 c34 gnd vdd / Diver
+XI179 net10 s35 gnd vdd / Diver
+XI178 net9 c35 gnd vdd / Diver
+XI177 net7 s36 gnd vdd / Diver
+XI176 net5 c36 gnd vdd / Diver
+XI175 net3 s37 gnd vdd / Diver
+XI167 net2 c37 gnd vdd / Diver
+XI166 aout<5> aout<6> aout<7> aout<8> aout<9> aout<10> aout<11> aout<12> 
++ aout<13> aout<14> bout<5> bout<6> bout<7> bout<8> bout<9> bout<10> bout<11> 
++ bout<12> bout<13> bout<14> gnd s<5> s<6> s<7> s<8> s<9> s<10> s<11> s<12> 
++ s<13> s<14> vdd / WallaceFinalAdder
+.ENDS
+

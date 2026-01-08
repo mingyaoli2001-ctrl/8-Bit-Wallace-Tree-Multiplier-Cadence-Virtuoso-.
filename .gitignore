@@ -5,3 +5,58 @@
 *.tmp
 .DS_Store
 Thumbs.db
+# NEVER COMMIT HOME DIR TRASH
+.cache/
+.cadence/
+.cds_*/
+.config/
+.dbus/
+.gvfs/
+.local/
+.mozilla/
+.pki/
+.ssh/
+.vscode/
+.bash*
+Downloads/
+logs_*/
+jobs/
+
+# never commit zip archives
+*.zip
+# Cadence / Spectre / Maestro generated results (DO NOT COMMIT)
+**/maestro/results/
+**/maestro/**/ExplorerRun.*/
+**/maestro/**/sharedData/
+**/psf/
+**/*.ahdlSimDB/
+**/*.simdb/
+**/*.raw/
+**/*.log
+**/*.out
+**/*.psf
+# PVS / verification generated junk
+**/PVS/*.ecdb
+**/PVS/*.rep.*
+**/PVS/*.info*
+**/PVS/*.xrf
+**/PVS/.*.ecdb
+**/PVS/.*.rep.*
+**/PVS/.*.info*
+**/PVS/.*.xrf
+# PVS generated runtime junk (keep CDL/SPI/GDS/SUM and readable reports)
+**/PVS/.*
+!**/PVS/.technology.rul
+!**/PVS/.stimulusFile.auCdl
+# PVS report/state outputs (generated)
+**/PVS/*SummaryReport*
+**/PVS/*ExtractionReport*
+**/PVS/*Results*
+**/PVS/*.rdb
+**/PVS/*.full
+**/PVS/*.lock
+**/PVS/.masco/
+**/PVS/.probeData
+**/PVS/.preset*
+**/PVS/.interactive_*
+**/PVS/.runFormDirLock*

@@ -1,0 +1,24 @@
+#0                               
+MN: MN
+#0                               
+MP: MP
+#18                              
+FAdder: FAdder
+S MNM10 M0
+S MNM4 M3
+S MNM6 M5
+D MNM12 M2
+D MNM8 M1
+D MNM9 X41/M0
+D MNM51 X29/M0
+D MNM7 M6
+D MNM2 M4
+S MPM44 M11
+S MPM6 M8
+S MPM49 M9
+D MPM5 M7
+D MPM50 X44/M0
+D MPM43 M10
+D MPM0 X45/M0
+D MPM47 X42/M0
+D MPM48 X43/M0

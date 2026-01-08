@@ -1,0 +1,18 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary XORgate
+# XXXX: End of header.
+% MP 4 MP 4
+% MN 4 MN 4
+% XORgate 5 XORgate 5
+0 M3 0 XI1/MPM0  
+0 M0 0 XI1/MNM0  
+0 M4 0 XI0/MPM0  
+0 M1 0 XI0/MNM0  
+0 X21/M0 0 MPM3  
+0 M7 0 MPM2 X
+0 M6 0 MPM1  
+0 M5 0 MPM0  
+0 X22/M0 0 MNM4  
+0 M2 0 MNM3 X
+0 X24/M0 0 MNM1  
+0 X23/M0 0 MNM2 X

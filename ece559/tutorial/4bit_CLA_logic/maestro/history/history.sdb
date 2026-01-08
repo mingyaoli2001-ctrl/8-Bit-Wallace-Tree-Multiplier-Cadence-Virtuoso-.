@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Nov 29 12:51:02 2025</timestamp>
+			<uuid>{0ad49907-e584-490b-9060-eff3c5bc8a0f}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/home/ecegridfs/a/559mg81/tutorial/4bit_CLA_logic/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/home/ecegridfs/a/559mg81/tutorial/4bit_CLA_logic/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/home/ecegridfs/a/559mg81/simulation/tutorial/4bit_CLA_logic/maestro/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>/home/ecegridfs/a/559mg81/simulation/tutorial/4bit_CLA_logic/maestro/results/maestro/ExplorerRun.0</simdir>
+		</historyentry>
+	</history>
+</setupdb>

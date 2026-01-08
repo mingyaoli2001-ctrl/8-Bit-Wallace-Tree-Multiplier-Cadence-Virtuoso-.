@@ -1,0 +1,22 @@
+#0                               
+MN: MN
+#0                               
+MP: MP
+#16                              
+HAdder: HAdder
+S XI2/MPM0 M2
+D XI2/MNM0 X35/M0
+S XI3/MPM0 M3
+D XI3/MNM0 X36/M0
+D MPM5 X27/M0
+D MPM4 X26/M0
+D MPM3 X24/M0
+D MPM2 X33/M0
+D MPM1 X34/M0
+D MPM0 X25/M0
+D MNM5 X23/M0
+S MNM4 M0
+D MNM3 X32/M0
+D MNM2 X31/M0
+D MNM1 X30/M0
+S MNM0 M1

@@ -1,0 +1,21 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary XOR
+# XXXX: End of header.
+% MN 4 MN 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% MP 4 MP 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% XOR 5 XOR 5 
+0 7 0 bbar
+0 3 0 abar
+0 a 0 a
+0 b 0 b
+0 f 0 f
+0 gnd 0 gnd
+0 vdd 0 vdd

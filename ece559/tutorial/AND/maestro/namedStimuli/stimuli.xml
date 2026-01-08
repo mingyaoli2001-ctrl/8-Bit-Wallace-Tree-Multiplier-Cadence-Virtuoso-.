@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stimuliset>
+    <namedstimuli>
+        <stimuliname>supply</stimuliname>
+        <timeStamp>22/10/2025;8:56:16:PM</timeStamp>
+        <libname></libname>
+        <srctype>dc</srctype>
+        <sourcetype>V</sourcetype>
+        <cdfinstname>vdc</cdfinstname>
+        <parameterset>
+            <parameter>
+                <cdfname>FNpairs</cdfname>
+                <prompt>Number of noise/freq pairs</prompt>
+                <datatype>int</datatype>
+                <value>0</value>
+                <defvalue>0</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>vdc</cdfname>
+                <prompt>DC voltage</prompt>
+                <datatype>string</datatype>
+                <value>1</value>
+                <defvalue></defvalue>
+            </parameter>
+        </parameterset>
+    </namedstimuli>
+    <namedstimuli>
+        <stimuliname>a</stimuliname>
+        <timeStamp>22/10/2025;8:57:30:PM</timeStamp>
+        <libname></libname>
+        <srctype>pulse</srctype>
+        <sourcetype>V</sourcetype>
+        <cdfinstname>vpulse</cdfinstname>
+        <parameterset>
+            <parameter>
+                <cdfname>FNpairs</cdfname>
+                <prompt>Number of noise/freq pairs</prompt>
+                <datatype>int</datatype>
+                <value>0</value>
+                <defvalue>0</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>vdc</cdfname>
+                <prompt>DC voltage</prompt>
+                <datatype>string</datatype>
+                <value>1</value>
+                <defvalue></defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>v1</cdfname>
+                <prompt>Voltage 1</prompt>
+                <datatype>string</datatype>
+                <value>0</value>
+                <defvalue>0</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>v2</cdfname>
+                <prompt>Voltage 2</prompt>
+                <datatype>string</datatype>
+                <value>1</value>
+                <defvalue>0</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>per</cdfname>
+                <prompt>Period</prompt>
+                <datatype>string</datatype>
+                <value>10n</value>
+                <defvalue></defvalue>
+            </parameter>
+        </parameterset>
+    </namedstimuli>
+    <namedstimuli>
+        <stimuliname>b</stimuliname>
+        <timeStamp>22/10/2025;8:58:32:PM</timeStamp>
+        <libname></libname>
+        <srctype>pulse</srctype>
+        <sourcetype>V</sourcetype>
+        <cdfinstname>vpulse</cdfinstname>
+        <parameterset>
+            <parameter>
+                <cdfname>FNpairs</cdfname>
+                <prompt>Number of noise/freq pairs</prompt>
+                <datatype>int</datatype>
+                <value>0</value>
+                <defvalue>0</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>vdc</cdfname>
+                <prompt>DC voltage</prompt>
+                <datatype>string</datatype>
+                <value>0</value>
+                <defvalue></defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>v1</cdfname>
+                <prompt>Voltage 1</prompt>
+                <datatype>string</datatype>
+                <value>0</value>
+                <defvalue>0</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>v2</cdfname>
+                <prompt>Voltage 2</prompt>
+                <datatype>string</datatype>
+                <value>1</value>
+                <defvalue>0</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>per</cdfname>
+                <prompt>Period</prompt>
+                <datatype>string</datatype>
+                <value>20n</value>
+                <defvalue></defvalue>
+            </parameter>
+        </parameterset>
+    </namedstimuli>
+    <namedstimuli>
+        <stimuliname>gnd</stimuliname>
+        <timeStamp>22/10/2025;8:58:17:PM</timeStamp>
+        <libname></libname>
+        <srctype>dc</srctype>
+        <sourcetype>V</sourcetype>
+        <cdfinstname>vdc</cdfinstname>
+        <parameterset>
+            <parameter>
+                <cdfname>FNpairs</cdfname>
+                <prompt>Number of noise/freq pairs</prompt>
+                <datatype>int</datatype>
+                <value>0</value>
+                <defvalue>0</defvalue>
+            </parameter>
+            <parameter>
+                <cdfname>vdc</cdfname>
+                <prompt>DC voltage</prompt>
+                <datatype>string</datatype>
+                <value>0</value>
+                <defvalue></defvalue>
+            </parameter>
+        </parameterset>
+    </namedstimuli>
+</stimuliset>

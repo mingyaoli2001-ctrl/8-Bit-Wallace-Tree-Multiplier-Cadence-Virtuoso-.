@@ -1,0 +1,7 @@
+cout	metal1_0conn	3810	8390
+cin	metal1_0conn	3830	2110
+b	metal1_0conn	4250	2110
+vdd	metal1_0conn	6820	1950
+gnd	metal1_0conn	1160	1920
+a	metal1_0conn	3090	1950
+s	metal1_0conn	6150	8400

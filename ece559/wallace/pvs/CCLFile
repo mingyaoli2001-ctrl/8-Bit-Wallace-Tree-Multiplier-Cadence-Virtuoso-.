@@ -1,0 +1,54 @@
+#
+# OPTION COMMAND FILE created byCadence Quantus Extraction Version 23.1.1-s276 from CCL
+#
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "gnd"
+extract \
+	 -selection "all" \
+	 -type "rc_decoupled"
+extraction_setup \
+	 -array_vias_spacing "auto" \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -max_via_array_size \
+		"auto" \
+	 -net_name_space "LAYOUT" \
+	 -split_via_by_unit_area false
+filter_res \
+	 -merge_parallel_res false \
+	 -min_res 0.001
+input_db -type calibre \
+	 -device_property_value 7 \
+	 -directory_name "/home/ecegridfs/a/559mg81/wallace" \
+	 -hierarchy_delimiter "/" \
+	 -instance_property_value 6 \
+	 -layer_map_file "/home/ecegridfs/a/559mg81/wallace/map/current" \
+	 -library_definitions_file "/home/ecegridfs/a/559mg81/cds.lib" \
+	 -net_property_value 5 \
+	 -run_name "pvs"
+log_file \
+	 -file_name "/home/ecegridfs/a/559mg81/wallace/qrc.pvs.log"
+output_db -type spice \
+	 -device_finger_delimiter "@" \
+	 -hierarchy_delimiter "/" \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_parasitic_res_model "comment" \
+	 -include_parasitic_res_width true \
+	 -include_res_model "false" \
+	 -sub_node_char "#"
+output_setup \
+	 -directory_name "/home/ecegridfs/a/559mg81/wallace" \
+	 -file_name "/home/ecegridfs/a/559mg81/wallace/pvs.sp" \
+	 -net_name_space "SCHEMATIC" \
+	 -temporary_directory_name "pvs"
+process_technology \
+	 -technology_corner \
+		"rcx_typical" \
+	 -technology_library_file "/home/ecegridfs/a/559mg81/pvtech.lib" \
+	 -technology_name "gpdk045_pvs" \
+	 -temperature \
+		"25.0"
+
+

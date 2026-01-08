@@ -1,0 +1,24 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary FAdder
+# XXXX: End of header.
+% MN 4 MN 4
+% MP 4 MP 4
+% FAdder 7 FAdder 7
+0 M0 0 MNM10 X
+0 M3 0 MNM4 X
+0 M5 0 MNM6 X
+0 M2 0 MNM12  
+0 M1 0 MNM8  
+0 X41/M0 0 MNM9  
+0 X29/M0 0 MNM51  
+0 M6 0 MNM7  
+0 M4 0 MNM2  
+0 M11 0 MPM44 X
+0 M8 0 MPM6 X
+0 M9 0 MPM49 X
+0 M7 0 MPM5  
+0 X44/M0 0 MPM50  
+0 M10 0 MPM43  
+0 X45/M0 0 MPM0  
+0 X42/M0 0 MPM47  
+0 X43/M0 0 MPM48  

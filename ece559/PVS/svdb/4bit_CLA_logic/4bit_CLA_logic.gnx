@@ -1,0 +1,53 @@
+#4                               
+MN: MN
+= D D
+= G G
+= S S
+= B B
+#4                               
+MP: MP
+= D D
+= G G
+= S S
+= B B
+#39                              
+4bit_CLA_logic: 4bit_CLA_logic
+= net11 8
+= net5 6
+= net6 4
+= net4 2
+= c0 c0
+= cout1 cout1
+= cout2 cout2
+= cout3 cout3
+= cout4 cout4
+= g1 g1
+= g2 g2
+= g3 g3
+= g4 g4
+= gnd gnd
+= p1 p1
+= p2 p2
+= p3 p3
+= p4 p4
+= vdd vdd
+= net16 34
+= net3 28
+= net2 32
+= net1 25
+= net18 23
+= net9 38
+= net24 35
+= net13 20
+= net17 33
+= net8 27
+= net7 26
+= net15 39
+= net10 37
+= net28 21
+= net72 31
+= net12 29
+= net62 24
+= net14 36
+= net19 30
+= net20 22

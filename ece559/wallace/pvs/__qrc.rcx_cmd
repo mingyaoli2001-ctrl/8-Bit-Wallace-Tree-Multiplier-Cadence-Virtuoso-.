@@ -1,0 +1,50 @@
+avParameters(
+	?cdslib "/home/ecegridfs/a/559mg81/cds.lib"
+	?workingDirectory "/home/ecegridfs/a/559mg81/wallace"
+	?techRuleSet ( "rcx_typical" )
+	?techLib "/home/ecegridfs/a/559mg81/pvtech.lib"
+	?technology "gpdk045_pvs"
+
+)
+rcxParameters(
+	?capCouplingFactor 1.0
+	?capGround "gnd"
+	?arrayViasSpacing "auto"
+	?maxFractureLength "infinite"
+	?fractureLengthUnits "MICRONS"
+	?maxMergedViaSize "auto"
+	?netNameSpace "layout"
+	?mergeParallelR nil
+	?minR 0.001
+	?hcciDevProp 7
+	?hcciRunDir "/home/ecegridfs/a/559mg81/wallace"
+	?hierarchyDelimiter "/"
+	?hcciInstProp 6
+	?agdsLayerMapFile "/home/ecegridfs/a/559mg81/wallace/map/current"
+	?hcciNetProp 5
+	?hcciRunName "pvs"
+	?lvsSource "hcci"
+	?deviceFingerDelimiter "@"
+	?outputHierarchyDelimiter "/"
+	?capModels "no"
+	?parasiticCapModels "no"
+	?parasiticResModels "comment"
+	?parasiticResWidth t
+	?resModels "no"
+	?subNodeChar "#"
+	?outputFormat "spice"
+	?lvsExtractedCellView nil
+	?output "/home/ecegridfs/a/559mg81/wallace/pvs.sp"
+	?outputNetNameSpace "schematic"
+	?runName "pvs"
+	?tempdir "/home/ecegridfs/a/559mg81/wallace/pvs/rcx_temp"
+	?rcxSetupDir ( "/package/eda/cadence/gpdk045/gpdk045_v_6_0/./pvs/../qrc/typical" )
+	?temperature ( 25.0 )
+	?type "full"
+	?extract "both"
+	?capExtractMode "decoupled"
+
+)
+(avRCX)
+
+

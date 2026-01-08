@@ -1,0 +1,32 @@
+set search_path {.}
+set library_path {.}
+set link_path {*}
+set oc_global_voltage 1.1
+register_netlist -format spice {nanotime.sp tech.sp}
+link_design HAdder
+report_port
+set input_ports {In<1> In<0>}
+set_port_direction -input $input_ports
+set output_ports {Out<1> Out<0>}
+set_port_direction -output $output_ports
+report_port
+report_design
+report_net
+report_cell
+create_clock -name MCLK -period 10.0
+report_clock
+match_topology
+report_transistor_direction
+report_topology
+check_topology
+set_input_delay -clock MCLK -rise 1.0 [get_ports {a b}]
+set_input_delay -clock MCLK -fall 1.0 [get_ports {a b}]
+set_output_delay -clock MCLK 0.0 [get_ports {carry sum}]
+report_port -input_delay
+set_output_delay -clock MCLK 0.0 {Out<1> Out<0>}
+report_port -output_delay
+check_design
+trace_paths
+report_paths -max -max_paths 10 > timing_report_HAdder_final.txt
+write_spice -output maxpath.sp -header tech.sp [get_timing_paths -max -max_paths 1]
+exit

@@ -1,0 +1,20 @@
+#4                               
+MP: MP
+= D D
+= G G
+= S S
+= B B
+#4                               
+MN: MN
+= D D
+= G G
+= S S
+= B B
+#6                               
+NAND: NAND
+= GND GND
+= Va Va
+= Vb Vb
+= Vdd Vdd
+= Vout Vout
+= net9 6

@@ -1,0 +1,33 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                              *
+*                                                           *
+* Cell Name  : XOR                                          *
+* Netlisted  : Sun Dec  7 11:13:11 2025                     *
+* PVS Version: 23.11-s036 Wed Jan 17 18:11:41 PST 2024      *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 MN(g45n1svt) _nmos1v ndiff_conn(D) poly_conn(G) ndiff_conn(S) psubstrate(B)
+*.DEVTMPLT 1 MP(g45p1svt) _pmos1v pdiff_conn(D) poly_conn(G) pdiff_conn(S) nwell_conn(B)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: nmos1v_CDNS_765123987261                        *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt nmos1v_CDNS_765123987261 1 2 3 4
+** N=4 EP=4 FDC=1
+M0 4 3 1 2 g45n1svt L=4.5e-08 W=1.2e-07 AD=1.68e-14 AS=1.68e-14 PD=5.2e-07 PS=5.2e-07 fw=1.2e-07 sa=1.4e-07 sb=1.4e-07 sca=3.69959 scb=0.00013007 scc=4.39142e-09 $X=0 $Y=0 $dt=0
+.ends nmos1v_CDNS_765123987261
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: XOR                                             *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt XOR a b f gnd vdd
+** N=7 EP=5 FDC=8
+X14 gnd gnd a 3 nmos1v_CDNS_765123987261 $T=420 800 0 0 $X=0 $Y=240
+X15 f gnd b 3 nmos1v_CDNS_765123987261 $T=1440 800 1 180 $X=930 $Y=240
+X16 f gnd 7 a nmos1v_CDNS_765123987261 $T=2280 800 0 0 $X=1860 $Y=240
+X17 gnd gnd b 7 nmos1v_CDNS_765123987261 $T=3300 800 1 180 $X=2790 $Y=240
+M0 3 a vdd vdd g45p1svt L=4.5e-08 W=1.2e-07 AD=1.68e-14 AS=1.68e-14 PD=5.2e-07 PS=5.2e-07 fw=1.2e-07 sa=1.4e-07 sb=1.4e-07 sca=120.692 scb=0.0668324 scc=0.0140227 $X=420 $Y=3660 $dt=1
+M1 f b a vdd g45p1svt L=4.5e-08 W=1.2e-07 AD=1.68e-14 AS=1.68e-14 PD=5.2e-07 PS=5.2e-07 fw=1.2e-07 sa=1.4e-07 sb=1.4e-07 sca=102.402 scb=0.043482 scc=0.0113766 $X=1350 $Y=3660 $dt=1
+M2 3 7 f vdd g45p1svt L=4.5e-08 W=1.2e-07 AD=1.68e-14 AS=1.68e-14 PD=5.2e-07 PS=5.2e-07 fw=1.2e-07 sa=1.4e-07 sb=1.4e-07 sca=102.402 scb=0.043482 scc=0.0113766 $X=2280 $Y=3660 $dt=1
+M3 vdd b 7 vdd g45p1svt L=4.5e-08 W=1.2e-07 AD=1.68e-14 AS=1.68e-14 PD=5.2e-07 PS=5.2e-07 fw=1.2e-07 sa=1.4e-07 sb=1.4e-07 sca=120.692 scb=0.0668324 scc=0.0140227 $X=3210 $Y=3660 $dt=1
+.ends XOR

@@ -1,0 +1,29 @@
+FOX psubstrate nwell_0conn
+metal8_conn metal8_conn
+metal9_conn metal9_conn
+metal10_conn metal10_conn
+metal11_conn metal11_conn
+Oxide np_rpdiff_0conn p_rpdiff_0conn np_rndiff_0conn p_rndiff_0conn
+cont_0pdiff cont_0pdiff_metal1_0conn_pdiff_0conn
+cont_0ndiff cont_0ndiff_metal1_0conn_ndiff_0conn
+metal7_0conn np_rmetal7_0conn p_rmetal7_0conn
+metal6_0conn np_rmetal6_0conn p_rmetal6_0conn
+metal5_0conn np_rmetal5_0conn p_rmetal5_0conn
+metal4_0conn np_rmetal4_0conn p_rmetal4_0conn
+metal3_0conn np_rmetal3_0conn p_rmetal3_0conn
+metal2_0conn np_rmetal2_0conn p_rmetal2_0conn
+metal1_0conn np_rmetal1_0conn p_rmetal1_0conn
+poly_0conn np_rpoly_0conn p_rpoly_0conn
+ndiff_0conn np_rndiff_0conn p_rndiff_0conn
+pdiff_0conn np_rpdiff_0conn p_rpdiff_0conn
+nwell_0conn np_rnwell_0conn p_rnwell_0conn
+psubstrate psubstrate
+Via6 np_rVia6 p_rVia6
+Via5 np_rVia5 p_rVia5
+Via4 np_rVia4 p_rVia4
+Via3 np_rVia3 p_rVia3
+Via2 np_rVia2 p_rVia2
+Via1 np_rVia1 p_rVia1
+cont_0poly np_rcont_0poly p_rcont_0poly
+ptap ptap
+ntap ntap

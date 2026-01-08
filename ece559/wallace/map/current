@@ -1,0 +1,30 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "WallaceProject"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/ecegridfs/a/559mg81/wallace"
+ )
+( model
+( "tutorial/FA_CO/schematic" "FA_CO" )
+( "tutorial/final_adder/schematic" "final_adder" )
+( "tutorial/HAdder/schematic" "HAdder" )
+( "tutorial/FA_SUM/schematic" "FA_SUM" )
+( "tutorial/FAdder/schematic" "FAdder" )
+( "tutorial/WallaceMultiplier/schematic" "WallaceMultiplier" )
+( "tutorial/AND/schematic" "AND" )
+( "tutorial/WallaceProject/schematic" "WallaceProject" )
+( "tutorial/inverter/schematic" "inverter" )
+ )
+( "FA_CO" "ihnl/cds5/map" )
+( "FA_SUM" "ihnl/cds6/map" )
+( "HAdder" "ihnl/cds3/map" )
+( "WallaceMultiplier" "ihnl/cds1/map" )
+( "final_adder" "ihnl/cds7/map" )
+( "inverter" "ihnl/cds2/map" )
+( "WallaceProject" "ihnl/cds8/map" )
+( "FAdder" "ihnl/cds4/map" )
+( "AND" "ihnl/cds0/map" )
+ )

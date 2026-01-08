@@ -1,0 +1,6 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary Diver
+vdd 3 vdd 1000 -1100 metal1_conn
+a 1 a 790 -2450 metal1_conn
+gnd 4 gnd 1000 -3790 metal1_conn
+b 5 b 2840 -2440 metal1_conn

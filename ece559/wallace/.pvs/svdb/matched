@@ -1,0 +1,34 @@
+##############################################################################################################
+#####  
+#####                                         PVS LVS COMPARISON
+#####  
+#####  Version                       :   23.11-s036
+#####  NVN Run Start                 :   Fri Dec 12 21:35:17 2025
+#####  ERC Summary File              :   WallaceProject.sum
+#####  Extraction Report File        :   WallaceProject.rep
+#####  Comparison Report File        :   WallaceProject.rep.cls
+#####  Top Cell                      :   WallaceProject  <vs>  WallaceProject
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   tutorial WallaceProject layout
+#####  Schematic File                :   /home/ecegridfs/a/559mg81/wallace/pvs/WallaceProject.cdl (cdl)
+#####  Rules File                    :   /home/ecegridfs/a/559mg81/wallace/pvs/.technology.rul
+#####  Pin Swap File                 :   WallaceProject.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 1s - (1s)
+#####  Extraction Exec Time          :   0h 0m 2s - (2s)
+#####  Extraction Peak Memory Usage  :   31.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 1s - (1s)                 
+#####  NVN Peak Memory Usage         :   264.57MB
+#####  LVS Total CPU Time            :   0h 0m 1s - (1s)                 
+#####  LVS Total Exec Time           :   0h 0m 3s - (3s)                 
+#####  LVS Total Peak Memory Usage   :   264.57MB
+#####  
+##############################################################################################################
+
+

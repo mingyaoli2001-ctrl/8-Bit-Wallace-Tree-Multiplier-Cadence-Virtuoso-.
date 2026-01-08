@@ -1,0 +1,17 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"tutorial"
+logFile	"/home/ecegridfs/a/559mg81/wallace/pvs/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/ecegridfs/a/559mg81/wallace/pvs"
+strmFile	"/home/ecegridfs/a/559mg81/wallace/pvs/WallaceProject.gds"
+strmVersion	5
+techLib	"gpdk045"
+topCell	"WallaceProject"
+view	"layout"
+enableColoring

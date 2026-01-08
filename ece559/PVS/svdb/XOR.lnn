@@ -1,0 +1,13 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary XOR
+% M1_PO_CDNS_765123987260 1
+% M2_M1_CDNS_765123987262 1
+% M2_M1_CDNS_765123987263 1
+% pmos1v_CDNS_765123987260 5
+% nmos1v_CDNS_765123987261 4
+% XOR 5
+1 a
+2 b
+4 vdd
+5 gnd
+6 f

@@ -1,0 +1,9 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary FAdder
+cout 9 cout 3810 8390 metal1_conn
+cin 3 cin 3830 2110 metal1_conn
+b 6 b 4250 2110 metal1_conn
+vdd 10 vdd 6820 1950 metal1_conn
+gnd 7 gnd 1160 1920 metal1_conn
+a 2 a 3090 1950 metal1_conn
+s 8 s 6150 8400 metal1_conn

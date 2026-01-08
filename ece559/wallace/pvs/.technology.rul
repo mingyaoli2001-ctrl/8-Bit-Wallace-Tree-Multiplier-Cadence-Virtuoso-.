@@ -1,0 +1,1 @@
+technology "gpdk045_pvs" -ruleSet "default" -techLib "/home/ecegridfs/a/559mg81/pvtech.lib";

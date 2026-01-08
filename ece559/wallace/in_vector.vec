@@ -1,0 +1,16 @@
+; 8-bit Wallace Tree Multiplier – Inputs Only (Extended)
+radix 11111111 11111111
+vname a<[7:0]>  b<[7:0]>
+io    ii       ii
+vih 1.0
+vil 0.0
+slope 0.05          ; 50 ps rise/fall
+
+; Data section (time in ns, binary values for inputs)
+0    00000000  00000000
+10   00011100  00111000
+20   00000000  00000000
+30   11111111  11111111
+40   00000000  00000000
+50   11111110  11111100
+

@@ -1,0 +1,10 @@
+#0                               
+MP: MP
+#0                               
+MN: MN
+#4                               
+NAND: NAND
+D MPM1 X4/M0
+D MPM0 X2/M0
+D MNM1 X3/M0
+D MNM0 X5/M0

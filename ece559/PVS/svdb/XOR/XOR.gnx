@@ -1,0 +1,21 @@
+#4                               
+MN: MN
+= D D
+= G G
+= S S
+= B B
+#4                               
+MP: MP
+= D D
+= G G
+= S S
+= B B
+#7                               
+XOR: XOR
+= bbar 7
+= abar 3
+= a a
+= b b
+= f f
+= gnd gnd
+= vdd vdd

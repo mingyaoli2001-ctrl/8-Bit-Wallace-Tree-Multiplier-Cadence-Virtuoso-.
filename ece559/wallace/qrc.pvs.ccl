@@ -1,0 +1,50 @@
+#--------------------------------------------------------------------------------------
+# OPTION COMMAND FILE created by Cadence Extraction Quantus UI Version 23.1.1-s276
+#--------------------------------------------------------------------------------------
+
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "gnd"
+extract \
+	 -selection "all" \
+	 -type "rc_decoupled"
+extraction_setup \
+	 -array_vias_spacing auto \
+	 -split_via_by_unit_area false \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -max_via_array_size "auto" \
+	 -net_name_space "LAYOUT"
+filter_res \
+	 -merge_parallel_res false \
+	 -min_res 0.001
+input_db -type calibre \
+	 -device_property_value 7 \
+	 -run_name "pvs" \
+	 -directory_name "/home/ecegridfs/a/559mg81/wallace" \
+	 -hierarchy_delimiter "/" \
+	 -instance_property_value 6 \
+	 -layer_map_file "/home/ecegridfs/a/559mg81/wallace/map/current" \
+	 -net_property_value 5 \
+	 -library_definitions_file "/home/ecegridfs/a/559mg81/cds.lib"
+output_db -type spice \
+	 -device_finger_delimiter "@" \
+	 -hierarchy_delimiter "" \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_res_model "false" \
+	 -include_parasitic_res_model "comment" \
+	 -include_parasitic_res_width true \
+	 -sub_node_char "#"
+output_setup \
+	 -directory_name "/home/ecegridfs/a/559mg81/wallace" \
+	 -file_name "/home/ecegridfs/a/559mg81/wallace/pvs.sp" \
+	 -net_name_space "SCHEMATIC" \
+	 -temporary_directory_name "pvs"
+process_technology \
+	 -technology_corner \
+		"rcx_typical" \
+	 -technology_library_file "/home/ecegridfs/a/559mg81/pvtech.lib" \
+	 -technology_name "gpdk045_pvs" \
+	 -temperature \
+		25.0

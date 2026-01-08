@@ -1,0 +1,17 @@
+CADENCE IHNL11140
+$model
+tutorial/Diver/schematic Diver
+tutorial/WallaceFinalAdder/schematic WallaceFinalAdder
+tutorial/FAdder/schematic FAdder
+tutorial/WallaceProject/schematic WallaceProject
+tutorial/inverter/schematic inverter
+tutorial/4bit_CLA_logic/schematic 4bit_CLA_logic
+tutorial/WallaceMultiplier/schematic WallaceMultiplier
+tutorial/HAdder/schematic HAdder
+tutorial/AND/schematic AND
+tutorial/XOR/schematic XOR
+$endmodel
+$net
+$endnet
+$param
+$endparam

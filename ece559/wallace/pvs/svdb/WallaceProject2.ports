@@ -1,0 +1,36 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary WallaceProject2
+s<1> 156 s<1> 95560 180780 metal1_conn
+b<2> 169 b<2> 89720 190860 metal1_conn
+s<15> 144 s<15> 39480 187600 metal1_conn
+b<3> 170 b<3> 84570 190860 metal1_conn
+b<0> 158 b<0> 100060 190790 metal1_conn
+s<14> 197 s<14> 38800 134370 metal1_conn
+b<4> 171 b<4> 79590 191040 metal1_conn
+gnd 93 gnd 59547 211022 metal1_conn
+s<13> 198 s<13> 44200 134370 metal1_conn
+b<5> 172 b<5> 74700 191030 metal1_conn
+a<7> 159 a<7> 101850 192270 metal1_conn
+b<6> 173 b<6> 69460 191020 metal1_conn
+a<6> 160 a<6> 101850 196160 metal1_conn
+s<12> 199 s<12> 51640 134370 metal1_conn
+b<7> 174 b<7> 64410 191020 metal1_conn
+vdd 96 vdd 96020 145960 metal1_conn
+a<5> 161 a<5> 101850 196810 metal1_conn
+s<11> 200 s<11> 57220 134370 metal1_conn
+a<4> 162 a<4> 101850 200700 metal1_conn
+s<10> 201 s<10> 61270 134370 metal1_conn
+s<4> 150 s<4> 95560 154980 metal1_conn
+s<9> 202 s<9> 70930 134370 metal1_conn
+a<3> 163 a<3> 101850 201350 metal1_conn
+a<2> 164 a<2> 101850 205240 metal1_conn
+s<8> 203 s<8> 78350 134370 metal1_conn
+a<1> 165 a<1> 101850 205880 metal1_conn
+s<6> 204 s<6> 87810 134370 metal1_conn
+s<3> 152 s<3> 95560 163570 metal1_conn
+s<7> 205 s<7> 83910 134370 metal1_conn
+a<0> 166 a<0> 101850 209770 metal1_conn
+s<5> 206 s<5> 91640 141050 metal1_conn
+s<2> 154 s<2> 95560 172170 metal1_conn
+s<0> 167 s<0> 99030 191030 metal1_conn
+b<1> 168 b<1> 94860 191020 metal1_conn

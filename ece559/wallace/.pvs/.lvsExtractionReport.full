@@ -1,0 +1,124 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : WallaceProject.rep
+ERC Summary File         : WallaceProject.sum
+LVS Comparison Report    : WallaceProject.rep.cls
+LVS Softchk Report       : WallaceProject.softchk
+Layout Name              : /home/ecegridfs/a/559mg81/wallace/pvs/WallaceProject.gds ("WallaceProject")
+User Name                : 559mg81
+Creation Time            : Fri Dec 12 21:35:10 2025
+Current directory        : /home/ecegridfs/a/559mg81/wallace/pvs
+PVS Version              : 23.11-s036 Wed Jan 17 18:11:41 PST 2024
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK psubstrate -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK nwell_conn -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK Nburied -TYPE CONTACT   Total Result        0 (       0)
+
+Clean cell list (added by extraction report parser )
+ for cell "4bit_CLA_logic"
+ for cell "AND"
+ for cell "Diver"
+ for cell "FAdder"
+ for cell "HAdder"
+ for cell "M1_PO_CDNS_7655933055841"
+ for cell "M1_PO_CDNS_7655933055844"
+ for cell "M1_PO_CDNS_7655933055846"
+ for cell "M1_PO_CDNS_7655933055857"
+ for cell "M1_PO_CDNS_7655933055859"
+ for cell "M2_M1_CDNS_765593305580"
+ for cell "M2_M1_CDNS_7655933055823"
+ for cell "M2_M1_CDNS_7655933055829"
+ for cell "M2_M1_CDNS_765593305583"
+ for cell "M2_M1_CDNS_7655933055843"
+ for cell "M2_M1_CDNS_7655933055845"
+ for cell "M2_M1_CDNS_7655933055847"
+ for cell "M2_M1_CDNS_7655933055853"
+ for cell "M2_M1_CDNS_765593305586"
+ for cell "M2_M1_CDNS_7655933055861"
+ for cell "M2_M1_CDNS_765593305588"
+ for cell "M3_M2_CDNS_7655933055811"
+ for cell "M3_M2_CDNS_7655933055812"
+ for cell "M3_M2_CDNS_7655933055813"
+ for cell "M3_M2_CDNS_7655933055816"
+ for cell "M3_M2_CDNS_765593305582"
+ for cell "M3_M2_CDNS_7655933055831"
+ for cell "M3_M2_CDNS_7655933055833"
+ for cell "M3_M2_CDNS_7655933055838"
+ for cell "M3_M2_CDNS_765593305584"
+ for cell "M3_M2_CDNS_765593305585"
+ for cell "M3_M2_CDNS_7655933055852"
+ for cell "M3_M2_CDNS_7655933055865"
+ for cell "M3_M2_CDNS_765593305587"
+ for cell "M3_M2_CDNS_765593305589"
+ for cell "M4_M3_CDNS_765593305581"
+ for cell "M4_M3_CDNS_7655933055810"
+ for cell "M4_M3_CDNS_7655933055814"
+ for cell "M4_M3_CDNS_7655933055815"
+ for cell "M4_M3_CDNS_7655933055817"
+ for cell "M4_M3_CDNS_7655933055818"
+ for cell "M4_M3_CDNS_7655933055828"
+ for cell "M4_M3_CDNS_7655933055836"
+ for cell "M4_M3_CDNS_7655933055851"
+ for cell "M4_M3_CDNS_7655933055855"
+ for cell "M5_M4_CDNS_7655933055820"
+ for cell "M5_M4_CDNS_7655933055821"
+ for cell "M5_M4_CDNS_7655933055822"
+ for cell "M5_M4_CDNS_7655933055824"
+ for cell "M5_M4_CDNS_7655933055825"
+ for cell "M5_M4_CDNS_7655933055830"
+ for cell "M5_M4_CDNS_7655933055832"
+ for cell "M5_M4_CDNS_7655933055849"
+ for cell "M5_M4_CDNS_7655933055850"
+ for cell "M5_M4_CDNS_7655933055866"
+ for cell "M6_M5_CDNS_7655933055848"
+ for cell "M6_M5_CDNS_7655933055854"
+ for cell "M6_M5_CDNS_7655933055858"
+ for cell "M6_M5_CDNS_7655933055863"
+ for cell "M6_M5_CDNS_7655933055864"
+ for cell "M7_M6_CDNS_7655933055856"
+ for cell "M7_M6_CDNS_7655933055862"
+ for cell "WallaceFinalAdder"
+ for cell "WallaceMultiplier"
+ for cell "WallaceProject"
+ for cell "XOR"
+ for cell "nmos1v_CDNS_765593305581"
+ for cell "nmos1v_CDNS_7655933055810"
+ for cell "nmos1v_CDNS_7655933055813"
+ for cell "nmos1v_CDNS_7655933055815"
+ for cell "nmos1v_CDNS_7655933055818"
+ for cell "nmos1v_CDNS_7655933055819"
+ for cell "nmos1v_CDNS_7655933055820"
+ for cell "nmos1v_CDNS_7655933055821"
+ for cell "nmos1v_CDNS_7655933055823"
+ for cell "nmos1v_CDNS_765593305583"
+ for cell "nmos1v_CDNS_765593305587"
+ for cell "nmos1v_CDNS_765593305588"
+ for cell "nmos1v_CDNS_765593305589"
+ for cell "pmos1v_CDNS_765593305580"
+ for cell "pmos1v_CDNS_7655933055811"
+ for cell "pmos1v_CDNS_7655933055812"
+ for cell "pmos1v_CDNS_7655933055814"
+ for cell "pmos1v_CDNS_7655933055816"
+ for cell "pmos1v_CDNS_7655933055817"
+ for cell "pmos1v_CDNS_765593305582"
+ for cell "pmos1v_CDNS_7655933055822"
+ for cell "pmos1v_CDNS_7655933055824"
+ for cell "pmos1v_CDNS_7655933055825"
+ for cell "pmos1v_CDNS_7655933055826"
+ for cell "pmos1v_CDNS_7655933055827"
+ for cell "pmos1v_CDNS_765593305584"
+ for cell "pmos1v_CDNS_765593305585"
+ for cell "pmos1v_CDNS_765593305586"

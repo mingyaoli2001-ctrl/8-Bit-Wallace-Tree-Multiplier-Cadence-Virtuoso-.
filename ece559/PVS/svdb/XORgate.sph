@@ -1,0 +1,18 @@
+# Placement Hierarchy File (sph)
+# 
+# 
+# 
+% inverter 4
+MPM0 MP 4
+MNM0 MN 4
+% XORgate 5
+MPM3 MP 4
+MPM2 MP 4
+MPM1 MP 4
+MPM0 MP 4
+MNM4 MN 4
+MNM3 MN 4
+MNM1 MN 4
+MNM2 MN 4
+XI1 inverter 4
+XI0 inverter 4

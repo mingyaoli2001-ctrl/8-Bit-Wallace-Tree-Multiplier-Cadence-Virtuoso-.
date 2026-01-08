@@ -1,0 +1,14 @@
+# Placement Hierarchy File (sph)
+# 
+# 
+# 
+% inverter 4
+MPM0 MP 4
+MNM0 MN 4
+% XOR 5
+MNM1 MN 4
+MNM0 MN 4
+MPM1 MP 4
+MPM0 MP 4
+XI1 inverter 4
+XI0 inverter 4

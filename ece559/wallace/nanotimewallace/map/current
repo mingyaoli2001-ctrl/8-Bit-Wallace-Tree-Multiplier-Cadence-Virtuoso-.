@@ -1,0 +1,31 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "WallaceProject"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/ecegridfs/a/559mg81/wallace/nanotimewallace"
+ )
+( model
+( "tutorial/4bit_CLA_logic/schematic" "4bit_CLA_logic" )
+( "tutorial/HAdder/schematic" "HAdder" )
+( "tutorial/FAdder/schematic" "FAdder" )
+( "tutorial/WallaceFinalAdder/schematic" "WallaceFinalAdder" )
+( "tutorial/WallaceMultiplier/schematic" "WallaceMultiplier" )
+( "tutorial/AND/schematic" "AND" )
+( "tutorial/XOR/schematic" "XOR" )
+( "tutorial/WallaceProject/schematic" "WallaceProject" )
+( "tutorial/inverter/schematic" "inverter" )
+ )
+( "WallaceFinalAdder" "ihnl/cds7/map" )
+( "HAdder" "ihnl/cds3/map" )
+( "WallaceMultiplier" "ihnl/cds1/map" )
+( "inverter" "ihnl/cds2/map" )
+( "WallaceProject" "ihnl/cds8/map" )
+( "XOR" "ihnl/cds5/map" )
+( "FAdder" "ihnl/cds4/map" )
+( "4bit_CLA_logic" "ihnl/cds6/map" )
+( "AND" "ihnl/cds0/map" )
+ )

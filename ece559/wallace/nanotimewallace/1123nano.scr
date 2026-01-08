@@ -1,0 +1,83 @@
+#######################################################
+# 1. SETUP
+#######################################################
+set search_path {.}
+set library_path {.}
+set link_path {*}
+
+# Global operating voltage
+set oc_global_voltage 1.0
+
+#######################################################
+# 2. READ NETLIST AND MODELS
+#######################################################
+# Make sure 'models.sp' contains your .MODEL definitions
+register_netlist -format spice {1123netlist.sp tech.sp}
+
+link_design WallaceProject
+
+#######################################################
+# 3. DEFINE PORTS
+#######################################################
+report_port
+
+set input_ports { \
+    a<0> a<1> a<2> a<3> a<4> a<5> a<6> a<7> \
+    b<0> b<1> b<2> b<3> b<4> b<5> b<6> b<7> \
+}
+
+set_port_direction -input $input_ports
+
+set output_ports { \
+    s<0> s<1> s<2> s<3> s<4> s<5> s<6> s<7> \
+    s<8> s<9> s<10> s<11> s<12> s<13> s<14> s<15> \
+}
+
+set_port_direction -output $output_ports
+
+report_port
+report_design
+report_net
+report_cell
+
+#######################################################
+# 4. TOPOLOGY AND CLOCK
+#######################################################
+create_clock -name MCLK -period 10.0
+report_clock
+set_logic_one vdd
+set_logic_zero gnd
+set_logic_zero gnd!
+match_topology
+
+report_transistor_direction -unset
+report_topology
+check_topology
+
+#######################################################
+# 5. TIMING CONSTRAINTS
+#######################################################
+set_input_delay -clock MCLK -rise 1.0 $input_ports
+set_input_delay -clock MCLK -fall 1.0 $input_ports
+set_input_delay -clock MCLK -add_delay 1.0 $input_ports
+
+set_output_delay -clock MCLK 0.0 $output_ports
+
+check_design
+
+#######################################################
+# 6. TRACE AND EXPORT WORST CASE VECTOR
+#######################################################
+trace_paths
+
+# Report to log just for confirmation
+report_paths -max -max_paths 1 -path_type full
+
+# EXPORT SPICE WITH VECTORS
+# This generates 'maxpath.sp' containing the critical path and vectors.
+# Note: Ensure 'tech.sp' exists in your folder (see note below).
+write_spice -output maxpath.sp \
+            -header tech.sp \
+            [get_timing_paths -max -max_paths 1]
+
+exit

@@ -1,0 +1,25 @@
+
+****************************************
+Report : paths
+	-path_type list
+	-max
+Design : HAdder
+Version: T-2022.03-SP3
+Date   : Sun Nov 16 17:03:47 2025
+****************************************
+
+             Path    Path                                                                    
+   Slack    Delay    Type    Startpoint                        Endpoint                      
+-------- -------- ------- -- ------------------------------ -- ------------------------------
+   8.963    0.037     D-O r  b                              r  sum                           
+   8.964    0.036     D-O r  a                              r  sum                           
+   8.969    0.031     D-O f  b                              f  sum                           
+   8.969    0.031     D-O f  a                              f  sum                           
+   8.972    0.028     D-O f  b                              r  sum                           
+   8.974    0.026     D-O r  a                              r  carry                         
+   8.975    0.025     D-O f  a                              f  carry                         
+   8.976    0.024     D-O f  b                              f  carry                         
+   8.977    0.023     D-O f  a                              r  sum                           
+   8.977    0.023     D-O r  b                              r  carry                         
+
+1

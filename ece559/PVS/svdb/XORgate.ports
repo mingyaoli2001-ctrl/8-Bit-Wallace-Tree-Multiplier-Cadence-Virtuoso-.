@@ -1,0 +1,7 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary XORgate
+y 9 y 6830 -3300 metal1_conn
+b 3 b 60 -3260 metal1_conn
+vdd 1 vdd 950 -750 metal1_conn
+a 4 a 2050 -3270 metal1_conn
+gnd 2 gnd 950 -5620 metal1_conn

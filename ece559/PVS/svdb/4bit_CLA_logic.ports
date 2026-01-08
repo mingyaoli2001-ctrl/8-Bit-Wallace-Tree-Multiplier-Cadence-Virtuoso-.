@@ -1,0 +1,17 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary 4bit_CLA_logic
+cout2 13 cout2 9690 1490 metal1_conn
+p1 1 p1 80 5440 metal1_conn
+cout3 14 cout3 17130 1490 metal1_conn
+g4 15 g4 17490 2630 metal1_conn
+cout4 16 cout4 26430 1490 metal1_conn
+p2 3 p2 2130 5910 metal1_conn
+c0 17 c0 250 4970 metal1_conn
+vdd 18 vdd 290 9130 metal1_conn
+p3 5 p3 7710 6380 metal1_conn
+gnd 19 gnd 310 310 metal1_conn
+p4 7 p4 16080 6850 metal1_conn
+g1 9 g1 610 4030 metal1_conn
+g2 10 g2 3110 3560 metal1_conn
+cout1 11 cout1 4110 1490 metal1_conn
+g3 12 g3 8700 3090 metal1_conn

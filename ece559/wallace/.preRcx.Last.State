@@ -1,0 +1,14 @@
+
+
+vuipreRcxFormTable = '(
+	runName  "WallaceProject2"
+	runDir  "/home/ecegridfs/a/559mg81/wallace/pvs/svdb"
+	assuraTech  "/home/ecegridfs/a/559mg81/pvtech.lib"
+	tech  "gpdk045_pvs"
+	mapFile  ""
+	netProp  5
+	instProp  6
+	devProp  7
+)
+
+

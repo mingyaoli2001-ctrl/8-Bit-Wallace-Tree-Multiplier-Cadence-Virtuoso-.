@@ -1,0 +1,50 @@
+#######################################################
+# 1. SETUP
+#######################################################
+set search_path {.}
+set oc_global_voltage 1.0
+
+# Read Netlist and Models
+register_netlist -format spice {1123netlist.sp tech.sp}
+link_design WallaceProject
+
+# Create Clock
+create_clock -name MCLK -period 10.0
+
+#######################################################
+# 2. TOPOLOGY CHECKS (These were missing)
+#######################################################
+# Nanotime requires these three commands before checking the design
+match_topology
+report_transistor_direction
+check_topology
+
+#######################################################
+# 3. CONSTRAINTS
+#######################################################
+set input_ports [all_inputs]
+set output_ports [all_outputs]
+
+set_input_delay -clock MCLK -rise 1.0 $input_ports
+set_input_delay -clock MCLK -fall 1.0 $input_ports
+set_input_delay -clock MCLK -add_delay 1.0 $input_ports
+
+set_output_delay -clock MCLK 0.0 $output_ports
+
+#######################################################
+# 4. TRACE AND EXPORT
+#######################################################
+check_design
+trace_paths
+
+# Report path to verify logic
+report_paths -max -max_paths 1 -path_type full
+
+# EXPORT VECTORS
+# Note: We use 'write_spice' because 'write_spice_stimulus' is not valid in your version.
+# This generates 'vectors.sp' which will contain the PWL sources for inputs A and B.
+write_spice -output vectors.sp \
+            -header tech.sp \
+            [get_timing_paths -max -max_paths 1]
+
+exit

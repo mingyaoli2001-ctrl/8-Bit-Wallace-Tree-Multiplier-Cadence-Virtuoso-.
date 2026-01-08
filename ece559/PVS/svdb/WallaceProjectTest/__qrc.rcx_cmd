@@ -1,0 +1,52 @@
+avParameters(
+	?cellName "WallaceProject"
+	?viewName "layout"
+	?inputLayout ( "DFII" "tutorial" )
+	?cdslib "/home/ecegridfs/a/559mg81/cds.lib"
+	?workingDirectory "/home/ecegridfs/a/559mg81/pvs/svdb"
+	?techRuleSet ( "rcx_typical" )
+	?techLib "/home/ecegridfs/a/559mg81/pvtech.lib"
+	?technology "gpdk045_pvs"
+
+)
+rcxParameters(
+	?capCouplingFactor 1.0
+	?capGround "gnd"
+	?arrayViasSpacing "auto"
+	?maxFractureLength "infinite"
+	?fractureLengthUnits "MICRONS"
+	?maxMergedViaSize "auto"
+	?netNameSpace "layout"
+	?mergeParallelR nil
+	?minR 0.001
+	?pvsRunDir "/home/ecegridfs/a/559mg81/pvs/svdb"
+	?pvsPrimary "WallaceProjectTest"
+	?lvsSource "pvs"
+	?capacitor "pcapacitor"
+	?capPropName "c"
+	?cdloutRunDir ( "/home/ecegridfs/a/559mg81/pvs" )
+	?deviceFingerDelimiter "@"
+	?checkCellView t
+	?capModels "no"
+	?parasiticCapModels "no"
+	?parasiticResModels "comment"
+	?parasiticResWidth t
+	?resModels "no"
+	?resistor "presistor"
+	?resPropName "r"
+	?transferNetExpression t
+	?outputFormat "dfii"
+	?lvsExtractedCellView nil
+	?extractedView "av_extracted"
+	?runName "WallaceProjectTest"
+	?tempdir "/home/ecegridfs/a/559mg81/pvs/svdb/WallaceProjectTest/rcx_temp"
+	?rcxSetupDir ( "/package/eda/cadence/gpdk045/gpdk045_v_6_0/./pvs/../qrc/typical" )
+	?temperature ( 25.0 )
+	?type "full"
+	?extract "both"
+	?capExtractMode "decoupled"
+
+)
+(avRCX)
+
+

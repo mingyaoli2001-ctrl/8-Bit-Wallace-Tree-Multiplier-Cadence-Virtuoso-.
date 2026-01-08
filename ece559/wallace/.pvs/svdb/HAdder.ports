@@ -1,0 +1,8 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary HAdder
+carry 6 carry 3750 -7370 metal1_conn
+b 3 b 2820 -1930 metal1_conn
+gnd 9 gnd 860 -2250 metal1_conn
+sum 4 sum 2860 -7350 metal1_conn
+a 2 a 3320 -1930 metal1_conn
+vdd 8 vdd 6530 -2230 metal1_conn

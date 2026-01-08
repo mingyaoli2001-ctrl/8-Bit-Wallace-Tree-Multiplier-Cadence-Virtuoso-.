@@ -1,0 +1,9 @@
+INFO (LBRCXM-630): Starting extraction: Fri Dec 12 21:43:36 2025
+
+
+ERROR (LBMISC-215480): at "RCXspice": LVS connectivity file /package/eda/cadence/gpdk045/gpdk045_v_6_0/qrc/typical/lvsfile is missing .2. 
+ERROR (LBRCXM-633): Bad return status from RCX script generator. Status 512
+
+ERROR (LBRCXM-709): *****  Quantus terminated abnormally  *****
+
+

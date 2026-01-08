@@ -1,0 +1,16 @@
+CADENCE IHNL11140
+$model
+tutorial/FAdder/schematic FAdder
+tutorial/WallaceProject/schematic WallaceProject
+tutorial/final_adder/schematic final_adder
+tutorial/inverter/schematic inverter
+tutorial/WallaceMultiplier/schematic WallaceMultiplier
+tutorial/FA_SUM/schematic FA_SUM
+tutorial/FA_CO/schematic FA_CO
+tutorial/HAdder/schematic HAdder
+tutorial/AND/schematic AND
+$endmodel
+$net
+$endnet
+$param
+$endparam
